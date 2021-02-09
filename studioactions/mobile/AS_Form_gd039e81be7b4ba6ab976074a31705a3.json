@@ -1,0 +1,31 @@
+{
+	"AS_Form_gd039e81be7b4ba6ab976074a31705a3": {
+		"id": "AS_Form_gd039e81be7b4ba6ab976074a31705a3",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"name": "frmA",
+			"type": "forms",
+			"platform": "",
+			"KUID": "edafe8163f474706b8538b25e1b313b8"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "INVOKE_FUNCTION__a58dc56f89594caabf3def341eb448ca",
+				"type": "INVOKE_FUNCTION",
+				"display": "onDestroyFrmA",
+				"inputparams": [],
+				"parentId": null,
+				"callbackType": null,
+				"disabled": null,
+				"source": "controller"
+			}
+		]
+	}
+}

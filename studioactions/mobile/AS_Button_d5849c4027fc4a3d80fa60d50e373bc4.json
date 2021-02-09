@@ -1,0 +1,27 @@
+{
+	"AS_Button_d5849c4027fc4a3d80fa60d50e373bc4": {
+		"id": "AS_Button_d5849c4027fc4a3d80fa60d50e373bc4",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"name": "Form2",
+			"type": "forms",
+			"platform": "",
+			"KUID": "a1a225bd028946cab1615f7fcfdef088"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET_e383a3baa6e64e1f853be4ba7b668703",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "this.view.speechtotext.onSpeechClick(this);",
+				"parentId": null
+			}
+		]
+	}
+}

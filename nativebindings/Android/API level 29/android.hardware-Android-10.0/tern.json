@@ -1,0 +1,3127 @@
+{
+  "android": {
+    "hardware": {
+      "SystemSensorManager": {
+        "!url": "http://developer.android.com/reference/android/hardware/SystemSensorManager.html",
+        "!type": "fn(context: +android.content.Context, mainLooper: +android.os.Looper)",
+        "RAW_DATA_INDEX": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#RAW_DATA_INDEX"
+        },
+        "MAGNETIC_FIELD_EARTH_MIN": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#MAGNETIC_FIELD_EARTH_MIN"
+        },
+        "SENSOR_PROXIMITY": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_PROXIMITY"
+        },
+        "RAW_DATA_Z": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#RAW_DATA_Z"
+        },
+        "RAW_DATA_Y": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#RAW_DATA_Y"
+        },
+        "RAW_DATA_X": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#RAW_DATA_X"
+        },
+        "GRAVITY_SATURN": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_SATURN"
+        },
+        "SENSOR_STATUS_ACCURACY_HIGH": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_HIGH"
+        },
+        "GRAVITY_MERCURY": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_MERCURY"
+        },
+        "SENSOR_ALL": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_ALL"
+        },
+        "GRAVITY_NEPTUNE": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_NEPTUNE"
+        },
+        "LIGHT_FULLMOON": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_FULLMOON"
+        },
+        "SENSOR_MAX": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_MAX"
+        },
+        "GRAVITY_EARTH": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_EARTH"
+        },
+        "AXIS_MINUS_Z": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_MINUS_Z"
+        },
+        "GRAVITY_VENUS": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_VENUS"
+        },
+        "AXIS_MINUS_Y": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_MINUS_Y"
+        },
+        "AXIS_MINUS_X": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_MINUS_X"
+        },
+        "LIGHT_CLOUDY": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_CLOUDY"
+        },
+        "DATA_Z": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#DATA_Z"
+        },
+        "DATA_Y": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#DATA_Y"
+        },
+        "DATA_X": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#DATA_X"
+        },
+        "GRAVITY_PLUTO": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_PLUTO"
+        },
+        "SENSOR_ORIENTATION_RAW": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_ORIENTATION_RAW"
+        },
+        "SENSOR_DELAY_GAME": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_GAME"
+        },
+        "LIGHT_SUNLIGHT_MAX": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_SUNLIGHT_MAX"
+        },
+        "SENSOR_LIGHT": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_LIGHT"
+        },
+        "SENSOR_DELAY_UI": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_UI"
+        },
+        "GRAVITY_URANUS": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_URANUS"
+        },
+        "GRAVITY_SUN": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_SUN"
+        },
+        "SENSOR_STATUS_NO_CONTACT": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_NO_CONTACT"
+        },
+        "GRAVITY_MARS": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_MARS"
+        },
+        "MAGNETIC_FIELD_EARTH_MAX": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#MAGNETIC_FIELD_EARTH_MAX"
+        },
+        "GRAVITY_THE_ISLAND": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_THE_ISLAND"
+        },
+        "SENSOR_STATUS_UNRELIABLE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_UNRELIABLE"
+        },
+        "LIGHT_NO_MOON": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_NO_MOON"
+        },
+        "SENSOR_TEMPERATURE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_TEMPERATURE"
+        },
+        "SENSOR_ACCELEROMETER": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_ACCELEROMETER"
+        },
+        "SENSOR_MIN": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_MIN"
+        },
+        "LIGHT_SUNLIGHT": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_SUNLIGHT"
+        },
+        "SENSOR_STATUS_ACCURACY_MEDIUM": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_MEDIUM"
+        },
+        "LIGHT_OVERCAST": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_OVERCAST"
+        },
+        "GRAVITY_JUPITER": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_JUPITER"
+        },
+        "SENSOR_STATUS_ACCURACY_LOW": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_LOW"
+        },
+        "AXIS_Z": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_Z"
+        },
+        "AXIS_Y": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_Y"
+        },
+        "AXIS_X": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_X"
+        },
+        "LIGHT_SHADE": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_SHADE"
+        },
+        "STANDARD_GRAVITY": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#STANDARD_GRAVITY"
+        },
+        "PRESSURE_STANDARD_ATMOSPHERE": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#PRESSURE_STANDARD_ATMOSPHERE"
+        },
+        "SENSOR_TRICORDER": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_TRICORDER"
+        },
+        "LIGHT_SUNRISE": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_SUNRISE"
+        },
+        "SENSOR_DELAY_NORMAL": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_NORMAL"
+        },
+        "GRAVITY_DEATH_STAR_I": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_DEATH_STAR_I"
+        },
+        "GRAVITY_MOON": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_MOON"
+        },
+        "SENSOR_DELAY_FASTEST": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_FASTEST"
+        },
+        "SENSOR_MAGNETIC_FIELD": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_MAGNETIC_FIELD"
+        },
+        "SENSOR_ORIENTATION": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_ORIENTATION"
+        },
+        "getRotationMatrix": {
+          "!type": "fn(R: +java.newArray, I: +java.newArray, gravity: +java.newArray, geomagnetic: +java.newArray) -> bool",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getRotationMatrix(float[], float[], float[], float[])"
+        },
+        "getAngleChange": {
+          "!type": "fn(angleChange: +java.newArray, R: +java.newArray, prevR: +java.newArray) -> void",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getAngleChange(float[], float[], float[])"
+        },
+        "getOrientation": {
+          "!type": "fn(R: +java.newArray, values: +java.newArray) -> +java.newArray",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getOrientation(float[], float[])"
+        },
+        "getAltitude": {
+          "!type": "fn(p0: +java.lang.Float, p: +java.lang.Float) -> +java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getAltitude(float, float)"
+        },
+        "remapCoordinateSystem": {
+          "!type": "fn(inR: +java.newArray, X: number, Y: number, outR: +java.newArray) -> bool",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#remapCoordinateSystem(float[], int, int, float[])"
+        },
+        "getInclination": {
+          "!type": "fn(I: +java.newArray) -> +java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getInclination(float[])"
+        },
+        "getQuaternionFromVector": {
+          "!type": "fn(Q: +java.newArray, rv: +java.newArray) -> void",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getQuaternionFromVector(float[], float[])"
+        },
+        "getRotationMatrixFromVector": {
+          "!type": "fn(R: +java.newArray, rotationVector: +java.newArray) -> void",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getRotationMatrixFromVector(float[], float[])"
+        },
+        "prototype": {
+          "injectSensorData": {
+            "!type": "fn(sensor: +android.hardware.Sensor, values: +java.newArray, accuracy: number, timestamp: +java.lang.Long) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#injectSensorData(android.hardware.Sensor, float[], int, long)"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "registerDynamicSensorCallback": {
+            "!type": "fn(callback: +android.hardware.SensorManager.DynamicSensorCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#registerDynamicSensorCallback(android.hardware.SensorManager.DynamicSensorCallback)"
+          },
+          "unregisterDynamicSensorCallback": {
+            "!type": "fn(callback: +android.hardware.SensorManager.DynamicSensorCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#unregisterDynamicSensorCallback(android.hardware.SensorManager.DynamicSensorCallback)"
+          },
+          "initDataInjection": {
+            "!type": "fn(enable: bool) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#initDataInjection(boolean)"
+          },
+          "createDirectChannel": {
+            "!type": "fn(mem: +android.os.MemoryFile) -> +android.hardware.SensorDirectChannel",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#createDirectChannel(android.os.MemoryFile)"
+          },
+          "isDynamicSensorDiscoverySupported": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#isDynamicSensorDiscoverySupported()"
+          },
+          "getSensorList": {
+            "!type": "fn(type: number) -> +java.util.List",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getSensorList(int)"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "cancelTriggerSensor": {
+            "!type": "fn(listener: +android.hardware.TriggerEventListener, sensor: +android.hardware.Sensor) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#cancelTriggerSensor(android.hardware.TriggerEventListener, android.hardware.Sensor)"
+          },
+          "configureDirectChannel": {
+            "!type": "fn(channel: +android.hardware.SensorDirectChannel, sensor: +android.hardware.Sensor, rateLevel: number) -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#configureDirectChannel(android.hardware.SensorDirectChannel, android.hardware.Sensor, int)"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "flush": {
+            "!type": "fn(listener: +android.hardware.SensorEventListener) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#flush(android.hardware.SensorEventListener)"
+          },
+          "requestTriggerSensor": {
+            "!type": "fn(listener: +android.hardware.TriggerEventListener, sensor: +android.hardware.Sensor) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#requestTriggerSensor(android.hardware.TriggerEventListener, android.hardware.Sensor)"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getDefaultSensor": {
+            "!type": "fn(type: number) -> +android.hardware.Sensor",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getDefaultSensor(int)"
+          },
+          "getSensors": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getSensors()"
+          },
+          "registerListener": {
+            "!type": "fn(listener: +android.hardware.SensorListener, sensors: number) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorListener, int)"
+          },
+          "setOperationParameter": {
+            "!type": "fn(parameter: +android.hardware.SensorAdditionalInfo) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#setOperationParameter(android.hardware.SensorAdditionalInfo)"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "getDynamicSensorList": {
+            "!type": "fn(type: number) -> +java.util.List",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getDynamicSensorList(int)"
+          },
+          "unregisterListener": {
+            "!type": "fn(listener: +android.hardware.SensorListener) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#unregisterListener(android.hardware.SensorListener)"
+          }
+        }
+      },
+      "SerialManager": {
+        "!url": "http://developer.android.com/reference/android/hardware/SerialManager.html",
+        "!type": "fn(context: +android.content.Context, service: ISerialManager)",
+        "prototype": {
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "getSerialPorts": {
+            "!type": "fn() -> +java.newArray",
+            "!url": "http://developer.android.com/reference/android/hardware/SerialManager.html#getSerialPorts()"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "openSerialPort": {
+            "!type": "fn(name: string, speed: number) -> +android.hardware.SerialPort",
+            "!url": "http://developer.android.com/reference/android/hardware/SerialManager.html#openSerialPort(java.lang.String, int)"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          }
+        }
+      },
+      "SensorPrivacyManager": {
+        "!url": "http://developer.android.com/reference/android/hardware/SensorPrivacyManager.html",
+        "getInstance": {
+          "!type": "fn(context: +android.content.Context) -> +android.hardware.SensorPrivacyManager",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorPrivacyManager.html#getInstance(android.content.Context)"
+        },
+        "prototype": {
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "addSensorPrivacyListener": {
+            "!type": "fn(listener: +android.hardware.SensorPrivacyManager.OnSensorPrivacyChangedListener) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorPrivacyManager.html#addSensorPrivacyListener(android.hardware.SensorPrivacyManager.OnSensorPrivacyChangedListener)"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "isSensorPrivacyEnabled": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorPrivacyManager.html#isSensorPrivacyEnabled()"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "removeSensorPrivacyListener": {
+            "!type": "fn(listener: +android.hardware.SensorPrivacyManager.OnSensorPrivacyChangedListener) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorPrivacyManager.html#removeSensorPrivacyListener(android.hardware.SensorPrivacyManager.OnSensorPrivacyChangedListener)"
+          },
+          "setSensorPrivacy": {
+            "!type": "fn(enable: bool) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorPrivacyManager.html#setSensorPrivacy(boolean)"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          }
+        }
+      },
+      "SensorManager": {
+        "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html",
+        "!type": "fn()",
+        "DynamicSensorCallback": {
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.DynamicSensorCallback.html",
+          "!type": "fn()",
+          "prototype": {
+            "onDynamicSensorConnected": {
+              "!type": "fn(sensor: +android.hardware.Sensor) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/SensorManager.DynamicSensorCallback.html#onDynamicSensorConnected(android.hardware.Sensor)"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "onDynamicSensorDisconnected": {
+              "!type": "fn(sensor: +android.hardware.Sensor) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/SensorManager.DynamicSensorCallback.html#onDynamicSensorDisconnected(android.hardware.Sensor)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            }
+          }
+        },
+        "RAW_DATA_INDEX": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#RAW_DATA_INDEX"
+        },
+        "MAGNETIC_FIELD_EARTH_MIN": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#MAGNETIC_FIELD_EARTH_MIN"
+        },
+        "SENSOR_PROXIMITY": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_PROXIMITY"
+        },
+        "RAW_DATA_Z": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#RAW_DATA_Z"
+        },
+        "RAW_DATA_Y": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#RAW_DATA_Y"
+        },
+        "RAW_DATA_X": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#RAW_DATA_X"
+        },
+        "GRAVITY_SATURN": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_SATURN"
+        },
+        "SENSOR_STATUS_ACCURACY_HIGH": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_HIGH"
+        },
+        "GRAVITY_MERCURY": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_MERCURY"
+        },
+        "SENSOR_ALL": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_ALL"
+        },
+        "GRAVITY_NEPTUNE": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_NEPTUNE"
+        },
+        "LIGHT_FULLMOON": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_FULLMOON"
+        },
+        "SENSOR_MAX": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_MAX"
+        },
+        "GRAVITY_EARTH": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_EARTH"
+        },
+        "AXIS_MINUS_Z": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_MINUS_Z"
+        },
+        "GRAVITY_VENUS": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_VENUS"
+        },
+        "AXIS_MINUS_Y": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_MINUS_Y"
+        },
+        "AXIS_MINUS_X": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_MINUS_X"
+        },
+        "LIGHT_CLOUDY": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_CLOUDY"
+        },
+        "DATA_Z": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#DATA_Z"
+        },
+        "DATA_Y": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#DATA_Y"
+        },
+        "DATA_X": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#DATA_X"
+        },
+        "GRAVITY_PLUTO": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_PLUTO"
+        },
+        "SENSOR_ORIENTATION_RAW": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_ORIENTATION_RAW"
+        },
+        "SENSOR_DELAY_GAME": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_GAME"
+        },
+        "LIGHT_SUNLIGHT_MAX": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_SUNLIGHT_MAX"
+        },
+        "SENSOR_LIGHT": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_LIGHT"
+        },
+        "SENSOR_DELAY_UI": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_UI"
+        },
+        "GRAVITY_URANUS": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_URANUS"
+        },
+        "GRAVITY_SUN": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_SUN"
+        },
+        "SENSOR_STATUS_NO_CONTACT": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_NO_CONTACT"
+        },
+        "GRAVITY_MARS": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_MARS"
+        },
+        "MAGNETIC_FIELD_EARTH_MAX": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#MAGNETIC_FIELD_EARTH_MAX"
+        },
+        "GRAVITY_THE_ISLAND": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_THE_ISLAND"
+        },
+        "SENSOR_STATUS_UNRELIABLE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_UNRELIABLE"
+        },
+        "LIGHT_NO_MOON": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_NO_MOON"
+        },
+        "SENSOR_TEMPERATURE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_TEMPERATURE"
+        },
+        "SENSOR_ACCELEROMETER": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_ACCELEROMETER"
+        },
+        "SENSOR_MIN": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_MIN"
+        },
+        "LIGHT_SUNLIGHT": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_SUNLIGHT"
+        },
+        "SENSOR_STATUS_ACCURACY_MEDIUM": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_MEDIUM"
+        },
+        "LIGHT_OVERCAST": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_OVERCAST"
+        },
+        "GRAVITY_JUPITER": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_JUPITER"
+        },
+        "SENSOR_STATUS_ACCURACY_LOW": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_STATUS_ACCURACY_LOW"
+        },
+        "AXIS_Z": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_Z"
+        },
+        "AXIS_Y": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_Y"
+        },
+        "AXIS_X": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#AXIS_X"
+        },
+        "LIGHT_SHADE": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_SHADE"
+        },
+        "STANDARD_GRAVITY": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#STANDARD_GRAVITY"
+        },
+        "PRESSURE_STANDARD_ATMOSPHERE": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#PRESSURE_STANDARD_ATMOSPHERE"
+        },
+        "SENSOR_TRICORDER": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_TRICORDER"
+        },
+        "LIGHT_SUNRISE": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#LIGHT_SUNRISE"
+        },
+        "SENSOR_DELAY_NORMAL": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_NORMAL"
+        },
+        "GRAVITY_DEATH_STAR_I": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_DEATH_STAR_I"
+        },
+        "GRAVITY_MOON": {
+          "!type": "+java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#GRAVITY_MOON"
+        },
+        "SENSOR_DELAY_FASTEST": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_DELAY_FASTEST"
+        },
+        "SENSOR_MAGNETIC_FIELD": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_MAGNETIC_FIELD"
+        },
+        "SENSOR_ORIENTATION": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#SENSOR_ORIENTATION"
+        },
+        "getRotationMatrix": {
+          "!type": "fn(R: +java.newArray, I: +java.newArray, gravity: +java.newArray, geomagnetic: +java.newArray) -> bool",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getRotationMatrix(float[], float[], float[], float[])"
+        },
+        "getAngleChange": {
+          "!type": "fn(angleChange: +java.newArray, R: +java.newArray, prevR: +java.newArray) -> void",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getAngleChange(float[], float[], float[])"
+        },
+        "getOrientation": {
+          "!type": "fn(R: +java.newArray, values: +java.newArray) -> +java.newArray",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getOrientation(float[], float[])"
+        },
+        "getAltitude": {
+          "!type": "fn(p0: +java.lang.Float, p: +java.lang.Float) -> +java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getAltitude(float, float)"
+        },
+        "remapCoordinateSystem": {
+          "!type": "fn(inR: +java.newArray, X: number, Y: number, outR: +java.newArray) -> bool",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#remapCoordinateSystem(float[], int, int, float[])"
+        },
+        "getInclination": {
+          "!type": "fn(I: +java.newArray) -> +java.lang.Float",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getInclination(float[])"
+        },
+        "getQuaternionFromVector": {
+          "!type": "fn(Q: +java.newArray, rv: +java.newArray) -> void",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getQuaternionFromVector(float[], float[])"
+        },
+        "getRotationMatrixFromVector": {
+          "!type": "fn(R: +java.newArray, rotationVector: +java.newArray) -> void",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getRotationMatrixFromVector(float[], float[])"
+        },
+        "prototype": {
+          "injectSensorData": {
+            "!type": "fn(sensor: +android.hardware.Sensor, values: +java.newArray, accuracy: number, timestamp: +java.lang.Long) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#injectSensorData(android.hardware.Sensor, float[], int, long)"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "registerDynamicSensorCallback": {
+            "!type": "fn(callback: +android.hardware.SensorManager.DynamicSensorCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#registerDynamicSensorCallback(android.hardware.SensorManager.DynamicSensorCallback)"
+          },
+          "unregisterDynamicSensorCallback": {
+            "!type": "fn(callback: +android.hardware.SensorManager.DynamicSensorCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#unregisterDynamicSensorCallback(android.hardware.SensorManager.DynamicSensorCallback)"
+          },
+          "initDataInjection": {
+            "!type": "fn(enable: bool) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#initDataInjection(boolean)"
+          },
+          "createDirectChannel": {
+            "!type": "fn(mem: +android.os.MemoryFile) -> +android.hardware.SensorDirectChannel",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#createDirectChannel(android.os.MemoryFile)"
+          },
+          "isDynamicSensorDiscoverySupported": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#isDynamicSensorDiscoverySupported()"
+          },
+          "getSensorList": {
+            "!type": "fn(type: number) -> +java.util.List",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getSensorList(int)"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "cancelTriggerSensor": {
+            "!type": "fn(listener: +android.hardware.TriggerEventListener, sensor: +android.hardware.Sensor) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#cancelTriggerSensor(android.hardware.TriggerEventListener, android.hardware.Sensor)"
+          },
+          "configureDirectChannel": {
+            "!type": "fn(channel: +android.hardware.SensorDirectChannel, sensor: +android.hardware.Sensor, rateLevel: number) -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#configureDirectChannel(android.hardware.SensorDirectChannel, android.hardware.Sensor, int)"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "flush": {
+            "!type": "fn(listener: +android.hardware.SensorEventListener) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#flush(android.hardware.SensorEventListener)"
+          },
+          "requestTriggerSensor": {
+            "!type": "fn(listener: +android.hardware.TriggerEventListener, sensor: +android.hardware.Sensor) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#requestTriggerSensor(android.hardware.TriggerEventListener, android.hardware.Sensor)"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getDefaultSensor": {
+            "!type": "fn(type: number) -> +android.hardware.Sensor",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getDefaultSensor(int)"
+          },
+          "getSensors": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getSensors()"
+          },
+          "registerListener": {
+            "!type": "fn(listener: +android.hardware.SensorListener, sensors: number) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#registerListener(android.hardware.SensorListener, int)"
+          },
+          "setOperationParameter": {
+            "!type": "fn(parameter: +android.hardware.SensorAdditionalInfo) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#setOperationParameter(android.hardware.SensorAdditionalInfo)"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "getDynamicSensorList": {
+            "!type": "fn(type: number) -> +java.util.List",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#getDynamicSensorList(int)"
+          },
+          "unregisterListener": {
+            "!type": "fn(listener: +android.hardware.SensorListener) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorManager.html#unregisterListener(android.hardware.SensorListener)"
+          }
+        }
+      },
+      "GeomagneticField": {
+        "!url": "http://developer.android.com/reference/android/hardware/GeomagneticField.html",
+        "!type": "fn(gdLatitudeDeg: +java.lang.Float, gdLongitudeDeg: +java.lang.Float, altitudeMeters: +java.lang.Float, timeMillis: +java.lang.Long)",
+        "prototype": {
+          "getFieldStrength": {
+            "!type": "fn() -> +java.lang.Float",
+            "!url": "http://developer.android.com/reference/android/hardware/GeomagneticField.html#getFieldStrength()"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "getDeclination": {
+            "!type": "fn() -> +java.lang.Float",
+            "!url": "http://developer.android.com/reference/android/hardware/GeomagneticField.html#getDeclination()"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getHorizontalStrength": {
+            "!type": "fn() -> +java.lang.Float",
+            "!url": "http://developer.android.com/reference/android/hardware/GeomagneticField.html#getHorizontalStrength()"
+          },
+          "getInclination": {
+            "!type": "fn() -> +java.lang.Float",
+            "!url": "http://developer.android.com/reference/android/hardware/GeomagneticField.html#getInclination()"
+          },
+          "getZ": {
+            "!type": "fn() -> +java.lang.Float",
+            "!url": "http://developer.android.com/reference/android/hardware/GeomagneticField.html#getZ()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "getY": {
+            "!type": "fn() -> +java.lang.Float",
+            "!url": "http://developer.android.com/reference/android/hardware/GeomagneticField.html#getY()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "getX": {
+            "!type": "fn() -> +java.lang.Float",
+            "!url": "http://developer.android.com/reference/android/hardware/GeomagneticField.html#getX()"
+          }
+        }
+      },
+      "TriggerEventListener": {
+        "!url": "http://developer.android.com/reference/android/hardware/TriggerEventListener.html",
+        "!type": "fn()",
+        "prototype": {
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "onTrigger": {
+            "!type": "fn(event: +android.hardware.TriggerEvent) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/TriggerEventListener.html#onTrigger(android.hardware.TriggerEvent)"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          }
+        }
+      },
+      "Camera": {
+        "!url": "http://developer.android.com/reference/android/hardware/Camera.html",
+        "CameraInfo": {
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.CameraInfo.html",
+          "!type": "fn()",
+          "CAMERA_FACING_FRONT": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.CameraInfo.html#CAMERA_FACING_FRONT"
+          },
+          "CAMERA_FACING_BACK": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.CameraInfo.html#CAMERA_FACING_BACK"
+          },
+          "prototype": {
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            }
+          }
+        },
+        "Face": {
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.Face.html",
+          "!type": "fn()",
+          "prototype": {
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            }
+          }
+        },
+        "Size": {
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.Size.html",
+          "!type": "fn(w: number, h: number)",
+          "prototype": {
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Size.html#hashCode()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Size.html#equals(java.lang.Object)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            }
+          }
+        },
+        "Area": {
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.Area.html",
+          "!type": "fn(rect: +android.graphics.Rect, weight: number)",
+          "prototype": {
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Area.html#equals(java.lang.Object)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            }
+          }
+        },
+        "Parameters": {
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html",
+          "ANTIBANDING_50HZ": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#ANTIBANDING_50HZ"
+          },
+          "WHITE_BALANCE_TWILIGHT": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#WHITE_BALANCE_TWILIGHT"
+          },
+          "EFFECT_NEGATIVE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#EFFECT_NEGATIVE"
+          },
+          "FLASH_MODE_AUTO": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FLASH_MODE_AUTO"
+          },
+          "EFFECT_NONE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#EFFECT_NONE"
+          },
+          "EFFECT_POSTERIZE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#EFFECT_POSTERIZE"
+          },
+          "FLASH_MODE_TORCH": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FLASH_MODE_TORCH"
+          },
+          "FOCUS_MODE_CONTINUOUS_VIDEO": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FOCUS_MODE_CONTINUOUS_VIDEO"
+          },
+          "EFFECT_WHITEBOARD": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#EFFECT_WHITEBOARD"
+          },
+          "WHITE_BALANCE_FLUORESCENT": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#WHITE_BALANCE_FLUORESCENT"
+          },
+          "FOCUS_MODE_CONTINUOUS_PICTURE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FOCUS_MODE_CONTINUOUS_PICTURE"
+          },
+          "WHITE_BALANCE_AUTO": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#WHITE_BALANCE_AUTO"
+          },
+          "SCENE_MODE_AUTO": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_AUTO"
+          },
+          "EFFECT_AQUA": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#EFFECT_AQUA"
+          },
+          "FLASH_MODE_RED_EYE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FLASH_MODE_RED_EYE"
+          },
+          "WHITE_BALANCE_CLOUDY_DAYLIGHT": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#WHITE_BALANCE_CLOUDY_DAYLIGHT"
+          },
+          "SCENE_MODE_PORTRAIT": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_PORTRAIT"
+          },
+          "PREVIEW_FPS_MIN_INDEX": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#PREVIEW_FPS_MIN_INDEX"
+          },
+          "WHITE_BALANCE_INCANDESCENT": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#WHITE_BALANCE_INCANDESCENT"
+          },
+          "ANTIBANDING_60HZ": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#ANTIBANDING_60HZ"
+          },
+          "WHITE_BALANCE_WARM_FLUORESCENT": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#WHITE_BALANCE_WARM_FLUORESCENT"
+          },
+          "SCENE_MODE_NIGHT_PORTRAIT": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_NIGHT_PORTRAIT"
+          },
+          "SCENE_MODE_PARTY": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_PARTY"
+          },
+          "FOCUS_MODE_AUTO": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FOCUS_MODE_AUTO"
+          },
+          "WHITE_BALANCE_SHADE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#WHITE_BALANCE_SHADE"
+          },
+          "SCENE_MODE_HDR": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_HDR"
+          },
+          "FOCUS_DISTANCE_FAR_INDEX": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FOCUS_DISTANCE_FAR_INDEX"
+          },
+          "EFFECT_MONO": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#EFFECT_MONO"
+          },
+          "SCENE_MODE_NIGHT": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_NIGHT"
+          },
+          "FOCUS_MODE_MACRO": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FOCUS_MODE_MACRO"
+          },
+          "SCENE_MODE_SUNSET": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_SUNSET"
+          },
+          "SCENE_MODE_BEACH": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_BEACH"
+          },
+          "SCENE_MODE_SPORTS": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_SPORTS"
+          },
+          "FOCUS_DISTANCE_NEAR_INDEX": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FOCUS_DISTANCE_NEAR_INDEX"
+          },
+          "SCENE_MODE_FIREWORKS": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_FIREWORKS"
+          },
+          "SCENE_MODE_STEADYPHOTO": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_STEADYPHOTO"
+          },
+          "SCENE_MODE_ACTION": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_ACTION"
+          },
+          "FLASH_MODE_OFF": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FLASH_MODE_OFF"
+          },
+          "SCENE_MODE_BARCODE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_BARCODE"
+          },
+          "SCENE_MODE_LANDSCAPE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_LANDSCAPE"
+          },
+          "PREVIEW_FPS_MAX_INDEX": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#PREVIEW_FPS_MAX_INDEX"
+          },
+          "FOCUS_MODE_FIXED": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FOCUS_MODE_FIXED"
+          },
+          "FOCUS_DISTANCE_OPTIMAL_INDEX": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FOCUS_DISTANCE_OPTIMAL_INDEX"
+          },
+          "FLASH_MODE_ON": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FLASH_MODE_ON"
+          },
+          "SCENE_MODE_CANDLELIGHT": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_CANDLELIGHT"
+          },
+          "FOCUS_MODE_EDOF": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FOCUS_MODE_EDOF"
+          },
+          "FOCUS_MODE_INFINITY": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#FOCUS_MODE_INFINITY"
+          },
+          "ANTIBANDING_AUTO": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#ANTIBANDING_AUTO"
+          },
+          "EFFECT_SOLARIZE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#EFFECT_SOLARIZE"
+          },
+          "EFFECT_BLACKBOARD": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#EFFECT_BLACKBOARD"
+          },
+          "SCENE_MODE_THEATRE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_THEATRE"
+          },
+          "WHITE_BALANCE_DAYLIGHT": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#WHITE_BALANCE_DAYLIGHT"
+          },
+          "SCENE_MODE_SNOW": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#SCENE_MODE_SNOW"
+          },
+          "EFFECT_SEPIA": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#EFFECT_SEPIA"
+          },
+          "ANTIBANDING_OFF": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#ANTIBANDING_OFF"
+          },
+          "prototype": {
+            "getAutoWhiteBalanceLock": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getAutoWhiteBalanceLock()"
+            },
+            "setFocusMode": {
+              "!type": "fn(value: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setFocusMode(java.lang.String)"
+            },
+            "getSupportedPreviewFormats": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedPreviewFormats()"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getMaxNumFocusAreas": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getMaxNumFocusAreas()"
+            },
+            "removeGpsData": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#removeGpsData()"
+            },
+            "getMaxZoom": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getMaxZoom()"
+            },
+            "getFocusAreas": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getFocusAreas()"
+            },
+            "setFocusAreas": {
+              "!type": "fn(focusAreas: +java.util.List) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setFocusAreas(java.util.List)"
+            },
+            "getWhiteBalance": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getWhiteBalance()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "getExposureCompensation": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getExposureCompensation()"
+            },
+            "getFocalLength": {
+              "!type": "fn() -> +java.lang.Float",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getFocalLength()"
+            },
+            "setAntibanding": {
+              "!type": "fn(antibanding: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setAntibanding(java.lang.String)"
+            },
+            "getFocusMode": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getFocusMode()"
+            },
+            "getZoomRatios": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getZoomRatios()"
+            },
+            "setPictureSize": {
+              "!type": "fn(width: number, height: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setPictureSize(int, int)"
+            },
+            "getMeteringAreas": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getMeteringAreas()"
+            },
+            "getSupportedFocusModes": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedFocusModes()"
+            },
+            "setMeteringAreas": {
+              "!type": "fn(meteringAreas: +java.util.List) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setMeteringAreas(java.util.List)"
+            },
+            "setWhiteBalance": {
+              "!type": "fn(value: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setWhiteBalance(java.lang.String)"
+            },
+            "setVideoStabilization": {
+              "!type": "fn(toggle: bool) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setVideoStabilization(boolean)"
+            },
+            "isVideoSnapshotSupported": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#isVideoSnapshotSupported()"
+            },
+            "getMaxNumMeteringAreas": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getMaxNumMeteringAreas()"
+            },
+            "getPictureSize": {
+              "!type": "fn() -> +android.hardware.Camera.Size",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getPictureSize()"
+            },
+            "setGpsAltitude": {
+              "!type": "fn(altitude: +java.lang.Double) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setGpsAltitude(double)"
+            },
+            "getInt": {
+              "!type": "fn(key: string) -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getInt(java.lang.String)"
+            },
+            "setGpsLatitude": {
+              "!type": "fn(latitude: +java.lang.Double) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setGpsLatitude(double)"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "getSupportedPreviewFrameRates": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedPreviewFrameRates()"
+            },
+            "getExposureCompensationStep": {
+              "!type": "fn() -> +java.lang.Float",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getExposureCompensationStep()"
+            },
+            "getMaxExposureCompensation": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getMaxExposureCompensation()"
+            },
+            "getAntibanding": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getAntibanding()"
+            },
+            "set": {
+              "!type": "fn(key: string, value: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#set(java.lang.String, java.lang.String)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "getMinExposureCompensation": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getMinExposureCompensation()"
+            },
+            "remove": {
+              "!type": "fn(key: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#remove(java.lang.String)"
+            },
+            "getPreferredPreviewSizeForVideo": {
+              "!type": "fn() -> +android.hardware.Camera.Size",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getPreferredPreviewSizeForVideo()"
+            },
+            "getFocusDistances": {
+              "!type": "fn(output: +java.newArray) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getFocusDistances(float[])"
+            },
+            "setAutoExposureLock": {
+              "!type": "fn(toggle: bool) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setAutoExposureLock(boolean)"
+            },
+            "getSupportedPreviewFpsRange": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedPreviewFpsRange()"
+            },
+            "setGpsLongitude": {
+              "!type": "fn(longitude: +java.lang.Double) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setGpsLongitude(double)"
+            },
+            "getSupportedWhiteBalance": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedWhiteBalance()"
+            },
+            "setGpsTimestamp": {
+              "!type": "fn(timestamp: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setGpsTimestamp(long)"
+            },
+            "getSupportedFlashModes": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedFlashModes()"
+            },
+            "isVideoStabilizationSupported": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#isVideoStabilizationSupported()"
+            },
+            "getAutoExposureLock": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getAutoExposureLock()"
+            },
+            "getSupportedSceneModes": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedSceneModes()"
+            },
+            "setPreviewSize": {
+              "!type": "fn(width: number, height: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setPreviewSize(int, int)"
+            },
+            "setJpegQuality": {
+              "!type": "fn(quality: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setJpegQuality(int)"
+            },
+            "setRotation": {
+              "!type": "fn(rotation: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setRotation(int)"
+            },
+            "getPreviewSize": {
+              "!type": "fn() -> +android.hardware.Camera.Size",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getPreviewSize()"
+            },
+            "dump": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#dump()"
+            },
+            "setGpsProcessingMethod": {
+              "!type": "fn(processing_method: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setGpsProcessingMethod(java.lang.String)"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "setJpegThumbnailSize": {
+              "!type": "fn(width: number, height: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setJpegThumbnailSize(int, int)"
+            },
+            "getSupportedVideoSizes": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedVideoSizes()"
+            },
+            "getSupportedJpegThumbnailSizes": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedJpegThumbnailSizes()"
+            },
+            "setFlashMode": {
+              "!type": "fn(value: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setFlashMode(java.lang.String)"
+            },
+            "setZoom": {
+              "!type": "fn(value: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setZoom(int)"
+            },
+            "setSceneMode": {
+              "!type": "fn(value: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setSceneMode(java.lang.String)"
+            },
+            "getJpegQuality": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getJpegQuality()"
+            },
+            "setColorEffect": {
+              "!type": "fn(value: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setColorEffect(java.lang.String)"
+            },
+            "setPreviewFrameRate": {
+              "!type": "fn(fps: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setPreviewFrameRate(int)"
+            },
+            "same": {
+              "!type": "fn(other: +android.hardware.Camera.Parameters) -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#same(android.hardware.Camera.Parameters)"
+            },
+            "getSupportedPictureSizes": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedPictureSizes()"
+            },
+            "copyFrom": {
+              "!type": "fn(other: +android.hardware.Camera.Parameters) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#copyFrom(android.hardware.Camera.Parameters)"
+            },
+            "get": {
+              "!type": "fn(key: string) -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#get(java.lang.String)"
+            },
+            "getSupportedColorEffects": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedColorEffects()"
+            },
+            "getVideoStabilization": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getVideoStabilization()"
+            },
+            "getSupportedPreviewSizes": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedPreviewSizes()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "flatten": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#flatten()"
+            },
+            "getVerticalViewAngle": {
+              "!type": "fn() -> +java.lang.Float",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getVerticalViewAngle()"
+            },
+            "getMaxNumDetectedFaces": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getMaxNumDetectedFaces()"
+            },
+            "getJpegThumbnailSize": {
+              "!type": "fn() -> +android.hardware.Camera.Size",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getJpegThumbnailSize()"
+            },
+            "getPictureFormat": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getPictureFormat()"
+            },
+            "setJpegThumbnailQuality": {
+              "!type": "fn(quality: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setJpegThumbnailQuality(int)"
+            },
+            "setPreviewFpsRange": {
+              "!type": "fn(min: number, max: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setPreviewFpsRange(int, int)"
+            },
+            "getZoom": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getZoom()"
+            },
+            "setPictureFormat": {
+              "!type": "fn(pixel_format: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setPictureFormat(int)"
+            },
+            "getFlashMode": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getFlashMode()"
+            },
+            "getSceneMode": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSceneMode()"
+            },
+            "getHorizontalViewAngle": {
+              "!type": "fn() -> +java.lang.Float",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getHorizontalViewAngle()"
+            },
+            "getPreviewFormat": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getPreviewFormat()"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "setPreviewFormat": {
+              "!type": "fn(pixel_format: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setPreviewFormat(int)"
+            },
+            "isAutoWhiteBalanceLockSupported": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#isAutoWhiteBalanceLockSupported()"
+            },
+            "setAutoWhiteBalanceLock": {
+              "!type": "fn(toggle: bool) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setAutoWhiteBalanceLock(boolean)"
+            },
+            "getJpegThumbnailQuality": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getJpegThumbnailQuality()"
+            },
+            "getPreviewFrameRate": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getPreviewFrameRate()"
+            },
+            "isAutoExposureLockSupported": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#isAutoExposureLockSupported()"
+            },
+            "getColorEffect": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getColorEffect()"
+            },
+            "isZoomSupported": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#isZoomSupported()"
+            },
+            "unflatten": {
+              "!type": "fn(flattened: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#unflatten(java.lang.String)"
+            },
+            "getPreviewFpsRange": {
+              "!type": "fn(range: +java.newArray) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getPreviewFpsRange(int[])"
+            },
+            "getSupportedPictureFormats": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedPictureFormats()"
+            },
+            "getSupportedAntibanding": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#getSupportedAntibanding()"
+            },
+            "isSmoothZoomSupported": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#isSmoothZoomSupported()"
+            },
+            "setRecordingHint": {
+              "!type": "fn(hint: bool) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setRecordingHint(boolean)"
+            },
+            "setExposureCompensation": {
+              "!type": "fn(value: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/Camera.Parameters.html#setExposureCompensation(int)"
+            }
+          }
+        },
+        "CAMERA_ERROR_EVICTED": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#CAMERA_ERROR_EVICTED"
+        },
+        "CAMERA_ERROR_DISABLED": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#CAMERA_ERROR_DISABLED"
+        },
+        "CAMERA_ERROR_UNKNOWN": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#CAMERA_ERROR_UNKNOWN"
+        },
+        "CAMERA_ERROR_SERVER_DIED": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#CAMERA_ERROR_SERVER_DIED"
+        },
+        "CAMERA_HAL_API_VERSION_1_0": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#CAMERA_HAL_API_VERSION_1_0"
+        },
+        "ACTION_NEW_VIDEO": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#ACTION_NEW_VIDEO"
+        },
+        "ACTION_NEW_PICTURE": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#ACTION_NEW_PICTURE"
+        },
+        "openLegacy": {
+          "!type": "fn(cameraId: number, halVersion: number) -> +android.hardware.Camera",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#openLegacy(int, int)"
+        },
+        "getNumberOfCameras": {
+          "!type": "fn() -> number",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#getNumberOfCameras()"
+        },
+        "getParametersCopy": {
+          "!type": "fn(parameters: +android.hardware.Camera.Parameters) -> +android.hardware.Camera.Parameters",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#getParametersCopy(android.hardware.Camera.Parameters)"
+        },
+        "getCameraInfo": {
+          "!type": "fn(cameraId: number, cameraInfo: +android.hardware.Camera.CameraInfo) -> void",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#getCameraInfo(int, android.hardware.Camera.CameraInfo)"
+        },
+        "open": {
+          "!type": "fn(cameraId: number) -> +android.hardware.Camera",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#open(int)"
+        },
+        "openUninitialized": {
+          "!type": "fn() -> +android.hardware.Camera",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#openUninitialized()"
+        },
+        "getEmptyParameters": {
+          "!type": "fn() -> +android.hardware.Camera.Parameters",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#getEmptyParameters()"
+        },
+        "checkInitErrors": {
+          "!type": "fn(err: number) -> bool",
+          "!url": "http://developer.android.com/reference/android/hardware/Camera.html#checkInitErrors(int)"
+        },
+        "prototype": {
+          "setDisplayOrientation": {
+            "!type": "fn(degrees: number) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setDisplayOrientation(int)"
+          },
+          "lock": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#lock()"
+          },
+          "enableShutterSound": {
+            "!type": "fn(enabled: bool) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#enableShutterSound(boolean)"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "setZoomChangeListener": {
+            "!type": "fn(listener: +android.hardware.Camera.OnZoomChangeListener) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setZoomChangeListener(android.hardware.Camera.OnZoomChangeListener)"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "startFaceDetection": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#startFaceDetection()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "cancelAutoFocus": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#cancelAutoFocus()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "setPreviewTexture": {
+            "!type": "fn(surfaceTexture: +android.graphics.SurfaceTexture) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setPreviewTexture(android.graphics.SurfaceTexture)"
+          },
+          "setErrorCallback": {
+            "!type": "fn(cb: +android.hardware.Camera.ErrorCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setErrorCallback(android.hardware.Camera.ErrorCallback)"
+          },
+          "unlock": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#unlock()"
+          },
+          "addRawImageCallbackBuffer": {
+            "!type": "fn(callbackBuffer: +java.newArray) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#addRawImageCallbackBuffer(byte[])"
+          },
+          "setDetailedErrorCallback": {
+            "!type": "fn(cb: +android.hardware.Camera.ErrorCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setDetailedErrorCallback(android.hardware.Camera.ErrorCallback)"
+          },
+          "takePicture": {
+            "!type": "fn(shutter: +android.hardware.Camera.ShutterCallback, raw: +android.hardware.Camera.PictureCallback, jpeg: +android.hardware.Camera.PictureCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#takePicture(android.hardware.Camera.ShutterCallback, android.hardware.Camera.PictureCallback, android.hardware.Camera.PictureCallback)"
+          },
+          "setAutoFocusMoveCallback": {
+            "!type": "fn(cb: +android.hardware.Camera.AutoFocusMoveCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setAutoFocusMoveCallback(android.hardware.Camera.AutoFocusMoveCallback)"
+          },
+          "createPreviewAllocation": {
+            "!type": "fn(rs: +android.renderscript.RenderScript, usage: number) -> +android.renderscript.Allocation",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#createPreviewAllocation(android.renderscript.RenderScript, int)"
+          },
+          "disableShutterSound": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#disableShutterSound()"
+          },
+          "setPreviewDisplay": {
+            "!type": "fn(holder: +android.view.SurfaceHolder) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setPreviewDisplay(android.view.SurfaceHolder)"
+          },
+          "setFaceDetectionListener": {
+            "!type": "fn(listener: +android.hardware.Camera.FaceDetectionListener) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setFaceDetectionListener(android.hardware.Camera.FaceDetectionListener)"
+          },
+          "release": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#release()"
+          },
+          "stopFaceDetection": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#stopFaceDetection()"
+          },
+          "getParameters": {
+            "!type": "fn() -> +android.hardware.Camera.Parameters",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#getParameters()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "addCallbackBuffer": {
+            "!type": "fn(callbackBuffer: +java.newArray) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#addCallbackBuffer(byte[])"
+          },
+          "autoFocus": {
+            "!type": "fn(cb: +android.hardware.Camera.AutoFocusCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#autoFocus(android.hardware.Camera.AutoFocusCallback)"
+          },
+          "setPreviewCallback": {
+            "!type": "fn(cb: +android.hardware.Camera.PreviewCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setPreviewCallback(android.hardware.Camera.PreviewCallback)"
+          },
+          "setPreviewSurface": {
+            "!type": "fn(surface: +android.view.Surface) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setPreviewSurface(android.view.Surface)"
+          },
+          "stopSmoothZoom": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#stopSmoothZoom()"
+          },
+          "setPreviewCallbackAllocation": {
+            "!type": "fn(previewAllocation: +android.renderscript.Allocation) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setPreviewCallbackAllocation(android.renderscript.Allocation)"
+          },
+          "startSmoothZoom": {
+            "!type": "fn(value: number) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#startSmoothZoom(int)"
+          },
+          "previewEnabled": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#previewEnabled()"
+          },
+          "reconnect": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#reconnect()"
+          },
+          "stopPreview": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#stopPreview()"
+          },
+          "startPreview": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#startPreview()"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "setParameters": {
+            "!type": "fn(params: +android.hardware.Camera.Parameters) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setParameters(android.hardware.Camera.Parameters)"
+          },
+          "setOneShotPreviewCallback": {
+            "!type": "fn(cb: +android.hardware.Camera.PreviewCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setOneShotPreviewCallback(android.hardware.Camera.PreviewCallback)"
+          },
+          "setPreviewCallbackWithBuffer": {
+            "!type": "fn(cb: +android.hardware.Camera.PreviewCallback) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#setPreviewCallbackWithBuffer(android.hardware.Camera.PreviewCallback)"
+          },
+          "cameraInitUnspecified": {
+            "!type": "fn(cameraId: number) -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/Camera.html#cameraInitUnspecified(int)"
+          }
+        }
+      },
+      "SensorDirectChannel": {
+        "!url": "http://developer.android.com/reference/android/hardware/SensorDirectChannel.html",
+        "RATE_NORMAL": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorDirectChannel.html#RATE_NORMAL"
+        },
+        "RATE_VERY_FAST": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorDirectChannel.html#RATE_VERY_FAST"
+        },
+        "RATE_FAST": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorDirectChannel.html#RATE_FAST"
+        },
+        "TYPE_MEMORY_FILE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorDirectChannel.html#TYPE_MEMORY_FILE"
+        },
+        "RATE_STOP": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorDirectChannel.html#RATE_STOP"
+        },
+        "TYPE_HARDWARE_BUFFER": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorDirectChannel.html#TYPE_HARDWARE_BUFFER"
+        },
+        "prototype": {
+          "isOpen": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorDirectChannel.html#isOpen()"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "configure": {
+            "!type": "fn(sensor: +android.hardware.Sensor, rateLevel: number) -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorDirectChannel.html#configure(android.hardware.Sensor, int)"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "close": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorDirectChannel.html#close()"
+          },
+          "isValid": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorDirectChannel.html#isValid()"
+          }
+        }
+      },
+      "SensorEventCallback": {
+        "!url": "http://developer.android.com/reference/android/hardware/SensorEventCallback.html",
+        "!type": "fn()",
+        "prototype": {
+          "onSensorAdditionalInfo": {
+            "!type": "fn(info: +android.hardware.SensorAdditionalInfo) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorEventCallback.html#onSensorAdditionalInfo(android.hardware.SensorAdditionalInfo)"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "onAccuracyChanged": {
+            "!type": "fn(sensor: +android.hardware.Sensor, accuracy: number) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorEventCallback.html#onAccuracyChanged(android.hardware.Sensor, int)"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "onSensorChanged": {
+            "!type": "fn(event: +android.hardware.SensorEvent) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorEventCallback.html#onSensorChanged(android.hardware.SensorEvent)"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "onFlushCompleted": {
+            "!type": "fn(sensor: +android.hardware.Sensor) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SensorEventCallback.html#onFlushCompleted(android.hardware.Sensor)"
+          }
+        }
+      },
+      "CameraStatus": {
+        "!url": "http://developer.android.com/reference/android/hardware/CameraStatus.html",
+        "!type": "fn()",
+        "CREATOR": {
+          "!type": "+android.os.Parcelable.Creator",
+          "!url": "http://developer.android.com/reference/android/hardware/CameraStatus.html#CREATOR"
+        },
+        "prototype": {
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "describeContents": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/CameraStatus.html#describeContents()"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "writeToParcel": {
+            "!type": "fn(out: +android.os.Parcel, flags: number) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/CameraStatus.html#writeToParcel(android.os.Parcel, int)"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "readFromParcel": {
+            "!type": "fn(in: +android.os.Parcel) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/CameraStatus.html#readFromParcel(android.os.Parcel)"
+          }
+        }
+      },
+      "HardwareBuffer": {
+        "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html",
+        "USAGE_PROTECTED_CONTENT": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_PROTECTED_CONTENT"
+        },
+        "S_UI8": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#S_UI8"
+        },
+        "USAGE_CPU_READ_OFTEN": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_CPU_READ_OFTEN"
+        },
+        "USAGE_CPU_WRITE_OFTEN": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_CPU_WRITE_OFTEN"
+        },
+        "USAGE_CPU_READ_RARELY": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_CPU_READ_RARELY"
+        },
+        "D_16": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#D_16"
+        },
+        "RGB_565": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#RGB_565"
+        },
+        "RGBA_8888": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#RGBA_8888"
+        },
+        "RGBA_FP16": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#RGBA_FP16"
+        },
+        "D_FP32": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#D_FP32"
+        },
+        "USAGE_GPU_MIPMAP_COMPLETE": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_GPU_MIPMAP_COMPLETE"
+        },
+        "BLOB": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#BLOB"
+        },
+        "RGB_888": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#RGB_888"
+        },
+        "D_24": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#D_24"
+        },
+        "RGBX_8888": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#RGBX_8888"
+        },
+        "RGBA_1010102": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#RGBA_1010102"
+        },
+        "USAGE_CPU_WRITE_RARELY": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_CPU_WRITE_RARELY"
+        },
+        "USAGE_VIDEO_ENCODE": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_VIDEO_ENCODE"
+        },
+        "USAGE_GPU_DATA_BUFFER": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_GPU_DATA_BUFFER"
+        },
+        "USAGE_GPU_COLOR_OUTPUT": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_GPU_COLOR_OUTPUT"
+        },
+        "DS_FP32UI8": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#DS_FP32UI8"
+        },
+        "USAGE_GPU_SAMPLED_IMAGE": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_GPU_SAMPLED_IMAGE"
+        },
+        "USAGE_GPU_CUBE_MAP": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_GPU_CUBE_MAP"
+        },
+        "USAGE_SENSOR_DIRECT_DATA": {
+          "!type": "+java.lang.Long",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#USAGE_SENSOR_DIRECT_DATA"
+        },
+        "DS_24UI8": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#DS_24UI8"
+        },
+        "CREATOR": {
+          "!type": "+android.os.Parcelable.Creator",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#CREATOR"
+        },
+        "isSupported": {
+          "!type": "fn(width: number, height: number, format: number, layers: number, usage: +java.lang.Long) -> bool",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#isSupported(int, int, int, int, long)"
+        },
+        "create": {
+          "!type": "fn(width: number, height: number, format: number, layers: number, usage: +java.lang.Long) -> +android.hardware.HardwareBuffer",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#create(int, int, int, int, long)"
+        },
+        "createFromGraphicBuffer": {
+          "!type": "fn(graphicBuffer: +android.graphics.GraphicBuffer) -> +android.hardware.HardwareBuffer",
+          "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#createFromGraphicBuffer(android.graphics.GraphicBuffer)"
+        },
+        "prototype": {
+          "writeToParcel": {
+            "!type": "fn(dest: +android.os.Parcel, flags: number) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#writeToParcel(android.os.Parcel, int)"
+          },
+          "getWidth": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#getWidth()"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "getLayers": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#getLayers()"
+          },
+          "isDestroyed": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#isDestroyed()"
+          },
+          "getUsage": {
+            "!type": "fn() -> +java.lang.Long",
+            "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#getUsage()"
+          },
+          "describeContents": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#describeContents()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "getHeight": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#getHeight()"
+          },
+          "close": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#close()"
+          },
+          "isClosed": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#isClosed()"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "getFormat": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#getFormat()"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "destroy": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/HardwareBuffer.html#destroy()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          }
+        }
+      },
+      "SensorEvent": {
+        "!url": "http://developer.android.com/reference/android/hardware/SensorEvent.html",
+        "prototype": {
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          }
+        }
+      },
+      "Sensor": {
+        "!url": "http://developer.android.com/reference/android/hardware/Sensor.html",
+        "TYPE_MAGNETIC_FIELD_UNCALIBRATED": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_MAGNETIC_FIELD_UNCALIBRATED"
+        },
+        "STRING_TYPE_PICK_UP_GESTURE": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_PICK_UP_GESTURE"
+        },
+        "TYPE_GEOMAGNETIC_ROTATION_VECTOR": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GEOMAGNETIC_ROTATION_VECTOR"
+        },
+        "STRING_TYPE_LIGHT": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_LIGHT"
+        },
+        "TYPE_GLANCE_GESTURE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GLANCE_GESTURE"
+        },
+        "TYPE_STATIONARY_DETECT": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_STATIONARY_DETECT"
+        },
+        "TYPE_POSE_6DOF": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_POSE_6DOF"
+        },
+        "STRING_TYPE_MOTION_DETECT": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_MOTION_DETECT"
+        },
+        "TYPE_WAKE_GESTURE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_WAKE_GESTURE"
+        },
+        "STRING_TYPE_ACCELEROMETER": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_ACCELEROMETER"
+        },
+        "TYPE_PICK_UP_GESTURE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_PICK_UP_GESTURE"
+        },
+        "STRING_TYPE_PROXIMITY": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_PROXIMITY"
+        },
+        "STRING_TYPE_TEMPERATURE": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_TEMPERATURE"
+        },
+        "STRING_TYPE_WAKE_GESTURE": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_WAKE_GESTURE"
+        },
+        "TYPE_MAGNETIC_FIELD": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_MAGNETIC_FIELD"
+        },
+        "TYPE_ORIENTATION": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ORIENTATION"
+        },
+        "STRING_TYPE_GYROSCOPE_UNCALIBRATED": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_GYROSCOPE_UNCALIBRATED"
+        },
+        "STRING_TYPE_HEART_BEAT": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_HEART_BEAT"
+        },
+        "REPORTING_MODE_ONE_SHOT": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#REPORTING_MODE_ONE_SHOT"
+        },
+        "TYPE_LIGHT": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_LIGHT"
+        },
+        "TYPE_HEART_BEAT": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_HEART_BEAT"
+        },
+        "TYPE_GAME_ROTATION_VECTOR": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GAME_ROTATION_VECTOR"
+        },
+        "STRING_TYPE_LOW_LATENCY_OFFBODY_DETECT": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_LOW_LATENCY_OFFBODY_DETECT"
+        },
+        "TYPE_RELATIVE_HUMIDITY": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_RELATIVE_HUMIDITY"
+        },
+        "TYPE_PRESSURE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_PRESSURE"
+        },
+        "STRING_TYPE_LINEAR_ACCELERATION": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_LINEAR_ACCELERATION"
+        },
+        "TYPE_AMBIENT_TEMPERATURE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_AMBIENT_TEMPERATURE"
+        },
+        "TYPE_LOW_LATENCY_OFFBODY_DETECT": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_LOW_LATENCY_OFFBODY_DETECT"
+        },
+        "STRING_TYPE_POSE_6DOF": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_POSE_6DOF"
+        },
+        "TYPE_MOTION_DETECT": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_MOTION_DETECT"
+        },
+        "STRING_TYPE_DYNAMIC_SENSOR_META": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_DYNAMIC_SENSOR_META"
+        },
+        "TYPE_GYROSCOPE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GYROSCOPE"
+        },
+        "REPORTING_MODE_SPECIAL_TRIGGER": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#REPORTING_MODE_SPECIAL_TRIGGER"
+        },
+        "STRING_TYPE_PRESSURE": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_PRESSURE"
+        },
+        "STRING_TYPE_STEP_COUNTER": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_STEP_COUNTER"
+        },
+        "STRING_TYPE_SIGNIFICANT_MOTION": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_SIGNIFICANT_MOTION"
+        },
+        "STRING_TYPE_ORIENTATION": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_ORIENTATION"
+        },
+        "TYPE_ALL": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ALL"
+        },
+        "STRING_TYPE_STATIONARY_DETECT": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_STATIONARY_DETECT"
+        },
+        "STRING_TYPE_ROTATION_VECTOR": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_ROTATION_VECTOR"
+        },
+        "TYPE_STEP_COUNTER": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_STEP_COUNTER"
+        },
+        "TYPE_ACCELEROMETER": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ACCELEROMETER"
+        },
+        "SENSOR_STRING_TYPE_TILT_DETECTOR": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#SENSOR_STRING_TYPE_TILT_DETECTOR"
+        },
+        "STRING_TYPE_WRIST_TILT_GESTURE": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_WRIST_TILT_GESTURE"
+        },
+        "TYPE_ROTATION_VECTOR": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ROTATION_VECTOR"
+        },
+        "TYPE_SIGNIFICANT_MOTION": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_SIGNIFICANT_MOTION"
+        },
+        "TYPE_TILT_DETECTOR": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_TILT_DETECTOR"
+        },
+        "STRING_TYPE_GAME_ROTATION_VECTOR": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_GAME_ROTATION_VECTOR"
+        },
+        "STRING_TYPE_MAGNETIC_FIELD": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_MAGNETIC_FIELD"
+        },
+        "STRING_TYPE_GLANCE_GESTURE": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_GLANCE_GESTURE"
+        },
+        "STRING_TYPE_STEP_DETECTOR": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_STEP_DETECTOR"
+        },
+        "STRING_TYPE_RELATIVE_HUMIDITY": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_RELATIVE_HUMIDITY"
+        },
+        "STRING_TYPE_GYROSCOPE": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_GYROSCOPE"
+        },
+        "STRING_TYPE_HEART_RATE": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_HEART_RATE"
+        },
+        "TYPE_WRIST_TILT_GESTURE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_WRIST_TILT_GESTURE"
+        },
+        "TYPE_TEMPERATURE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_TEMPERATURE"
+        },
+        "TYPE_HEART_RATE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_HEART_RATE"
+        },
+        "TYPE_LINEAR_ACCELERATION": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_LINEAR_ACCELERATION"
+        },
+        "STRING_TYPE_DEVICE_ORIENTATION": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_DEVICE_ORIENTATION"
+        },
+        "TYPE_PROXIMITY": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_PROXIMITY"
+        },
+        "STRING_TYPE_AMBIENT_TEMPERATURE": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_AMBIENT_TEMPERATURE"
+        },
+        "TYPE_GYROSCOPE_UNCALIBRATED": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GYROSCOPE_UNCALIBRATED"
+        },
+        "REPORTING_MODE_ON_CHANGE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#REPORTING_MODE_ON_CHANGE"
+        },
+        "STRING_TYPE_MAGNETIC_FIELD_UNCALIBRATED": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_MAGNETIC_FIELD_UNCALIBRATED"
+        },
+        "TYPE_DYNAMIC_SENSOR_META": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_DYNAMIC_SENSOR_META"
+        },
+        "TYPE_ACCELEROMETER_UNCALIBRATED": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_ACCELEROMETER_UNCALIBRATED"
+        },
+        "STRING_TYPE_GEOMAGNETIC_ROTATION_VECTOR": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_GEOMAGNETIC_ROTATION_VECTOR"
+        },
+        "TYPE_DEVICE_ORIENTATION": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_DEVICE_ORIENTATION"
+        },
+        "STRING_TYPE_ACCELEROMETER_UNCALIBRATED": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_ACCELEROMETER_UNCALIBRATED"
+        },
+        "TYPE_DEVICE_PRIVATE_BASE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_DEVICE_PRIVATE_BASE"
+        },
+        "STRING_TYPE_GRAVITY": {
+          "!type": "string",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#STRING_TYPE_GRAVITY"
+        },
+        "REPORTING_MODE_CONTINUOUS": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#REPORTING_MODE_CONTINUOUS"
+        },
+        "TYPE_STEP_DETECTOR": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_STEP_DETECTOR"
+        },
+        "TYPE_GRAVITY": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#TYPE_GRAVITY"
+        },
+        "prototype": {
+          "getMaxDelay": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getMaxDelay()"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "isWakeUpSensor": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#isWakeUpSensor()"
+          },
+          "getFifoMaxEventCount": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getFifoMaxEventCount()"
+          },
+          "isDataInjectionSupported": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#isDataInjectionSupported()"
+          },
+          "getRequiredPermission": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getRequiredPermission()"
+          },
+          "getUuid": {
+            "!type": "fn() -> +java.util.UUID",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getUuid()"
+          },
+          "isAdditionalInfoSupported": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#isAdditionalInfoSupported()"
+          },
+          "getVersion": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getVersion()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "getId": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getId()"
+          },
+          "getMaximumRange": {
+            "!type": "fn() -> +java.lang.Float",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getMaximumRange()"
+          },
+          "getName": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getName()"
+          },
+          "isDynamicSensor": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#isDynamicSensor()"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "getReportingMode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getReportingMode()"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#toString()"
+          },
+          "getStringType": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getStringType()"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getType": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getType()"
+          },
+          "getFifoReservedEventCount": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getFifoReservedEventCount()"
+          },
+          "getMinDelay": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getMinDelay()"
+          },
+          "getHandle": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getHandle()"
+          },
+          "getVendor": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getVendor()"
+          },
+          "getPower": {
+            "!type": "fn() -> +java.lang.Float",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getPower()"
+          },
+          "getResolution": {
+            "!type": "fn() -> +java.lang.Float",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getResolution()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "isDirectChannelTypeSupported": {
+            "!type": "fn(sharedMemType: number) -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#isDirectChannelTypeSupported(int)"
+          },
+          "getHighestDirectReportRateLevel": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/Sensor.html#getHighestDirectReportRateLevel()"
+          }
+        }
+      },
+      "TriggerEvent": {
+        "!url": "http://developer.android.com/reference/android/hardware/TriggerEvent.html",
+        "prototype": {
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          }
+        }
+      },
+      "ConsumerIrManager": {
+        "!url": "http://developer.android.com/reference/android/hardware/ConsumerIrManager.html",
+        "!type": "fn(context: +android.content.Context)",
+        "CarrierFrequencyRange": {
+          "!url": "http://developer.android.com/reference/android/hardware/ConsumerIrManager.CarrierFrequencyRange.html",
+          "!type": "fn(min: number, max: number)",
+          "prototype": {
+            "getMaxFrequency": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/ConsumerIrManager.CarrierFrequencyRange.html#getMaxFrequency()"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getMinFrequency": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/ConsumerIrManager.CarrierFrequencyRange.html#getMinFrequency()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            }
+          }
+        },
+        "prototype": {
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "transmit": {
+            "!type": "fn(carrierFrequency: number, pattern: +java.newArray) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/ConsumerIrManager.html#transmit(int, int[])"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "hasIrEmitter": {
+            "!type": "fn() -> bool",
+            "!url": "http://developer.android.com/reference/android/hardware/ConsumerIrManager.html#hasIrEmitter()"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getCarrierFrequencies": {
+            "!type": "fn() -> +java.newArray",
+            "!url": "http://developer.android.com/reference/android/hardware/ConsumerIrManager.html#getCarrierFrequencies()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          }
+        }
+      },
+      "SerialPort": {
+        "!url": "http://developer.android.com/reference/android/hardware/SerialPort.html",
+        "!type": "fn(name: string)",
+        "prototype": {
+          "getName": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/android/hardware/SerialPort.html#getName()"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "read": {
+            "!type": "fn(buffer: +java.nio.ByteBuffer) -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/SerialPort.html#read(java.nio.ByteBuffer)"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "open": {
+            "!type": "fn(pfd: +android.os.ParcelFileDescriptor, speed: number) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SerialPort.html#open(android.os.ParcelFileDescriptor, int)"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "sendBreak": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SerialPort.html#sendBreak()"
+          },
+          "close": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SerialPort.html#close()"
+          },
+          "write": {
+            "!type": "fn(buffer: +java.nio.ByteBuffer, length: number) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/SerialPort.html#write(java.nio.ByteBuffer, int)"
+          }
+        }
+      },
+      "SensorAdditionalInfo": {
+        "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html",
+        "TYPE_HIGH_PERFORMANCE_MODE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_HIGH_PERFORMANCE_MODE"
+        },
+        "TYPE_INTERNAL_TEMPERATURE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_INTERNAL_TEMPERATURE"
+        },
+        "TYPE_FRAME_END": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_FRAME_END"
+        },
+        "TYPE_SAMPLING": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_SAMPLING"
+        },
+        "TYPE_UNTRACKED_DELAY": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_UNTRACKED_DELAY"
+        },
+        "TYPE_LOCAL_GRAVITY": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_LOCAL_GRAVITY"
+        },
+        "TYPE_DOCK_STATE": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_DOCK_STATE"
+        },
+        "TYPE_CUSTOM_INFO": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_CUSTOM_INFO"
+        },
+        "TYPE_MAGNETIC_FIELD_CALIBRATION": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_MAGNETIC_FIELD_CALIBRATION"
+        },
+        "TYPE_DEBUG_INFO": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_DEBUG_INFO"
+        },
+        "TYPE_LOCAL_GEOMAGNETIC_FIELD": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_LOCAL_GEOMAGNETIC_FIELD"
+        },
+        "TYPE_SENSOR_PLACEMENT": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_SENSOR_PLACEMENT"
+        },
+        "TYPE_FRAME_BEGIN": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_FRAME_BEGIN"
+        },
+        "TYPE_VEC3_CALIBRATION": {
+          "!type": "number",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#TYPE_VEC3_CALIBRATION"
+        },
+        "createCustomInfo": {
+          "!type": "fn(aSensor: +android.hardware.Sensor, type: number, data: +java.newArray) -> +android.hardware.SensorAdditionalInfo",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#createCustomInfo(android.hardware.Sensor, int, float[])"
+        },
+        "createLocalGeomagneticField": {
+          "!type": "fn(strength: +java.lang.Float, declination: +java.lang.Float, inclination: +java.lang.Float) -> +android.hardware.SensorAdditionalInfo",
+          "!url": "http://developer.android.com/reference/android/hardware/SensorAdditionalInfo.html#createLocalGeomagneticField(float, float, float)"
+        },
+        "prototype": {
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          }
+        }
+      },
+      "CameraInfo": {
+        "!url": "http://developer.android.com/reference/android/hardware/CameraInfo.html",
+        "!type": "fn()",
+        "CREATOR": {
+          "!type": "+android.os.Parcelable.Creator",
+          "!url": "http://developer.android.com/reference/android/hardware/CameraInfo.html#CREATOR"
+        },
+        "prototype": {
+          "notifyAll": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+          },
+          "toString": {
+            "!type": "fn() -> string",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+          },
+          "equals": {
+            "!type": "fn(obj: +java.lang.Object) -> bool",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+          },
+          "describeContents": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/hardware/CameraInfo.html#describeContents()"
+          },
+          "wait": {
+            "!type": "fn(timeout: +java.lang.Long) -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+          },
+          "writeToParcel": {
+            "!type": "fn(out: +android.os.Parcel, flags: number) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/CameraInfo.html#writeToParcel(android.os.Parcel, int)"
+          },
+          "hashCode": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+          },
+          "getClass": {
+            "!type": "fn() -> +java.lang.Class",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+          },
+          "notify": {
+            "!type": "fn() -> void",
+            "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+          },
+          "readFromParcel": {
+            "!type": "fn(in: +android.os.Parcel) -> void",
+            "!url": "http://developer.android.com/reference/android/hardware/CameraInfo.html#readFromParcel(android.os.Parcel)"
+          }
+        }
+      }
+    }
+  }
+}

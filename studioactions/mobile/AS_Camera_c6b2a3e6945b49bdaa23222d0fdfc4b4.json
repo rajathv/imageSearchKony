@@ -1,0 +1,32 @@
+{
+	"AS_Camera_c6b2a3e6945b49bdaa23222d0fdfc4b4": {
+		"id": "AS_Camera_c6b2a3e6945b49bdaa23222d0fdfc4b4",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"name": "frmA",
+			"type": "forms",
+			"platform": null,
+			"KUID": "edafe8163f474706b8538b25e1b313b8"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "INVOKE_FUNCTION__a85c407452084b98ac11e66369dd6e3d",
+				"type": "INVOKE_FUNCTION",
+				"sequenceKUID": "preshow",
+				"display": "preshow",
+				"inputparams": [],
+				"parentId": null,
+				"callbackType": null,
+				"disabled": null,
+				"source": "controller"
+			}
+		]
+	}
+}

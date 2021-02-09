@@ -1,0 +1,249 @@
+{
+  "android": {
+    "os": {
+      "image": {
+        "DynamicSystemManager": {
+          "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.html",
+          "!type": "fn(service: IDynamicSystemService)",
+          "Session": {
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.Session.html",
+            "prototype": {
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              },
+              "equals": {
+                "!type": "fn(obj: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "commit": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.Session.html#commit()"
+              },
+              "wait": {
+                "!type": "fn(timeout: +java.lang.Long) -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "write": {
+                "!type": "fn(buf: +java.newArray) -> bool",
+                "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.Session.html#write(byte[])"
+              }
+            }
+          },
+          "prototype": {
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "isInUse": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.html#isInUse()"
+            },
+            "setEnable": {
+              "!type": "fn(enable: bool) -> bool",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.html#setEnable(boolean)"
+            },
+            "getInstallationProgress": {
+              "!type": "fn() -> GsiProgress",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.html#getInstallationProgress()"
+            },
+            "startInstallation": {
+              "!type": "fn(systemSize: +java.lang.Long, userdataSize: +java.lang.Long) -> +android.os.image.DynamicSystemManager.Session",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.html#startInstallation(long, long)"
+            },
+            "abort": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.html#abort()"
+            },
+            "remove": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.html#remove()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "isEnabled": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.html#isEnabled()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "isInstalled": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemManager.html#isInstalled()"
+            }
+          }
+        },
+        "DynamicSystemClient": {
+          "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html",
+          "!type": "fn(context: +android.content.Context)",
+          "CAUSE_INSTALL_CANCELLED": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#CAUSE_INSTALL_CANCELLED"
+          },
+          "CAUSE_NOT_SPECIFIED": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#CAUSE_NOT_SPECIFIED"
+          },
+          "KEY_EXCEPTION_DETAIL": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#KEY_EXCEPTION_DETAIL"
+          },
+          "CAUSE_ERROR_IPC": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#CAUSE_ERROR_IPC"
+          },
+          "CAUSE_ERROR_INVALID_URL": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#CAUSE_ERROR_INVALID_URL"
+          },
+          "STATUS_NOT_STARTED": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#STATUS_NOT_STARTED"
+          },
+          "KEY_USERDATA_SIZE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#KEY_USERDATA_SIZE"
+          },
+          "KEY_SYSTEM_SIZE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#KEY_SYSTEM_SIZE"
+          },
+          "MSG_POST_STATUS": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#MSG_POST_STATUS"
+          },
+          "ACTION_START_INSTALL": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#ACTION_START_INSTALL"
+          },
+          "STATUS_IN_USE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#STATUS_IN_USE"
+          },
+          "STATUS_IN_PROGRESS": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#STATUS_IN_PROGRESS"
+          },
+          "ACTION_NOTIFY_IF_IN_USE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#ACTION_NOTIFY_IF_IN_USE"
+          },
+          "CAUSE_ERROR_IO": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#CAUSE_ERROR_IO"
+          },
+          "MSG_REGISTER_LISTENER": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#MSG_REGISTER_LISTENER"
+          },
+          "STATUS_UNKNOWN": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#STATUS_UNKNOWN"
+          },
+          "CAUSE_INSTALL_COMPLETED": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#CAUSE_INSTALL_COMPLETED"
+          },
+          "STATUS_READY": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#STATUS_READY"
+          },
+          "MSG_UNREGISTER_LISTENER": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#MSG_UNREGISTER_LISTENER"
+          },
+          "KEY_INSTALLED_SIZE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#KEY_INSTALLED_SIZE"
+          },
+          "CAUSE_ERROR_EXCEPTION": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#CAUSE_ERROR_EXCEPTION"
+          },
+          "prototype": {
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "start": {
+              "!type": "fn(systemUrl: +android.net.Uri, systemSize: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#start(android.net.Uri, long)"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "setOnStatusChangedListener": {
+              "!type": "fn(executor: +java.util.concurrent.Executor, listener: +android.os.image.DynamicSystemClient.OnStatusChangedListener) -> void",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#setOnStatusChangedListener(java.util.concurrent.Executor, android.os.image.DynamicSystemClient.OnStatusChangedListener)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "bind": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#bind()"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "unbind": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/os/image/DynamicSystemClient.html#unbind()"
+            }
+          }
+        }
+      }
+    }
+  }
+}

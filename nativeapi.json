@@ -1,0 +1,301 @@
+{
+    "NativeFunctionAPI": {
+        "Android": {
+            "4.0": {
+                "Kony_FileStorage-Android-4.0": {
+                    "title": "Kony_FileStorage",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_FileStorage-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_SDKCommons-Android-4.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_SDKCommons-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_SyncV2-Android-4.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_SyncV2-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.speech-Android-4.0": {
+                    "title": "android.speech",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.speech-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.speech.tts-Android-4.0": {
+                    "title": "android.speech.tts",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.speech.tts-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.support.v4.content-Android-4.0": {
+                    "title": "android.support.v4.content",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.support.v4.content-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.preference-Android-4.0": {
+                    "title": "android.preference",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.preference-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.webkit-Android-4.0": {
+                    "title": "android.webkit",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.webkit-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.support.v4.app-Android-4.0": {
+                    "title": "android.support.v4.app",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.support.v4.app-Android-4.0.zip",
+                    "enable": true
+                },
+                "java.util-Android-4.0": {
+                    "title": "java.util",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "java.util-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.content-Android-4.0": {
+                    "title": "android.content",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.content-Android-4.0.zip",
+                    "enable": true
+                }
+            },
+            "API level 29": {
+                "android.os.image-Android-API level 29": {
+                    "title": "android.os.image",
+                    "platform": "Android",
+                    "os": "API level 29",
+                    "url": "/visualizer/nativeframeworks/android/3.0/android.os.image-Android-10.0.zip",
+                    "checksum": "9a77a4a1b0ebdb74e5218e06ab2dc0332866614a",
+                    "filename": "android.os.image-Android-10.0.zip",
+                    "isDefault": false,
+                    "enable": true
+                },
+                "android.app.prediction-Android-API level 29": {
+                    "title": "android.app.prediction",
+                    "platform": "Android",
+                    "os": "API level 29",
+                    "url": "/visualizer/nativeframeworks/android/3.0/android.app.prediction-Android-10.0.zip",
+                    "checksum": "7607b1329ece085adbc7b25f0cc9a601a480345f",
+                    "filename": "android.app.prediction-Android-10.0.zip",
+                    "isDefault": false,
+                    "enable": false
+                },
+                "android.media.soundtrigger-Android-API level 29": {
+                    "title": "android.media.soundtrigger",
+                    "platform": "Android",
+                    "os": "API level 29",
+                    "url": "/visualizer/nativeframeworks/android/3.0/android.media.soundtrigger-Android-10.0.zip",
+                    "checksum": "e2d564417abab5c787dc8f28a3ca4f38fb27b5e4",
+                    "filename": "android.media.soundtrigger-Android-10.0.zip",
+                    "isDefault": false,
+                    "enable": false
+                },
+                "android.service.textclassifier-Android-API level 29": {
+                    "title": "android.service.textclassifier",
+                    "platform": "Android",
+                    "os": "API level 29",
+                    "url": "/visualizer/nativeframeworks/android/3.0/android.service.textclassifier-Android-10.0.zip",
+                    "checksum": "09e6e9428fa8684623daecb15cd3207ad26a3ebd",
+                    "filename": "android.service.textclassifier-Android-10.0.zip",
+                    "isDefault": false,
+                    "enable": true
+                },
+                "android.hardware.input-Android-API level 29": {
+                    "title": "android.hardware.input",
+                    "platform": "Android",
+                    "os": "API level 29",
+                    "url": "/visualizer/nativeframeworks/android/3.0/android.hardware.input-Android-10.0.zip",
+                    "checksum": "784cbe31459a12d91033ce749ce33d6b9dad35ac",
+                    "filename": "android.hardware.input-Android-10.0.zip",
+                    "isDefault": false,
+                    "enable": false
+                },
+                "android.speech-Android-API level 29": {
+                    "title": "android.speech",
+                    "platform": "Android",
+                    "os": "API level 29",
+                    "url": "/visualizer/nativeframeworks/android/3.0/android.speech-Android-10.0.zip",
+                    "checksum": "24c946a276a33ba15aef85a2457e96d5887d4905",
+                    "filename": "android.speech-Android-10.0.zip",
+                    "isDefault": false,
+                    "enable": true
+                },
+                "android.hardware-Android-API level 29": {
+                    "title": "android.hardware",
+                    "platform": "Android",
+                    "os": "API level 29",
+                    "url": "/visualizer/nativeframeworks/android/3.0/android.hardware-Android-10.0.zip",
+                    "checksum": "c1ef61391ea244e83cf8e30668bbeacf8df19d4b",
+                    "filename": "android.hardware-Android-10.0.zip",
+                    "isDefault": false,
+                    "enable": true
+                },
+                "android.speech.tts-Android-API level 29": {
+                    "title": "android.speech.tts",
+                    "platform": "Android",
+                    "os": "API level 29",
+                    "url": "/visualizer/nativeframeworks/android/3.0/android.speech.tts-Android-10.0.zip",
+                    "checksum": "a3bbfbb606ea9a1b41f3b282871656a33081b1bb",
+                    "filename": "android.speech.tts-Android-10.0.zip",
+                    "isDefault": false,
+                    "enable": true
+                }
+            },
+            "7.1": {
+                "barcodeqrscanner-Android-7.1": {
+                    "title": "barcodeqrscanner",
+                    "platform": "Android",
+                    "os": "7.1",
+                    "isDefault": false,
+                    "filename": "barcodeqrscanner.zip",
+                    "enable": false
+                }
+            },
+            "5.0": {
+                "request-Android-5.0": {
+                    "title": "request",
+                    "platform": "Android",
+                    "os": "5.0",
+                    "isDefault": false,
+                    "filename": "request.zip",
+                    "enable": true
+                }
+            },
+            "1.0": {
+                "LottieAnimator-Android-1.0": {
+                    "title": "LottieAnimator",
+                    "platform": "Android",
+                    "os": "1.0",
+                    "isDefault": false,
+                    "filename": "LottieAnimator-Android-1.0.zip",
+                    "enable": true
+                }
+            }
+        },
+        "iOS": {
+            "11.0": {
+                "Kony_FileStorage-iOS-11.0": {
+                    "title": "Kony_FileStorage",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_FileStorage-iOS-11.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                },
+                "Kony_SyncV2-iOS-11.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_SyncV2-iOS-11.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                },
+                "Kony_SDKCommons-iOS-11.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_SDKCommons-iOS-11.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                }
+            },
+            "13.0": {
+                "KonyBarcodeDetector-iOS-13.0": {
+                    "title": "KonyBarcodeDetector",
+                    "platform": "iOS",
+                    "os": "13.0",
+                    "isDefault": false,
+                    "filename": "KonyBarcodeDetector-iOS-13.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                }
+            },
+            "12.0": {
+                "Foundation-iOS-12.0": {
+                    "title": "Foundation",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "isDefault": false,
+                    "filename": "Foundation-iOS-12.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                },
+                "AVFoundation-iOS-12.0": {
+                    "title": "AVFoundation",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "isDefault": false,
+                    "filename": "AVFoundation-iOS-12.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                },
+                "Speech-iOS-12.0": {
+                    "title": "Speech",
+                    "platform": "iOS",
+                    "os": "12.0",
+                    "isDefault": false,
+                    "filename": "Speech-iOS-12.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                }
+            },
+            "14.0": {
+                "Lottie-iOS-14.0": {
+                    "title": "Lottie",
+                    "platform": "iOS",
+                    "os": "14.0",
+                    "isDefault": false,
+                    "filename": "Lottie-iOS-14.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                }
+            }
+        }
+    },
+    "Metadata": {
+        "Version": {
+            "iOS": "2.0"
+        }
+    }
+}

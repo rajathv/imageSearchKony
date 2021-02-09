@@ -1,0 +1,549 @@
+{
+  "android": {
+    "app": {
+      "prediction": {
+        "AppTargetEvent": {
+          "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.html",
+          "Builder": {
+            "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.Builder.html",
+            "!type": "fn(target: +android.app.prediction.AppTarget, actionType: number)",
+            "prototype": {
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              },
+              "equals": {
+                "!type": "fn(obj: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "setLaunchLocation": {
+                "!type": "fn(location: string) -> +android.app.prediction.AppTargetEvent.Builder",
+                "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.Builder.html#setLaunchLocation(java.lang.String)"
+              },
+              "wait": {
+                "!type": "fn(timeout: +java.lang.Long) -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "build": {
+                "!type": "fn() -> +android.app.prediction.AppTargetEvent",
+                "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.Builder.html#build()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              }
+            }
+          },
+          "CREATOR": {
+            "!type": "+android.os.Parcelable.Creator",
+            "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.html#CREATOR"
+          },
+          "ACTION_PIN": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.html#ACTION_PIN"
+          },
+          "ACTION_LAUNCH": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.html#ACTION_LAUNCH"
+          },
+          "ACTION_DISMISS": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.html#ACTION_DISMISS"
+          },
+          "prototype": {
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "getTarget": {
+              "!type": "fn() -> +android.app.prediction.AppTarget",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.html#getTarget()"
+            },
+            "equals": {
+              "!type": "fn(o: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.html#equals(java.lang.Object)"
+            },
+            "describeContents": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.html#describeContents()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "getLaunchLocation": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.html#getLaunchLocation()"
+            },
+            "writeToParcel": {
+              "!type": "fn(dest: +android.os.Parcel, flags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.html#writeToParcel(android.os.Parcel, int)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "getAction": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetEvent.html#getAction()"
+            }
+          }
+        },
+        "AppTargetId": {
+          "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetId.html",
+          "!type": "fn(id: string)",
+          "CREATOR": {
+            "!type": "+android.os.Parcelable.Creator",
+            "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetId.html#CREATOR"
+          },
+          "prototype": {
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "getId": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetId.html#getId()"
+            },
+            "equals": {
+              "!type": "fn(o: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetId.html#equals(java.lang.Object)"
+            },
+            "describeContents": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetId.html#describeContents()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "writeToParcel": {
+              "!type": "fn(dest: +android.os.Parcel, flags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetId.html#writeToParcel(android.os.Parcel, int)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTargetId.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            }
+          }
+        },
+        "AppPredictionSessionId": {
+          "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionSessionId.html",
+          "!type": "fn(id: string)",
+          "CREATOR": {
+            "!type": "+android.os.Parcelable.Creator",
+            "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionSessionId.html#CREATOR"
+          },
+          "prototype": {
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionSessionId.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(o: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionSessionId.html#equals(java.lang.Object)"
+            },
+            "describeContents": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionSessionId.html#describeContents()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "writeToParcel": {
+              "!type": "fn(dest: +android.os.Parcel, flags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionSessionId.html#writeToParcel(android.os.Parcel, int)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionSessionId.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            }
+          }
+        },
+        "AppTarget": {
+          "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.html",
+          "!type": "fn(id: +android.app.prediction.AppTargetId, packageName: string, className: string, user: +android.os.UserHandle)",
+          "Builder": {
+            "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.Builder.html",
+            "!type": "fn(id: +android.app.prediction.AppTargetId)",
+            "prototype": {
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              },
+              "equals": {
+                "!type": "fn(obj: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "setTarget": {
+                "!type": "fn(packageName: string, user: +android.os.UserHandle) -> +android.app.prediction.AppTarget.Builder",
+                "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.Builder.html#setTarget(java.lang.String, android.os.UserHandle)"
+              },
+              "wait": {
+                "!type": "fn(timeout: +java.lang.Long) -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "build": {
+                "!type": "fn() -> +android.app.prediction.AppTarget",
+                "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.Builder.html#build()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "setClassName": {
+                "!type": "fn(className: string) -> +android.app.prediction.AppTarget.Builder",
+                "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.Builder.html#setClassName(java.lang.String)"
+              },
+              "setRank": {
+                "!type": "fn(rank: number) -> +android.app.prediction.AppTarget.Builder",
+                "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.Builder.html#setRank(int)"
+              }
+            }
+          },
+          "CREATOR": {
+            "!type": "+android.os.Parcelable.Creator",
+            "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.html#CREATOR"
+          },
+          "prototype": {
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "getId": {
+              "!type": "fn() -> +android.app.prediction.AppTargetId",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.html#getId()"
+            },
+            "equals": {
+              "!type": "fn(o: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.html#equals(java.lang.Object)"
+            },
+            "describeContents": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.html#describeContents()"
+            },
+            "getPackageName": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.html#getPackageName()"
+            },
+            "getClassName": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.html#getClassName()"
+            },
+            "getUser": {
+              "!type": "fn() -> +android.os.UserHandle",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.html#getUser()"
+            },
+            "getRank": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.html#getRank()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "getShortcutInfo": {
+              "!type": "fn() -> +android.content.pm.ShortcutInfo",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.html#getShortcutInfo()"
+            },
+            "writeToParcel": {
+              "!type": "fn(dest: +android.os.Parcel, flags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppTarget.html#writeToParcel(android.os.Parcel, int)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            }
+          }
+        },
+        "AppPredictor": {
+          "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictor.html",
+          "prototype": {
+            "sortTargets": {
+              "!type": "fn(targets: +java.util.List, callbackExecutor: +java.util.concurrent.Executor, callback: +java.util.function.Consumer) -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictor.html#sortTargets(java.util.List, java.util.concurrent.Executor, java.util.function.Consumer)"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "requestPredictionUpdate": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictor.html#requestPredictionUpdate()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "registerPredictionUpdates": {
+              "!type": "fn(callbackExecutor: +java.util.concurrent.Executor, callback: +android.app.prediction.AppPredictor.Callback) -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictor.html#registerPredictionUpdates(java.util.concurrent.Executor, android.app.prediction.AppPredictor.Callback)"
+            },
+            "notifyAppTargetEvent": {
+              "!type": "fn(event: +android.app.prediction.AppTargetEvent) -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictor.html#notifyAppTargetEvent(android.app.prediction.AppTargetEvent)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "unregisterPredictionUpdates": {
+              "!type": "fn(callback: +android.app.prediction.AppPredictor.Callback) -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictor.html#unregisterPredictionUpdates(android.app.prediction.AppPredictor.Callback)"
+            },
+            "destroy": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictor.html#destroy()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "notifyLaunchLocationShown": {
+              "!type": "fn(launchLocation: string, targetIds: +java.util.List) -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictor.html#notifyLaunchLocationShown(java.lang.String, java.util.List)"
+            },
+            "getSessionId": {
+              "!type": "fn() -> +android.app.prediction.AppPredictionSessionId",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictor.html#getSessionId()"
+            }
+          }
+        },
+        "AppPredictionContext": {
+          "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.html",
+          "Builder": {
+            "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.Builder.html",
+            "!type": "fn(context: +android.content.Context)",
+            "prototype": {
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "setPredictedTargetCount": {
+                "!type": "fn(predictedTargetCount: number) -> +android.app.prediction.AppPredictionContext.Builder",
+                "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.Builder.html#setPredictedTargetCount(int)"
+              },
+              "setExtras": {
+                "!type": "fn(extras: +android.os.Bundle) -> +android.app.prediction.AppPredictionContext.Builder",
+                "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.Builder.html#setExtras(android.os.Bundle)"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              },
+              "equals": {
+                "!type": "fn(obj: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "wait": {
+                "!type": "fn(timeout: +java.lang.Long) -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+              },
+              "setUiSurface": {
+                "!type": "fn(uiSurface: string) -> +android.app.prediction.AppPredictionContext.Builder",
+                "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.Builder.html#setUiSurface(java.lang.String)"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "build": {
+                "!type": "fn() -> +android.app.prediction.AppPredictionContext",
+                "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.Builder.html#build()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              }
+            }
+          },
+          "CREATOR": {
+            "!type": "+android.os.Parcelable.Creator",
+            "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.html#CREATOR"
+          },
+          "prototype": {
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(o: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.html#equals(java.lang.Object)"
+            },
+            "describeContents": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.html#describeContents()"
+            },
+            "getPackageName": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.html#getPackageName()"
+            },
+            "getPredictedTargetCount": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.html#getPredictedTargetCount()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "writeToParcel": {
+              "!type": "fn(dest: +android.os.Parcel, flags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.html#writeToParcel(android.os.Parcel, int)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "getExtras": {
+              "!type": "fn() -> +android.os.Bundle",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.html#getExtras()"
+            },
+            "getUiSurface": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionContext.html#getUiSurface()"
+            }
+          }
+        },
+        "AppPredictionManager": {
+          "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionManager.html",
+          "!type": "fn(context: +android.content.Context)",
+          "prototype": {
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "createAppPredictionSession": {
+              "!type": "fn(predictionContext: +android.app.prediction.AppPredictionContext) -> +android.app.prediction.AppPredictor",
+              "!url": "http://developer.android.com/reference/android/app/prediction/AppPredictionManager.html#createAppPredictionSession(android.app.prediction.AppPredictionContext)"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            }
+          }
+        }
+      }
+    }
+  }
+}

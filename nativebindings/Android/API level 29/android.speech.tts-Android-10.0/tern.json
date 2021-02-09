@@ -1,0 +1,2240 @@
+{
+  "android": {
+    "speech": {
+      "tts": {
+        "Voice": {
+          "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html",
+          "!type": "fn(name: string, locale: +java.util.Locale, quality: number, latency: number, requiresNetworkConnection: bool, features: +java.util.Set)",
+          "LATENCY_HIGH": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#LATENCY_HIGH"
+          },
+          "QUALITY_LOW": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#QUALITY_LOW"
+          },
+          "LATENCY_LOW": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#LATENCY_LOW"
+          },
+          "LATENCY_VERY_LOW": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#LATENCY_VERY_LOW"
+          },
+          "CREATOR": {
+            "!type": "+android.os.Parcelable.Creator",
+            "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#CREATOR"
+          },
+          "LATENCY_VERY_HIGH": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#LATENCY_VERY_HIGH"
+          },
+          "QUALITY_VERY_LOW": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#QUALITY_VERY_LOW"
+          },
+          "QUALITY_VERY_HIGH": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#QUALITY_VERY_HIGH"
+          },
+          "LATENCY_NORMAL": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#LATENCY_NORMAL"
+          },
+          "QUALITY_HIGH": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#QUALITY_HIGH"
+          },
+          "QUALITY_NORMAL": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#QUALITY_NORMAL"
+          },
+          "prototype": {
+            "getName": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#getName()"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#equals(java.lang.Object)"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#toString()"
+            },
+            "describeContents": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#describeContents()"
+            },
+            "isNetworkConnectionRequired": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#isNetworkConnectionRequired()"
+            },
+            "getLocale": {
+              "!type": "fn() -> +java.util.Locale",
+              "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#getLocale()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "getQuality": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#getQuality()"
+            },
+            "getFeatures": {
+              "!type": "fn() -> +java.util.Set",
+              "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#getFeatures()"
+            },
+            "writeToParcel": {
+              "!type": "fn(dest: +android.os.Parcel, flags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#writeToParcel(android.os.Parcel, int)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "getLatency": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/Voice.html#getLatency()"
+            }
+          }
+        },
+        "TextToSpeech": {
+          "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html",
+          "!type": "fn(context: +android.content.Context, listener: +android.speech.tts.TextToSpeech.OnInitListener)",
+          "Engine": {
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html",
+            "!type": "fn()",
+            "CHECK_VOICE_DATA_MISSING_VOLUME": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#CHECK_VOICE_DATA_MISSING_VOLUME"
+            },
+            "EXTRA_TTS_DATA_INSTALLED": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#EXTRA_TTS_DATA_INSTALLED"
+            },
+            "KEY_PARAM_ENGINE": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_ENGINE"
+            },
+            "DEFAULT_PITCH": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#DEFAULT_PITCH"
+            },
+            "DEFAULT_PAN": {
+              "!type": "+java.lang.Float",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#DEFAULT_PAN"
+            },
+            "KEY_PARAM_COUNTRY": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_COUNTRY"
+            },
+            "KEY_PARAM_RATE": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_RATE"
+            },
+            "EXTRA_VOICE_DATA_ROOT_DIRECTORY": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#EXTRA_VOICE_DATA_ROOT_DIRECTORY"
+            },
+            "KEY_PARAM_PITCH": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_PITCH"
+            },
+            "KEY_PARAM_SESSION_ID": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_SESSION_ID"
+            },
+            "DEFAULT_VOLUME": {
+              "!type": "+java.lang.Float",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#DEFAULT_VOLUME"
+            },
+            "CHECK_VOICE_DATA_FAIL": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#CHECK_VOICE_DATA_FAIL"
+            },
+            "DEFAULT_RATE": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#DEFAULT_RATE"
+            },
+            "KEY_PARAM_LANGUAGE": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_LANGUAGE"
+            },
+            "KEY_PARAM_VARIANT": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_VARIANT"
+            },
+            "ACTION_INSTALL_TTS_DATA": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#ACTION_INSTALL_TTS_DATA"
+            },
+            "EXTRA_VOICE_DATA_FILES": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#EXTRA_VOICE_DATA_FILES"
+            },
+            "KEY_FEATURE_NOT_INSTALLED": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_FEATURE_NOT_INSTALLED"
+            },
+            "CHECK_VOICE_DATA_MISSING_DATA": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#CHECK_VOICE_DATA_MISSING_DATA"
+            },
+            "KEY_PARAM_AUDIO_ATTRIBUTES": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_AUDIO_ATTRIBUTES"
+            },
+            "EXTRA_VOICE_DATA_FILES_INFO": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#EXTRA_VOICE_DATA_FILES_INFO"
+            },
+            "KEY_FEATURE_NETWORK_TIMEOUT_MS": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_FEATURE_NETWORK_TIMEOUT_MS"
+            },
+            "KEY_FEATURE_NETWORK_RETRIES_COUNT": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_FEATURE_NETWORK_RETRIES_COUNT"
+            },
+            "EXTRA_SAMPLE_TEXT": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#EXTRA_SAMPLE_TEXT"
+            },
+            "DEFAULT_STREAM": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#DEFAULT_STREAM"
+            },
+            "CHECK_VOICE_DATA_BAD_DATA": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#CHECK_VOICE_DATA_BAD_DATA"
+            },
+            "EXTRA_UNAVAILABLE_VOICES": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#EXTRA_UNAVAILABLE_VOICES"
+            },
+            "USE_DEFAULTS": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#USE_DEFAULTS"
+            },
+            "KEY_PARAM_VOLUME": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_VOLUME"
+            },
+            "EXTRA_AVAILABLE_VOICES": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#EXTRA_AVAILABLE_VOICES"
+            },
+            "ACTION_TTS_DATA_INSTALLED": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#ACTION_TTS_DATA_INSTALLED"
+            },
+            "ACTION_GET_SAMPLE_TEXT": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#ACTION_GET_SAMPLE_TEXT"
+            },
+            "INTENT_ACTION_TTS_SERVICE": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#INTENT_ACTION_TTS_SERVICE"
+            },
+            "EXTRA_CHECK_VOICE_DATA_FOR": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#EXTRA_CHECK_VOICE_DATA_FOR"
+            },
+            "DEFAULT_ENGINE": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#DEFAULT_ENGINE"
+            },
+            "KEY_FEATURE_EMBEDDED_SYNTHESIS": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_FEATURE_EMBEDDED_SYNTHESIS"
+            },
+            "KEY_PARAM_STREAM": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_STREAM"
+            },
+            "ACTION_CHECK_TTS_DATA": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#ACTION_CHECK_TTS_DATA"
+            },
+            "KEY_PARAM_PAN": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_PAN"
+            },
+            "KEY_PARAM_UTTERANCE_ID": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_UTTERANCE_ID"
+            },
+            "KEY_FEATURE_NETWORK_SYNTHESIS": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_FEATURE_NETWORK_SYNTHESIS"
+            },
+            "CHECK_VOICE_DATA_PASS": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#CHECK_VOICE_DATA_PASS"
+            },
+            "KEY_PARAM_VOICE_NAME": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#KEY_PARAM_VOICE_NAME"
+            },
+            "SERVICE_META_DATA": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.Engine.html#SERVICE_META_DATA"
+            },
+            "prototype": {
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "equals": {
+                "!type": "fn(obj: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "wait": {
+                "!type": "fn(timeout: +java.lang.Long) -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              }
+            }
+          },
+          "EngineInfo": {
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.EngineInfo.html",
+            "!type": "fn()",
+            "prototype": {
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "equals": {
+                "!type": "fn(obj: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "wait": {
+                "!type": "fn(timeout: +java.lang.Long) -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.EngineInfo.html#toString()"
+              }
+            }
+          },
+          "ERROR_NOT_INSTALLED_YET": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#ERROR_NOT_INSTALLED_YET"
+          },
+          "QUEUE_FLUSH": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#QUEUE_FLUSH"
+          },
+          "QUEUE_ADD": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#QUEUE_ADD"
+          },
+          "ERROR_SERVICE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#ERROR_SERVICE"
+          },
+          "ERROR_NETWORK": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#ERROR_NETWORK"
+          },
+          "ERROR_INVALID_REQUEST": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#ERROR_INVALID_REQUEST"
+          },
+          "ERROR": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#ERROR"
+          },
+          "LANG_AVAILABLE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#LANG_AVAILABLE"
+          },
+          "ERROR_SYNTHESIS": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#ERROR_SYNTHESIS"
+          },
+          "LANG_COUNTRY_AVAILABLE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#LANG_COUNTRY_AVAILABLE"
+          },
+          "ERROR_NETWORK_TIMEOUT": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#ERROR_NETWORK_TIMEOUT"
+          },
+          "ACTION_TTS_QUEUE_PROCESSING_COMPLETED": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#ACTION_TTS_QUEUE_PROCESSING_COMPLETED"
+          },
+          "LANG_MISSING_DATA": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#LANG_MISSING_DATA"
+          },
+          "STOPPED": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#STOPPED"
+          },
+          "ERROR_OUTPUT": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#ERROR_OUTPUT"
+          },
+          "LANG_NOT_SUPPORTED": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#LANG_NOT_SUPPORTED"
+          },
+          "LANG_COUNTRY_VAR_AVAILABLE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#LANG_COUNTRY_VAR_AVAILABLE"
+          },
+          "SUCCESS": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#SUCCESS"
+          },
+          "getMaxSpeechInputLength": {
+            "!type": "fn() -> number",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#getMaxSpeechInputLength()"
+          },
+          "prototype": {
+            "getDefaultVoice": {
+              "!type": "fn() -> +android.speech.tts.Voice",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#getDefaultVoice()"
+            },
+            "speak": {
+              "!type": "fn(text: +java.lang.CharSequence, queueMode: number, params: +android.os.Bundle, utteranceId: string) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#speak(java.lang.CharSequence, int, android.os.Bundle, java.lang.String)"
+            },
+            "getDefaultLanguage": {
+              "!type": "fn() -> +java.util.Locale",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#getDefaultLanguage()"
+            },
+            "getFeatures": {
+              "!type": "fn(locale: +java.util.Locale) -> +java.util.Set",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#getFeatures(java.util.Locale)"
+            },
+            "shutdown": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#shutdown()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "getAvailableLanguages": {
+              "!type": "fn() -> +java.util.Set",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#getAvailableLanguages()"
+            },
+            "playEarcon": {
+              "!type": "fn(earcon: string, queueMode: number, params: +android.os.Bundle, utteranceId: string) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#playEarcon(java.lang.String, int, android.os.Bundle, java.lang.String)"
+            },
+            "setEngineByPackageName": {
+              "!type": "fn(enginePackageName: string) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#setEngineByPackageName(java.lang.String)"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getLanguage": {
+              "!type": "fn() -> +java.util.Locale",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#getLanguage()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "setOnUtteranceProgressListener": {
+              "!type": "fn(listener: +android.speech.tts.UtteranceProgressListener) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#setOnUtteranceProgressListener(android.speech.tts.UtteranceProgressListener)"
+            },
+            "playSilence": {
+              "!type": "fn(durationInMs: +java.lang.Long, queueMode: number, params: +java.util.HashMap) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#playSilence(long, int, java.util.HashMap)"
+            },
+            "getDefaultEngine": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#getDefaultEngine()"
+            },
+            "stop": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#stop()"
+            },
+            "addEarcon": {
+              "!type": "fn(earcon: string, packagename: string, resourceId: number) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#addEarcon(java.lang.String, java.lang.String, int)"
+            },
+            "getCurrentEngine": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#getCurrentEngine()"
+            },
+            "getEngines": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#getEngines()"
+            },
+            "setPitch": {
+              "!type": "fn(pitch: +java.lang.Float) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#setPitch(float)"
+            },
+            "playSilentUtterance": {
+              "!type": "fn(durationInMs: +java.lang.Long, queueMode: number, utteranceId: string) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#playSilentUtterance(long, int, java.lang.String)"
+            },
+            "setLanguage": {
+              "!type": "fn(loc: +java.util.Locale) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#setLanguage(java.util.Locale)"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "getVoices": {
+              "!type": "fn() -> +java.util.Set",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#getVoices()"
+            },
+            "areDefaultsEnforced": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#areDefaultsEnforced()"
+            },
+            "setVoice": {
+              "!type": "fn(voice: +android.speech.tts.Voice) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#setVoice(android.speech.tts.Voice)"
+            },
+            "getVoice": {
+              "!type": "fn() -> +android.speech.tts.Voice",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#getVoice()"
+            },
+            "isLanguageAvailable": {
+              "!type": "fn(loc: +java.util.Locale) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#isLanguageAvailable(java.util.Locale)"
+            },
+            "setAudioAttributes": {
+              "!type": "fn(audioAttributes: +android.media.AudioAttributes) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#setAudioAttributes(android.media.AudioAttributes)"
+            },
+            "synthesizeToFile": {
+              "!type": "fn(text: +java.lang.CharSequence, params: +android.os.Bundle, file: +java.io.File, utteranceId: string) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#synthesizeToFile(java.lang.CharSequence, android.os.Bundle, java.io.File, java.lang.String)"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "setOnUtteranceCompletedListener": {
+              "!type": "fn(listener: +android.speech.tts.TextToSpeech.OnUtteranceCompletedListener) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#setOnUtteranceCompletedListener(android.speech.tts.TextToSpeech.OnUtteranceCompletedListener)"
+            },
+            "setSpeechRate": {
+              "!type": "fn(speechRate: +java.lang.Float) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#setSpeechRate(float)"
+            },
+            "isSpeaking": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#isSpeaking()"
+            },
+            "addSpeech": {
+              "!type": "fn(text: string, packagename: string, resourceId: number) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeech.html#addSpeech(java.lang.String, java.lang.String, int)"
+            }
+          }
+        },
+        "SynthesisRequest": {
+          "!url": "http://developer.android.com/reference/android/speech/tts/SynthesisRequest.html",
+          "!type": "fn(text: string, params: +android.os.Bundle)",
+          "prototype": {
+            "getVariant": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/SynthesisRequest.html#getVariant()"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "getSpeechRate": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/SynthesisRequest.html#getSpeechRate()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "getVoiceName": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/SynthesisRequest.html#getVoiceName()"
+            },
+            "getPitch": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/SynthesisRequest.html#getPitch()"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getCallerUid": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/SynthesisRequest.html#getCallerUid()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "getParams": {
+              "!type": "fn() -> +android.os.Bundle",
+              "!url": "http://developer.android.com/reference/android/speech/tts/SynthesisRequest.html#getParams()"
+            },
+            "getCountry": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/SynthesisRequest.html#getCountry()"
+            },
+            "getLanguage": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/SynthesisRequest.html#getLanguage()"
+            },
+            "getCharSequenceText": {
+              "!type": "fn() -> +java.lang.CharSequence",
+              "!url": "http://developer.android.com/reference/android/speech/tts/SynthesisRequest.html#getCharSequenceText()"
+            },
+            "getText": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/SynthesisRequest.html#getText()"
+            }
+          }
+        },
+        "UtteranceProgressListener": {
+          "!url": "http://developer.android.com/reference/android/speech/tts/UtteranceProgressListener.html",
+          "!type": "fn()",
+          "prototype": {
+            "onRangeStart": {
+              "!type": "fn(utteranceId: string, start: number, end: number, frame: number) -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/UtteranceProgressListener.html#onRangeStart(java.lang.String, int, int, int)"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "onDone": {
+              "!type": "fn(utteranceId: string) -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/UtteranceProgressListener.html#onDone(java.lang.String)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "onError": {
+              "!type": "fn(utteranceId: string) -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/UtteranceProgressListener.html#onError(java.lang.String)"
+            },
+            "onUtteranceRangeStart": {
+              "!type": "fn(utteranceId: string, start: number, end: number) -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/UtteranceProgressListener.html#onUtteranceRangeStart(java.lang.String, int, int)"
+            },
+            "onStop": {
+              "!type": "fn(utteranceId: string, interrupted: bool) -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/UtteranceProgressListener.html#onStop(java.lang.String, boolean)"
+            },
+            "onBeginSynthesis": {
+              "!type": "fn(utteranceId: string, sampleRateInHz: number, audioFormat: number, channelCount: number) -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/UtteranceProgressListener.html#onBeginSynthesis(java.lang.String, int, int, int)"
+            },
+            "onAudioAvailable": {
+              "!type": "fn(utteranceId: string, audio: +java.newArray) -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/UtteranceProgressListener.html#onAudioAvailable(java.lang.String, byte[])"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "onStart": {
+              "!type": "fn(utteranceId: string) -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/UtteranceProgressListener.html#onStart(java.lang.String)"
+            }
+          }
+        },
+        "TtsEngines": {
+          "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html",
+          "!type": "fn(ctx: +android.content.Context)",
+          "toOldLocaleStringFormat": {
+            "!type": "fn(locale: +java.util.Locale) -> +java.newArray",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#toOldLocaleStringFormat(java.util.Locale)"
+          },
+          "normalizeTTSLocale": {
+            "!type": "fn(ttsLocale: +java.util.Locale) -> +java.util.Locale",
+            "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#normalizeTTSLocale(java.util.Locale)"
+          },
+          "prototype": {
+            "isEngineInstalled": {
+              "!type": "fn(engine: string) -> bool",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#isEngineInstalled(java.lang.String)"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "getDefaultEngine": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#getDefaultEngine()"
+            },
+            "getSettingsIntent": {
+              "!type": "fn(engine: string) -> +android.content.Intent",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#getSettingsIntent(java.lang.String)"
+            },
+            "isLocaleSetToDefaultForEngine": {
+              "!type": "fn(engineName: string) -> bool",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#isLocaleSetToDefaultForEngine(java.lang.String)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "parseLocaleString": {
+              "!type": "fn(localeString: string) -> +java.util.Locale",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#parseLocaleString(java.lang.String)"
+            },
+            "getEngineInfo": {
+              "!type": "fn(packageName: string) -> +android.speech.tts.TextToSpeech.EngineInfo",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#getEngineInfo(java.lang.String)"
+            },
+            "getEngines": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#getEngines()"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getLocalePrefForEngine": {
+              "!type": "fn(engineName: string) -> +java.util.Locale",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#getLocalePrefForEngine(java.lang.String)"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "getHighestRankedEngineName": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#getHighestRankedEngineName()"
+            },
+            "updateLocalePrefForEngine": {
+              "!type": "fn(engineName: string, newLocale: +java.util.Locale) -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TtsEngines.html#updateLocalePrefForEngine(java.lang.String, java.util.Locale)"
+            }
+          }
+        },
+        "TextToSpeechService": {
+          "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeechService.html",
+          "!type": "fn()",
+          "SIP_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#SIP_SERVICE"
+          },
+          "UI_MODE_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#UI_MODE_SERVICE"
+          },
+          "ROLLBACK_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#ROLLBACK_SERVICE"
+          },
+          "CLIPBOARD_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CLIPBOARD_SERVICE"
+          },
+          "RECOVERY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#RECOVERY_SERVICE"
+          },
+          "UPDATE_LOCK_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#UPDATE_LOCK_SERVICE"
+          },
+          "NETD_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#NETD_SERVICE"
+          },
+          "NETWORKMANAGEMENT_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#NETWORKMANAGEMENT_SERVICE"
+          },
+          "USAGE_STATS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#USAGE_STATS_SERVICE"
+          },
+          "CONTEXT_RESTRICTED": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CONTEXT_RESTRICTED"
+          },
+          "NETWORK_POLICY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#NETWORK_POLICY_SERVICE"
+          },
+          "NFC_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#NFC_SERVICE"
+          },
+          "CAMERA_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CAMERA_SERVICE"
+          },
+          "START_NOT_STICKY": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/Service.html#START_NOT_STICKY"
+          },
+          "ACTIVITY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#ACTIVITY_SERVICE"
+          },
+          "WIFI_RTT_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#WIFI_RTT_SERVICE"
+          },
+          "CAPTIONING_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CAPTIONING_SERVICE"
+          },
+          "BLUETOOTH_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BLUETOOTH_SERVICE"
+          },
+          "EUICC_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#EUICC_SERVICE"
+          },
+          "START_TASK_REMOVED_COMPLETE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/Service.html#START_TASK_REMOVED_COMPLETE"
+          },
+          "ATTENTION_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#ATTENTION_SERVICE"
+          },
+          "WIFI_RTT_RANGING_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#WIFI_RTT_RANGING_SERVICE"
+          },
+          "APP_PREDICTION_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#APP_PREDICTION_SERVICE"
+          },
+          "START_CONTINUATION_MASK": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/Service.html#START_CONTINUATION_MASK"
+          },
+          "APP_BINDING_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#APP_BINDING_SERVICE"
+          },
+          "LOCATION_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#LOCATION_SERVICE"
+          },
+          "BIND_INCLUDE_CAPABILITIES": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_INCLUDE_CAPABILITIES"
+          },
+          "TV_INPUT_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#TV_INPUT_SERVICE"
+          },
+          "CONTEXT_CREDENTIAL_PROTECTED_STORAGE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CONTEXT_CREDENTIAL_PROTECTED_STORAGE"
+          },
+          "MODE_WORLD_READABLE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#MODE_WORLD_READABLE"
+          },
+          "TEST_NETWORK_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#TEST_NETWORK_SERVICE"
+          },
+          "VOICE_INTERACTION_MANAGER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#VOICE_INTERACTION_MANAGER_SERVICE"
+          },
+          "NETWORK_WATCHLIST_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#NETWORK_WATCHLIST_SERVICE"
+          },
+          "BIND_ALLOW_BACKGROUND_ACTIVITY_STARTS": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_ALLOW_BACKGROUND_ACTIVITY_STARTS"
+          },
+          "WIFI_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#WIFI_SERVICE"
+          },
+          "WIFI_SCANNING_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#WIFI_SCANNING_SERVICE"
+          },
+          "INCIDENT_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#INCIDENT_SERVICE"
+          },
+          "THERMAL_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#THERMAL_SERVICE"
+          },
+          "BIND_AUTO_CREATE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_AUTO_CREATE"
+          },
+          "POWER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#POWER_SERVICE"
+          },
+          "TEXT_SERVICES_MANAGER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#TEXT_SERVICES_MANAGER_SERVICE"
+          },
+          "COUNTRY_DETECTOR": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#COUNTRY_DETECTOR"
+          },
+          "STATS_COMPANION_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#STATS_COMPANION_SERVICE"
+          },
+          "BIND_NOT_FOREGROUND": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_NOT_FOREGROUND"
+          },
+          "BIOMETRIC_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIOMETRIC_SERVICE"
+          },
+          "FACE_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#FACE_SERVICE"
+          },
+          "SEARCH_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#SEARCH_SERVICE"
+          },
+          "PERSISTENT_DATA_BLOCK_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#PERSISTENT_DATA_BLOCK_SERVICE"
+          },
+          "BIND_IMPORTANT": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_IMPORTANT"
+          },
+          "WIFI_P2P_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#WIFI_P2P_SERVICE"
+          },
+          "STATUS_BAR_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#STATUS_BAR_SERVICE"
+          },
+          "CONNECTIVITY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CONNECTIVITY_SERVICE"
+          },
+          "BIND_ABOVE_CLIENT": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_ABOVE_CLIENT"
+          },
+          "CONTEXTHUB_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CONTEXTHUB_SERVICE"
+          },
+          "COMPANION_DEVICE_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#COMPANION_DEVICE_SERVICE"
+          },
+          "SHORTCUT_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#SHORTCUT_SERVICE"
+          },
+          "IPSEC_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#IPSEC_SERVICE"
+          },
+          "WINDOW_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#WINDOW_SERVICE"
+          },
+          "BIND_DEBUG_UNBIND": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_DEBUG_UNBIND"
+          },
+          "CONTEXT_INCLUDE_CODE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CONTEXT_INCLUDE_CODE"
+          },
+          "BACKUP_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BACKUP_SERVICE"
+          },
+          "RADIO_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#RADIO_SERVICE"
+          },
+          "RECEIVER_VISIBLE_TO_INSTANT_APPS": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#RECEIVER_VISIBLE_TO_INSTANT_APPS"
+          },
+          "BIND_ALLOW_OOM_MANAGEMENT": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_ALLOW_OOM_MANAGEMENT"
+          },
+          "BIND_EXTERNAL_SERVICE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_EXTERNAL_SERVICE"
+          },
+          "WIFI_AWARE_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#WIFI_AWARE_SERVICE"
+          },
+          "BIND_SCHEDULE_LIKE_TOP_APP": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_SCHEDULE_LIKE_TOP_APP"
+          },
+          "BIND_ALLOW_WHITELIST_MANAGEMENT": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_ALLOW_WHITELIST_MANAGEMENT"
+          },
+          "ACCESSIBILITY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#ACCESSIBILITY_SERVICE"
+          },
+          "BIND_IMPORTANT_BACKGROUND": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_IMPORTANT_BACKGROUND"
+          },
+          "MODE_WORLD_WRITEABLE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#MODE_WORLD_WRITEABLE"
+          },
+          "NETWORK_STATS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#NETWORK_STATS_SERVICE"
+          },
+          "SERIAL_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#SERIAL_SERVICE"
+          },
+          "HARDWARE_PROPERTIES_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#HARDWARE_PROPERTIES_SERVICE"
+          },
+          "RESTRICTIONS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#RESTRICTIONS_SERVICE"
+          },
+          "MEDIA_PROJECTION_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#MEDIA_PROJECTION_SERVICE"
+          },
+          "DEVICE_POLICY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#DEVICE_POLICY_SERVICE"
+          },
+          "TELEPHONY_RCS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#TELEPHONY_RCS_SERVICE"
+          },
+          "TIME_ZONE_RULES_MANAGER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#TIME_ZONE_RULES_MANAGER_SERVICE"
+          },
+          "BUGREPORT_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BUGREPORT_SERVICE"
+          },
+          "ACCOUNT_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#ACCOUNT_SERVICE"
+          },
+          "STOP_FOREGROUND_REMOVE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/Service.html#STOP_FOREGROUND_REMOVE"
+          },
+          "STORAGE_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#STORAGE_SERVICE"
+          },
+          "PERMISSION_CONTROLLER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#PERMISSION_CONTROLLER_SERVICE"
+          },
+          "START_FLAG_REDELIVERY": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/Service.html#START_FLAG_REDELIVERY"
+          },
+          "INPUT_METHOD_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#INPUT_METHOD_SERVICE"
+          },
+          "INPUT_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#INPUT_SERVICE"
+          },
+          "SLICE_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#SLICE_SERVICE"
+          },
+          "ALARM_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#ALARM_SERVICE"
+          },
+          "BIND_NOT_PERCEPTIBLE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_NOT_PERCEPTIBLE"
+          },
+          "MODE_APPEND": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#MODE_APPEND"
+          },
+          "KEYGUARD_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#KEYGUARD_SERVICE"
+          },
+          "SENSOR_PRIVACY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#SENSOR_PRIVACY_SERVICE"
+          },
+          "MEDIA_SESSION_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#MEDIA_SESSION_SERVICE"
+          },
+          "VR_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#VR_SERVICE"
+          },
+          "COLOR_DISPLAY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#COLOR_DISPLAY_SERVICE"
+          },
+          "ADB_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#ADB_SERVICE"
+          },
+          "NOTIFICATION_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#NOTIFICATION_SERVICE"
+          },
+          "TRUST_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#TRUST_SERVICE"
+          },
+          "BIND_FOREGROUND_SERVICE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_FOREGROUND_SERVICE"
+          },
+          "CONTEXT_REGISTER_PACKAGE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CONTEXT_REGISTER_PACKAGE"
+          },
+          "CONTENT_CAPTURE_MANAGER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CONTENT_CAPTURE_MANAGER_SERVICE"
+          },
+          "USB_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#USB_SERVICE"
+          },
+          "EUICC_CARD_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#EUICC_CARD_SERVICE"
+          },
+          "START_STICKY_COMPATIBILITY": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/Service.html#START_STICKY_COMPATIBILITY"
+          },
+          "LOWPAN_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#LOWPAN_SERVICE"
+          },
+          "BIND_WAIVE_PRIORITY": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_WAIVE_PRIORITY"
+          },
+          "MODE_MULTI_PROCESS": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#MODE_MULTI_PROCESS"
+          },
+          "CONTEXT_DEVICE_PROTECTED_STORAGE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CONTEXT_DEVICE_PROTECTED_STORAGE"
+          },
+          "SYSTEM_HEALTH_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#SYSTEM_HEALTH_SERVICE"
+          },
+          "MODE_NO_LOCALIZED_COLLATORS": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#MODE_NO_LOCALIZED_COLLATORS"
+          },
+          "OEM_LOCK_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#OEM_LOCK_SERVICE"
+          },
+          "DYNAMIC_SYSTEM_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#DYNAMIC_SYSTEM_SERVICE"
+          },
+          "AUTOFILL_MANAGER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#AUTOFILL_MANAGER_SERVICE"
+          },
+          "CONTEXT_IGNORE_SECURITY": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CONTEXT_IGNORE_SECURITY"
+          },
+          "BIND_ADJUST_WITH_ACTIVITY": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_ADJUST_WITH_ACTIVITY"
+          },
+          "PERMISSION_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#PERMISSION_SERVICE"
+          },
+          "START_REDELIVER_INTENT": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/Service.html#START_REDELIVER_INTENT"
+          },
+          "GATEKEEPER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#GATEKEEPER_SERVICE"
+          },
+          "NSD_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#NSD_SERVICE"
+          },
+          "BIND_VISIBLE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_VISIBLE"
+          },
+          "ACTIVITY_TASK_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#ACTIVITY_TASK_SERVICE"
+          },
+          "APP_OPS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#APP_OPS_SERVICE"
+          },
+          "START_FLAG_RETRY": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/Service.html#START_FLAG_RETRY"
+          },
+          "OVERLAY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#OVERLAY_SERVICE"
+          },
+          "BIND_ALLOW_INSTANT": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_ALLOW_INSTANT"
+          },
+          "TELEPHONY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#TELEPHONY_SERVICE"
+          },
+          "APPWIDGET_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#APPWIDGET_SERVICE"
+          },
+          "LAYOUT_INFLATER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#LAYOUT_INFLATER_SERVICE"
+          },
+          "STORAGE_STATS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#STORAGE_STATS_SERVICE"
+          },
+          "HDMI_CONTROL_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#HDMI_CONTROL_SERVICE"
+          },
+          "ETHERNET_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#ETHERNET_SERVICE"
+          },
+          "CROSS_PROFILE_APPS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CROSS_PROFILE_APPS_SERVICE"
+          },
+          "STATS_MANAGER": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#STATS_MANAGER"
+          },
+          "DEVICE_IDENTIFIERS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#DEVICE_IDENTIFIERS_SERVICE"
+          },
+          "BIND_FOREGROUND_SERVICE_WHILE_AWAKE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_FOREGROUND_SERVICE_WHILE_AWAKE"
+          },
+          "CARRIER_CONFIG_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CARRIER_CONFIG_SERVICE"
+          },
+          "TELEPHONY_SUBSCRIPTION_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#TELEPHONY_SUBSCRIPTION_SERVICE"
+          },
+          "DROPBOX_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#DROPBOX_SERVICE"
+          },
+          "MODE_PRIVATE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#MODE_PRIVATE"
+          },
+          "BATTERY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BATTERY_SERVICE"
+          },
+          "TIME_DETECTOR_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#TIME_DETECTOR_SERVICE"
+          },
+          "SECURE_ELEMENT_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#SECURE_ELEMENT_SERVICE"
+          },
+          "VIBRATOR_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#VIBRATOR_SERVICE"
+          },
+          "CONTENT_SUGGESTIONS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CONTENT_SUGGESTIONS_SERVICE"
+          },
+          "TELECOM_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#TELECOM_SERVICE"
+          },
+          "START_STICKY": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/Service.html#START_STICKY"
+          },
+          "MEDIA_ROUTER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#MEDIA_ROUTER_SERVICE"
+          },
+          "TEXT_CLASSIFICATION_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#TEXT_CLASSIFICATION_SERVICE"
+          },
+          "NETWORK_SCORE_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#NETWORK_SCORE_SERVICE"
+          },
+          "SOUND_TRIGGER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#SOUND_TRIGGER_SERVICE"
+          },
+          "IRIS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#IRIS_SERVICE"
+          },
+          "INCIDENT_COMPANION_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#INCIDENT_COMPANION_SERVICE"
+          },
+          "SENSOR_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#SENSOR_SERVICE"
+          },
+          "PRINT_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#PRINT_SERVICE"
+          },
+          "BIND_RESTRICT_ASSOCIATIONS": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_RESTRICT_ASSOCIATIONS"
+          },
+          "BIND_NOT_VISIBLE": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_NOT_VISIBLE"
+          },
+          "DISPLAY_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#DISPLAY_SERVICE"
+          },
+          "BIND_REDUCTION_FLAGS": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_REDUCTION_FLAGS"
+          },
+          "ROLE_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#ROLE_SERVICE"
+          },
+          "SYSTEM_UPDATE_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#SYSTEM_UPDATE_SERVICE"
+          },
+          "DEVICE_IDLE_CONTROLLER": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#DEVICE_IDLE_CONTROLLER"
+          },
+          "BIND_TREAT_LIKE_ACTIVITY": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_TREAT_LIKE_ACTIVITY"
+          },
+          "IDMAP_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#IDMAP_SERVICE"
+          },
+          "URI_GRANTS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#URI_GRANTS_SERVICE"
+          },
+          "STOP_FOREGROUND_DETACH": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/app/Service.html#STOP_FOREGROUND_DETACH"
+          },
+          "MODE_ENABLE_WRITE_AHEAD_LOGGING": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#MODE_ENABLE_WRITE_AHEAD_LOGGING"
+          },
+          "MIDI_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#MIDI_SERVICE"
+          },
+          "CONSUMER_IR_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#CONSUMER_IR_SERVICE"
+          },
+          "DOWNLOAD_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#DOWNLOAD_SERVICE"
+          },
+          "NETWORK_STACK_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#NETWORK_STACK_SERVICE"
+          },
+          "ROLE_CONTROLLER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#ROLE_CONTROLLER_SERVICE"
+          },
+          "LAUNCHER_APPS_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#LAUNCHER_APPS_SERVICE"
+          },
+          "USER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#USER_SERVICE"
+          },
+          "JOB_SCHEDULER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#JOB_SCHEDULER_SERVICE"
+          },
+          "BIND_SHOWING_UI": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#BIND_SHOWING_UI"
+          },
+          "WALLPAPER_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#WALLPAPER_SERVICE"
+          },
+          "FINGERPRINT_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#FINGERPRINT_SERVICE"
+          },
+          "AUDIO_SERVICE": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/content/Context.html#AUDIO_SERVICE"
+          },
+          "prototype": {
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "checkCallingOrSelfUriPermission": {
+              "!type": "fn(uri: +android.net.Uri, modeFlags: number) -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#checkCallingOrSelfUriPermission(android.net.Uri, int)"
+            },
+            "getCodeCacheDir": {
+              "!type": "fn() -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getCodeCacheDir()"
+            },
+            "getExternalCacheDir": {
+              "!type": "fn() -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getExternalCacheDir()"
+            },
+            "sendBroadcastAsUser": {
+              "!type": "fn(intent: +android.content.Intent, user: +android.os.UserHandle) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#sendBroadcastAsUser(android.content.Intent, android.os.UserHandle)"
+            },
+            "sendBroadcast": {
+              "!type": "fn(intent: +android.content.Intent) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#sendBroadcast(android.content.Intent)"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "getString": {
+              "!type": "fn(resId: number) -> string",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#getString(int)"
+            },
+            "getPreloadsFileCache": {
+              "!type": "fn() -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getPreloadsFileCache()"
+            },
+            "checkSelfPermission": {
+              "!type": "fn(permission: string) -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#checkSelfPermission(java.lang.String)"
+            },
+            "fileList": {
+              "!type": "fn() -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#fileList()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "getWallpaper": {
+              "!type": "fn() -> +android.graphics.drawable.Drawable",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getWallpaper()"
+            },
+            "getColorStateList": {
+              "!type": "fn(id: number) -> +android.content.res.ColorStateList",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#getColorStateList(int)"
+            },
+            "onTrimMemory": {
+              "!type": "fn(level: number) -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#onTrimMemory(int)"
+            },
+            "stopService": {
+              "!type": "fn(name: +android.content.Intent) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#stopService(android.content.Intent)"
+            },
+            "removeStickyBroadcast": {
+              "!type": "fn(intent: +android.content.Intent) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#removeStickyBroadcast(android.content.Intent)"
+            },
+            "assertRuntimeOverlayThemable": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#assertRuntimeOverlayThemable()"
+            },
+            "onDestroy": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeechService.html#onDestroy()"
+            },
+            "getResources": {
+              "!type": "fn() -> +android.content.res.Resources",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getResources()"
+            },
+            "unregisterReceiver": {
+              "!type": "fn(receiver: +android.content.BroadcastReceiver) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#unregisterReceiver(android.content.BroadcastReceiver)"
+            },
+            "startServiceAsUser": {
+              "!type": "fn(service: +android.content.Intent, user: +android.os.UserHandle) -> +android.content.ComponentName",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#startServiceAsUser(android.content.Intent, android.os.UserHandle)"
+            },
+            "canLoadUnsafeResources": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#canLoadUnsafeResources()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "getSharedPreferencesPath": {
+              "!type": "fn(name: string) -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getSharedPreferencesPath(java.lang.String)"
+            },
+            "onGetVoices": {
+              "!type": "fn() -> +java.util.List",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeechService.html#onGetVoices()"
+            },
+            "createCredentialProtectedStorageContext": {
+              "!type": "fn() -> +android.content.Context",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#createCredentialProtectedStorageContext()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "getSystemService": {
+              "!type": "fn(name: string) -> +java.lang.Object",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getSystemService(java.lang.String)"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "getNoBackupFilesDir": {
+              "!type": "fn() -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getNoBackupFilesDir()"
+            },
+            "getWallpaperDesiredMinimumWidth": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getWallpaperDesiredMinimumWidth()"
+            },
+            "startService": {
+              "!type": "fn(service: +android.content.Intent) -> +android.content.ComponentName",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#startService(android.content.Intent)"
+            },
+            "clearWallpaper": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#clearWallpaper()"
+            },
+            "onConfigurationChanged": {
+              "!type": "fn(newConfig: +android.content.res.Configuration) -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#onConfigurationChanged(android.content.res.Configuration)"
+            },
+            "databaseList": {
+              "!type": "fn() -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#databaseList()"
+            },
+            "deleteFile": {
+              "!type": "fn(name: string) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#deleteFile(java.lang.String)"
+            },
+            "startForeground": {
+              "!type": "fn(id: number, notification: +android.app.Notification) -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#startForeground(int, android.app.Notification)"
+            },
+            "onTaskRemoved": {
+              "!type": "fn(rootIntent: +android.content.Intent) -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#onTaskRemoved(android.content.Intent)"
+            },
+            "onRebind": {
+              "!type": "fn(intent: +android.content.Intent) -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#onRebind(android.content.Intent)"
+            },
+            "onStartCommand": {
+              "!type": "fn(intent: +android.content.Intent, flags: number, startId: number) -> number",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#onStartCommand(android.content.Intent, int, int)"
+            },
+            "enforceCallingUriPermission": {
+              "!type": "fn(uri: +android.net.Uri, modeFlags: number, message: string) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#enforceCallingUriPermission(android.net.Uri, int, java.lang.String)"
+            },
+            "getSharedPrefsFile": {
+              "!type": "fn(name: string) -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#getSharedPrefsFile(java.lang.String)"
+            },
+            "revokeUriPermission": {
+              "!type": "fn(uri: +android.net.Uri, modeFlags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#revokeUriPermission(android.net.Uri, int)"
+            },
+            "getDisplay": {
+              "!type": "fn() -> +android.view.Display",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getDisplay()"
+            },
+            "startInstrumentation": {
+              "!type": "fn(className: +android.content.ComponentName, profileFile: string, arguments: +android.os.Bundle) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#startInstrumentation(android.content.ComponentName, java.lang.String, android.os.Bundle)"
+            },
+            "createPackageContextAsUser": {
+              "!type": "fn(packageName: string, flags: number, user: +android.os.UserHandle) -> +android.content.Context",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#createPackageContextAsUser(java.lang.String, int, android.os.UserHandle)"
+            },
+            "getDrawable": {
+              "!type": "fn(id: number) -> +android.graphics.drawable.Drawable",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#getDrawable(int)"
+            },
+            "sendStickyOrderedBroadcastAsUser": {
+              "!type": "fn(intent: +android.content.Intent, user: +android.os.UserHandle, resultReceiver: +android.content.BroadcastReceiver, scheduler: +android.os.Handler, initialCode: number, initialData: string, initialExtras: +android.os.Bundle) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#sendStickyOrderedBroadcastAsUser(android.content.Intent, android.os.UserHandle, android.content.BroadcastReceiver, android.os.Handler, int, java.lang.String, android.os.Bundle)"
+            },
+            "getExternalFilesDirs": {
+              "!type": "fn(type: string) -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getExternalFilesDirs(java.lang.String)"
+            },
+            "setContentCaptureOptions": {
+              "!type": "fn(options: +android.content.ContentCaptureOptions) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#setContentCaptureOptions(android.content.ContentCaptureOptions)"
+            },
+            "onBind": {
+              "!type": "fn(intent: +android.content.Intent) -> +android.os.IBinder",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeechService.html#onBind(android.content.Intent)"
+            },
+            "checkCallingUriPermission": {
+              "!type": "fn(uri: +android.net.Uri, modeFlags: number) -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#checkCallingUriPermission(android.net.Uri, int)"
+            },
+            "isRestricted": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#isRestricted()"
+            },
+            "getApplicationInfo": {
+              "!type": "fn() -> +android.content.pm.ApplicationInfo",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getApplicationInfo()"
+            },
+            "onLoadVoice": {
+              "!type": "fn(voiceName: string) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeechService.html#onLoadVoice(java.lang.String)"
+            },
+            "getAutofillOptions": {
+              "!type": "fn() -> +android.content.AutofillOptions",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getAutofillOptions()"
+            },
+            "startActivityForResult": {
+              "!type": "fn(who: string, intent: +android.content.Intent, requestCode: number, options: +android.os.Bundle) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#startActivityForResult(java.lang.String, android.content.Intent, int, android.os.Bundle)"
+            },
+            "getFilesDir": {
+              "!type": "fn() -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getFilesDir()"
+            },
+            "getContentResolver": {
+              "!type": "fn() -> +android.content.ContentResolver",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getContentResolver()"
+            },
+            "moveDatabaseFrom": {
+              "!type": "fn(sourceContext: +android.content.Context, name: string) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#moveDatabaseFrom(android.content.Context, java.lang.String)"
+            },
+            "getDataDir": {
+              "!type": "fn() -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getDataDir()"
+            },
+            "stopForeground": {
+              "!type": "fn(removeNotification: bool) -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#stopForeground(boolean)"
+            },
+            "sendOrderedBroadcastAsUser": {
+              "!type": "fn(intent: +android.content.Intent, user: +android.os.UserHandle, receiverPermission: string, resultReceiver: +android.content.BroadcastReceiver, scheduler: +android.os.Handler, initialCode: number, initialData: string, initialExtras: +android.os.Bundle) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#sendOrderedBroadcastAsUser(android.content.Intent, android.os.UserHandle, java.lang.String, android.content.BroadcastReceiver, android.os.Handler, int, java.lang.String, android.os.Bundle)"
+            },
+            "unregisterComponentCallbacks": {
+              "!type": "fn(callback: +android.content.ComponentCallbacks) -> void",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#unregisterComponentCallbacks(android.content.ComponentCallbacks)"
+            },
+            "grantUriPermission": {
+              "!type": "fn(toPackage: string, uri: +android.net.Uri, modeFlags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#grantUriPermission(java.lang.String, android.net.Uri, int)"
+            },
+            "openFileInput": {
+              "!type": "fn(name: string) -> +java.io.FileInputStream",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#openFileInput(java.lang.String)"
+            },
+            "checkCallingOrSelfPermission": {
+              "!type": "fn(permission: string) -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#checkCallingOrSelfPermission(java.lang.String)"
+            },
+            "getApplication": {
+              "!type": "fn() -> +android.app.Application",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#getApplication()"
+            },
+            "obtainStyledAttributes": {
+              "!type": "fn(attrs: +java.newArray) -> +android.content.res.TypedArray",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#obtainStyledAttributes(int[])"
+            },
+            "bindIsolatedService": {
+              "!type": "fn(service: +android.content.Intent, flags: number, instanceName: string, executor: +java.util.concurrent.Executor, conn: +android.content.ServiceConnection) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#bindIsolatedService(android.content.Intent, int, java.lang.String, java.util.concurrent.Executor, android.content.ServiceConnection)"
+            },
+            "startIntentSender": {
+              "!type": "fn(intent: +android.content.IntentSender, fillInIntent: +android.content.Intent, flagsMask: number, flagsValues: number, extraFlags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#startIntentSender(android.content.IntentSender, android.content.Intent, int, int, int)"
+            },
+            "registerReceiver": {
+              "!type": "fn(receiver: +android.content.BroadcastReceiver, filter: +android.content.IntentFilter) -> +android.content.Intent",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#registerReceiver(android.content.BroadcastReceiver, android.content.IntentFilter)"
+            },
+            "getBaseContext": {
+              "!type": "fn() -> +android.content.Context",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getBaseContext()"
+            },
+            "peekWallpaper": {
+              "!type": "fn() -> +android.graphics.drawable.Drawable",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#peekWallpaper()"
+            },
+            "getCacheDir": {
+              "!type": "fn() -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getCacheDir()"
+            },
+            "getUser": {
+              "!type": "fn() -> +android.os.UserHandle",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#getUser()"
+            },
+            "getPackageResourcePath": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getPackageResourcePath()"
+            },
+            "onUnbind": {
+              "!type": "fn(intent: +android.content.Intent) -> bool",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#onUnbind(android.content.Intent)"
+            },
+            "getAssets": {
+              "!type": "fn() -> +android.content.res.AssetManager",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getAssets()"
+            },
+            "registerReceiverAsUser": {
+              "!type": "fn(receiver: +android.content.BroadcastReceiver, user: +android.os.UserHandle, filter: +android.content.IntentFilter, broadcastPermission: string, scheduler: +android.os.Handler) -> +android.content.Intent",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#registerReceiverAsUser(android.content.BroadcastReceiver, android.os.UserHandle, android.content.IntentFilter, java.lang.String, android.os.Handler)"
+            },
+            "createPackageContext": {
+              "!type": "fn(packageName: string, flags: number) -> +android.content.Context",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#createPackageContext(java.lang.String, int)"
+            },
+            "checkUriPermission": {
+              "!type": "fn(uri: +android.net.Uri, pid: number, uid: number, modeFlags: number) -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#checkUriPermission(android.net.Uri, int, int, int)"
+            },
+            "getActivityToken": {
+              "!type": "fn() -> +android.os.IBinder",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getActivityToken()"
+            },
+            "getSharedPreferences": {
+              "!type": "fn(name: string, mode: number) -> +android.content.SharedPreferences",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getSharedPreferences(java.lang.String, int)"
+            },
+            "getUserId": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getUserId()"
+            },
+            "sendStickyOrderedBroadcast": {
+              "!type": "fn(intent: +android.content.Intent, resultReceiver: +android.content.BroadcastReceiver, scheduler: +android.os.Handler, initialCode: number, initialData: string, initialExtras: +android.os.Bundle) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#sendStickyOrderedBroadcast(android.content.Intent, android.content.BroadcastReceiver, android.os.Handler, int, java.lang.String, android.os.Bundle)"
+            },
+            "openFileOutput": {
+              "!type": "fn(name: string, mode: number) -> +java.io.FileOutputStream",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#openFileOutput(java.lang.String, int)"
+            },
+            "getClassLoader": {
+              "!type": "fn() -> +java.lang.ClassLoader",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getClassLoader()"
+            },
+            "onGetDefaultVoiceNameFor": {
+              "!type": "fn(lang: string, country: string, variant: string) -> string",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeechService.html#onGetDefaultVoiceNameFor(java.lang.String, java.lang.String, java.lang.String)"
+            },
+            "getPackageCodePath": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getPackageCodePath()"
+            },
+            "sendStickyBroadcastAsUser": {
+              "!type": "fn(intent: +android.content.Intent, user: +android.os.UserHandle) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#sendStickyBroadcastAsUser(android.content.Intent, android.os.UserHandle)"
+            },
+            "getWallpaperDesiredMinimumHeight": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getWallpaperDesiredMinimumHeight()"
+            },
+            "getColor": {
+              "!type": "fn(id: number) -> number",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#getColor(int)"
+            },
+            "isDeviceProtectedStorage": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#isDeviceProtectedStorage()"
+            },
+            "getFileStreamPath": {
+              "!type": "fn(name: string) -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getFileStreamPath(java.lang.String)"
+            },
+            "detachAndCleanUp": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#detachAndCleanUp()"
+            },
+            "getForegroundServiceType": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#getForegroundServiceType()"
+            },
+            "stopServiceAsUser": {
+              "!type": "fn(name: +android.content.Intent, user: +android.os.UserHandle) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#stopServiceAsUser(android.content.Intent, android.os.UserHandle)"
+            },
+            "moveSharedPreferencesFrom": {
+              "!type": "fn(sourceContext: +android.content.Context, name: string) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#moveSharedPreferencesFrom(android.content.Context, java.lang.String)"
+            },
+            "enforceCallingPermission": {
+              "!type": "fn(permission: string, message: string) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#enforceCallingPermission(java.lang.String, java.lang.String)"
+            },
+            "registerComponentCallbacks": {
+              "!type": "fn(callback: +android.content.ComponentCallbacks) -> void",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#registerComponentCallbacks(android.content.ComponentCallbacks)"
+            },
+            "sendStickyBroadcast": {
+              "!type": "fn(intent: +android.content.Intent) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#sendStickyBroadcast(android.content.Intent)"
+            },
+            "openOrCreateDatabase": {
+              "!type": "fn(name: string, mode: number, factory: +android.database.sqlite.SQLiteDatabase.CursorFactory) -> +android.database.sqlite.SQLiteDatabase",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#openOrCreateDatabase(java.lang.String, int, android.database.sqlite.SQLiteDatabase.CursorFactory)"
+            },
+            "getPackageManager": {
+              "!type": "fn() -> +android.content.pm.PackageManager",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getPackageManager()"
+            },
+            "setTheme": {
+              "!type": "fn(resid: number) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#setTheme(int)"
+            },
+            "startActivities": {
+              "!type": "fn(intents: +java.newArray) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#startActivities(android.content.Intent[])"
+            },
+            "getThemeResId": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getThemeResId()"
+            },
+            "getExternalMediaDirs": {
+              "!type": "fn() -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getExternalMediaDirs()"
+            },
+            "getIApplicationThread": {
+              "!type": "fn() -> IApplicationThread",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getIApplicationThread()"
+            },
+            "createContextForSplit": {
+              "!type": "fn(splitName: string) -> +android.content.Context",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#createContextForSplit(java.lang.String)"
+            },
+            "stopSelf": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#stopSelf()"
+            },
+            "sendBroadcastAsUserMultiplePermissions": {
+              "!type": "fn(intent: +android.content.Intent, user: +android.os.UserHandle, receiverPermissions: +java.newArray) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#sendBroadcastAsUserMultiplePermissions(android.content.Intent, android.os.UserHandle, java.lang.String[])"
+            },
+            "updateServiceGroup": {
+              "!type": "fn(conn: +android.content.ServiceConnection, group: number, importance: number) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#updateServiceGroup(android.content.ServiceConnection, int, int)"
+            },
+            "getApplicationContext": {
+              "!type": "fn() -> +android.content.Context",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getApplicationContext()"
+            },
+            "createDisplayContext": {
+              "!type": "fn(display: +android.view.Display) -> +android.content.Context",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#createDisplayContext(android.view.Display)"
+            },
+            "createApplicationContext": {
+              "!type": "fn(application: +android.content.pm.ApplicationInfo, flags: number) -> +android.content.Context",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#createApplicationContext(android.content.pm.ApplicationInfo, int)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "getPackageName": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getPackageName()"
+            },
+            "startForegroundServiceAsUser": {
+              "!type": "fn(service: +android.content.Intent, user: +android.os.UserHandle) -> +android.content.ComponentName",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#startForegroundServiceAsUser(android.content.Intent, android.os.UserHandle)"
+            },
+            "reloadSharedPreferences": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#reloadSharedPreferences()"
+            },
+            "startActivity": {
+              "!type": "fn(intent: +android.content.Intent) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#startActivity(android.content.Intent)"
+            },
+            "isCredentialProtectedStorage": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#isCredentialProtectedStorage()"
+            },
+            "enforceCallingOrSelfUriPermission": {
+              "!type": "fn(uri: +android.net.Uri, modeFlags: number, message: string) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#enforceCallingOrSelfUriPermission(android.net.Uri, int, java.lang.String)"
+            },
+            "getObbDirs": {
+              "!type": "fn() -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getObbDirs()"
+            },
+            "getMainLooper": {
+              "!type": "fn() -> +android.os.Looper",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getMainLooper()"
+            },
+            "onStart": {
+              "!type": "fn(intent: +android.content.Intent, startId: number) -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#onStart(android.content.Intent, int)"
+            },
+            "isAutofillCompatibilityEnabled": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#isAutofillCompatibilityEnabled()"
+            },
+            "startActivitiesAsUser": {
+              "!type": "fn(intents: +java.newArray, options: +android.os.Bundle, userHandle: +android.os.UserHandle) -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#startActivitiesAsUser(android.content.Intent[], android.os.Bundle, android.os.UserHandle)"
+            },
+            "setAutofillOptions": {
+              "!type": "fn(options: +android.content.AutofillOptions) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#setAutofillOptions(android.content.AutofillOptions)"
+            },
+            "getAutofillClient": {
+              "!type": "fn() -> +android.view.autofill.AutofillManager.AutofillClient",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getAutofillClient()"
+            },
+            "enforceUriPermission": {
+              "!type": "fn(uri: +android.net.Uri, pid: number, uid: number, modeFlags: number, message: string) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#enforceUriPermission(android.net.Uri, int, int, int, java.lang.String)"
+            },
+            "getSystemServiceName": {
+              "!type": "fn(serviceClass: +java.lang.Class) -> string",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getSystemServiceName(java.lang.Class)"
+            },
+            "checkCallingPermission": {
+              "!type": "fn(permission: string) -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#checkCallingPermission(java.lang.String)"
+            },
+            "getDatabasePath": {
+              "!type": "fn(name: string) -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getDatabasePath(java.lang.String)"
+            },
+            "getExternalCacheDirs": {
+              "!type": "fn() -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getExternalCacheDirs()"
+            },
+            "canStartActivityForResult": {
+              "!type": "fn() -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#canStartActivityForResult()"
+            },
+            "sendOrderedBroadcast": {
+              "!type": "fn(intent: +android.content.Intent, receiverPermission: string) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#sendOrderedBroadcast(android.content.Intent, java.lang.String)"
+            },
+            "getMainThreadHandler": {
+              "!type": "fn() -> +android.os.Handler",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getMainThreadHandler()"
+            },
+            "attach": {
+              "!type": "fn(context: +android.content.Context, thread: +android.app.ActivityThread, className: string, token: +android.os.IBinder, application: +android.app.Application, activityManager: +java.lang.Object) -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#attach(android.content.Context, android.app.ActivityThread, java.lang.String, android.os.IBinder, android.app.Application, java.lang.Object)"
+            },
+            "updateDisplay": {
+              "!type": "fn(displayId: number) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#updateDisplay(int)"
+            },
+            "stopSelfResult": {
+              "!type": "fn(startId: number) -> bool",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#stopSelfResult(int)"
+            },
+            "startForegroundService": {
+              "!type": "fn(service: +android.content.Intent) -> +android.content.ComponentName",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#startForegroundService(android.content.Intent)"
+            },
+            "getDir": {
+              "!type": "fn(name: string, mode: number) -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getDir(java.lang.String, int)"
+            },
+            "bindService": {
+              "!type": "fn(service: +android.content.Intent, conn: +android.content.ServiceConnection, flags: number) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#bindService(android.content.Intent, android.content.ServiceConnection, int)"
+            },
+            "getText": {
+              "!type": "fn(resId: number) -> +java.lang.CharSequence",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#getText(int)"
+            },
+            "getContentCaptureClient": {
+              "!type": "fn() -> +android.view.contentcapture.ContentCaptureManager.ContentCaptureClient",
+              "!url": "http://developer.android.com/reference/android/content/Context.html#getContentCaptureClient()"
+            },
+            "setAutofillClient": {
+              "!type": "fn(client: +android.view.autofill.AutofillManager.AutofillClient) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#setAutofillClient(android.view.autofill.AutofillManager.AutofillClient)"
+            },
+            "enforceCallingOrSelfPermission": {
+              "!type": "fn(permission: string, message: string) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#enforceCallingOrSelfPermission(java.lang.String, java.lang.String)"
+            },
+            "setWallpaper": {
+              "!type": "fn(bitmap: +android.graphics.Bitmap) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#setWallpaper(android.graphics.Bitmap)"
+            },
+            "checkPermission": {
+              "!type": "fn(permission: string, pid: number, uid: number) -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#checkPermission(java.lang.String, int, int)"
+            },
+            "enforcePermission": {
+              "!type": "fn(permission: string, pid: number, uid: number, message: string) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#enforcePermission(java.lang.String, int, int, java.lang.String)"
+            },
+            "createDeviceProtectedStorageContext": {
+              "!type": "fn() -> +android.content.Context",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#createDeviceProtectedStorageContext()"
+            },
+            "setForeground": {
+              "!type": "fn(isForeground: bool) -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#setForeground(boolean)"
+            },
+            "getObbDir": {
+              "!type": "fn() -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getObbDir()"
+            },
+            "removeStickyBroadcastAsUser": {
+              "!type": "fn(intent: +android.content.Intent, user: +android.os.UserHandle) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#removeStickyBroadcastAsUser(android.content.Intent, android.os.UserHandle)"
+            },
+            "getDisplayAdjustments": {
+              "!type": "fn(displayId: number) -> +android.view.DisplayAdjustments",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getDisplayAdjustments(int)"
+            },
+            "onIsValidVoiceName": {
+              "!type": "fn(voiceName: string) -> number",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeechService.html#onIsValidVoiceName(java.lang.String)"
+            },
+            "onCreate": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/speech/tts/TextToSpeechService.html#onCreate()"
+            },
+            "createConfigurationContext": {
+              "!type": "fn(overrideConfiguration: +android.content.res.Configuration) -> +android.content.Context",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#createConfigurationContext(android.content.res.Configuration)"
+            },
+            "onLowMemory": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/android/app/Service.html#onLowMemory()"
+            },
+            "bindServiceAsUser": {
+              "!type": "fn(service: +android.content.Intent, conn: +android.content.ServiceConnection, flags: number, user: +android.os.UserHandle) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#bindServiceAsUser(android.content.Intent, android.content.ServiceConnection, int, android.os.UserHandle)"
+            },
+            "deleteSharedPreferences": {
+              "!type": "fn(name: string) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#deleteSharedPreferences(java.lang.String)"
+            },
+            "sendBroadcastMultiplePermissions": {
+              "!type": "fn(intent: +android.content.Intent, receiverPermissions: +java.newArray) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#sendBroadcastMultiplePermissions(android.content.Intent, java.lang.String[])"
+            },
+            "getMainExecutor": {
+              "!type": "fn() -> +java.util.concurrent.Executor",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getMainExecutor()"
+            },
+            "getNextAutofillId": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getNextAutofillId()"
+            },
+            "getExternalFilesDir": {
+              "!type": "fn(type: string) -> +java.io.File",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getExternalFilesDir(java.lang.String)"
+            },
+            "getServiceDispatcher": {
+              "!type": "fn(conn: +android.content.ServiceConnection, handler: +android.os.Handler, flags: number) -> IServiceConnection",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getServiceDispatcher(android.content.ServiceConnection, android.os.Handler, int)"
+            },
+            "deleteDatabase": {
+              "!type": "fn(name: string) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#deleteDatabase(java.lang.String)"
+            },
+            "getOpPackageName": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getOpPackageName()"
+            },
+            "getContentCaptureOptions": {
+              "!type": "fn() -> +android.content.ContentCaptureOptions",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getContentCaptureOptions()"
+            },
+            "getDisplayId": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getDisplayId()"
+            },
+            "getTheme": {
+              "!type": "fn() -> +android.content.res.Resources.Theme",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getTheme()"
+            },
+            "getBasePackageName": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#getBasePackageName()"
+            },
+            "startActivityAsUser": {
+              "!type": "fn(intent: +android.content.Intent, user: +android.os.UserHandle) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#startActivityAsUser(android.content.Intent, android.os.UserHandle)"
+            },
+            "unbindService": {
+              "!type": "fn(conn: +android.content.ServiceConnection) -> void",
+              "!url": "http://developer.android.com/reference/android/content/ContextWrapper.html#unbindService(android.content.ServiceConnection)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

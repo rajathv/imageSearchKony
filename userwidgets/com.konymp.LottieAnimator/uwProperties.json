@@ -1,0 +1,236 @@
+{
+    "classname": "LottieAnimator",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d2520740ebc742cc8abea580746b3a86",
+                    "paramList": [],
+                    "propertyKey": "play",
+                    "pw": {
+                        "displayName": "play",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "hc44bd7253874c4195e067d96d240f4f",
+                    "paramList": [],
+                    "propertyKey": "pause",
+                    "pw": {
+                        "displayName": "pause",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fc52f88b23d848aca5d25ef21813512b",
+                    "paramList": [],
+                    "propertyKey": "resume",
+                    "pw": {
+                        "displayName": "resume",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g71fe02f931f45b4a6b901b2a5ea20c7",
+                    "paramList": [],
+                    "propertyKey": "stop",
+                    "pw": {
+                        "displayName": "stop",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "j3b2cbff1c024fca8865e356c7b0df47",
+                    "paramList": [],
+                    "propertyKey": "isAnimating",
+                    "pw": {
+                        "displayName": "isAnimating",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i6f1e115c2c544358701203cd34ff4e9",
+                    "paramList": [
+                        {
+                            "name": "eventobject"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "onAnimationEnd",
+                    "pw": {
+                        "displayName": "onAnimationEnd",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ca610148ff5246baa1688aa326fc8df1",
+                    "paramList": [
+                        {
+                            "name": "eventobject"
+                        }
+                    ],
+                    "propertyIndex": 3,
+                    "propertyKey": "onClick",
+                    "pw": {
+                        "displayName": "onClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Android"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Restart",
+                    "group": "Android",
+                    "kuid": "j664b993dcb14eca894886cc02d4ec05",
+                    "originalPropertyKey": "repeatMode",
+                    "propertyIndex": 1,
+                    "propertyKey": "repeatMode",
+                    "pw": {
+                        "displayName": "repeatMode",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "list selector",
+                    "value": [
+                        "Restart",
+                        "Reverse"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "bc0776b9f77048ff96b786dce7c5aa2c",
+                    "originalPropertyKey": "source",
+                    "propertyIndex": 4,
+                    "propertyKey": "source",
+                    "pw": {
+                        "displayName": "source",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 1,
+                    "group": "General",
+                    "kuid": "fe089b87f2ed430f8cb3af2c82b3d5b9",
+                    "originalPropertyKey": "loop",
+                    "propertyIndex": 5,
+                    "propertyKey": "loop",
+                    "pw": {
+                        "displayName": "loop",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 1,
+                    "group": "General",
+                    "kuid": "e7ae72688513448a9e20db21f0002ba3",
+                    "originalPropertyKey": "speed",
+                    "propertyIndex": 6,
+                    "propertyKey": "speed",
+                    "pw": {
+                        "displayName": "speed",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "acc8306d03144e6aa5e29499d2975566",
+                    "originalPropertyKey": "autoPlay",
+                    "propertyIndex": 7,
+                    "propertyKey": "autoPlay",
+                    "pw": {
+                        "displayName": "autoPlay",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Maintain Aspect Ratio",
+                    "group": "General",
+                    "kuid": "f3ae3212b8b54fbe9ee69032073b1c15",
+                    "originalPropertyKey": "scaleMode",
+                    "propertyIndex": 8,
+                    "propertyKey": "scaleMode",
+                    "pw": {
+                        "displayName": "scaleMode",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "gb1376f12b1a4d8698d34d53fade3cc7",
+                    "type": "list selector",
+                    "value": [
+                        "Maintain Aspect Ratio",
+                        "Fit To Dimensions"
+                    ]
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

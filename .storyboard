@@ -1,0 +1,41 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "a1a225bd028946cab1615f7fcfdef088",
+                    "formName": "Form2",
+                    "isStartupForm": false,
+                    "key": "a1a225bd028946cab1615f7fcfdef088",
+                    "loc": "8 624.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "edafe8163f474706b8538b25e1b313b8",
+                    "formName": "frmA",
+                    "isStartupForm": true,
+                    "key": "edafe8163f474706b8538b25e1b313b8",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "i59b475d02e74e589c28ea44d4f83b0f",
+                    "formName": "frmB",
+                    "isStartupForm": false,
+                    "key": "i59b475d02e74e589c28ea44d4f83b0f",
+                    "loc": "188 184.845263671875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    },
+    "nodeLocation": {
+        "androidwear": [],
+        "desktop": [],
+        "mobile": [],
+        "tablet": [],
+        "watch": []
+    }
+}

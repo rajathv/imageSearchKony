@@ -1,0 +1,31 @@
+{
+	"AS_Button_f0c4cfda4b0c433fbcf7b4de205ebf61": {
+		"id": "AS_Button_f0c4cfda4b0c433fbcf7b4de205ebf61",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": null,
+			"KUID": "i59b475d02e74e589c28ea44d4f83b0f"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "INVOKE_FUNCTION__j237b34939d3403099f8e982047b0fa7",
+				"type": "INVOKE_FUNCTION",
+				"sequenceKUID": "destroyFrmA",
+				"display": "destroyFrmA",
+				"inputparams": [],
+				"parentId": null,
+				"callbackType": null,
+				"disabled": null,
+				"source": "controller"
+			}
+		]
+	}
+}

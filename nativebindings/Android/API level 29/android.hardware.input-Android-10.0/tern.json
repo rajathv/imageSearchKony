@@ -1,0 +1,453 @@
+{
+  "android": {
+    "hardware": {
+      "input": {
+        "TouchCalibration": {
+          "!url": "http://developer.android.com/reference/android/hardware/input/TouchCalibration.html",
+          "!type": "fn()",
+          "CREATOR": {
+            "!type": "+android.os.Parcelable.Creator",
+            "!url": "http://developer.android.com/reference/android/hardware/input/TouchCalibration.html#CREATOR"
+          },
+          "IDENTITY": {
+            "!type": "+android.hardware.input.TouchCalibration",
+            "!url": "http://developer.android.com/reference/android/hardware/input/TouchCalibration.html#IDENTITY"
+          },
+          "prototype": {
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/input/TouchCalibration.html#equals(java.lang.Object)"
+            },
+            "describeContents": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/TouchCalibration.html#describeContents()"
+            },
+            "getAffineTransform": {
+              "!type": "fn() -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/hardware/input/TouchCalibration.html#getAffineTransform()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "writeToParcel": {
+              "!type": "fn(dest: +android.os.Parcel, flags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/TouchCalibration.html#writeToParcel(android.os.Parcel, int)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/TouchCalibration.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            }
+          }
+        },
+        "InputDeviceIdentifier": {
+          "!url": "http://developer.android.com/reference/android/hardware/input/InputDeviceIdentifier.html",
+          "!type": "fn(descriptor: string, vendorId: number, productId: number)",
+          "CREATOR": {
+            "!type": "+android.os.Parcelable.Creator",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputDeviceIdentifier.html#CREATOR"
+          },
+          "prototype": {
+            "getVendorId": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputDeviceIdentifier.html#getVendorId()"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "equals": {
+              "!type": "fn(o: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputDeviceIdentifier.html#equals(java.lang.Object)"
+            },
+            "describeContents": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputDeviceIdentifier.html#describeContents()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "getDescriptor": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputDeviceIdentifier.html#getDescriptor()"
+            },
+            "writeToParcel": {
+              "!type": "fn(dest: +android.os.Parcel, flags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputDeviceIdentifier.html#writeToParcel(android.os.Parcel, int)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputDeviceIdentifier.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "getProductId": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputDeviceIdentifier.html#getProductId()"
+            }
+          }
+        },
+        "InputManager": {
+          "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html",
+          "INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH"
+          },
+          "DEFAULT_POINTER_SPEED": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#DEFAULT_POINTER_SPEED"
+          },
+          "INJECT_INPUT_EVENT_MODE_WAIT_FOR_RESULT": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#INJECT_INPUT_EVENT_MODE_WAIT_FOR_RESULT"
+          },
+          "SWITCH_STATE_ON": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#SWITCH_STATE_ON"
+          },
+          "INJECT_INPUT_EVENT_MODE_ASYNC": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#INJECT_INPUT_EVENT_MODE_ASYNC"
+          },
+          "SWITCH_STATE_UNKNOWN": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#SWITCH_STATE_UNKNOWN"
+          },
+          "MIN_POINTER_SPEED": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#MIN_POINTER_SPEED"
+          },
+          "MAX_POINTER_SPEED": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#MAX_POINTER_SPEED"
+          },
+          "ACTION_QUERY_KEYBOARD_LAYOUTS": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#ACTION_QUERY_KEYBOARD_LAYOUTS"
+          },
+          "SWITCH_STATE_OFF": {
+            "!type": "number",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#SWITCH_STATE_OFF"
+          },
+          "META_DATA_KEYBOARD_LAYOUTS": {
+            "!type": "string",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#META_DATA_KEYBOARD_LAYOUTS"
+          },
+          "getInstance": {
+            "!type": "fn() -> +android.hardware.input.InputManager",
+            "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getInstance()"
+          },
+          "prototype": {
+            "getInputDeviceByDescriptor": {
+              "!type": "fn(descriptor: string) -> +android.view.InputDevice",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getInputDeviceByDescriptor(java.lang.String)"
+            },
+            "getKeyboardLayoutsForInputDevice": {
+              "!type": "fn(identifier: +android.hardware.input.InputDeviceIdentifier) -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getKeyboardLayoutsForInputDevice(android.hardware.input.InputDeviceIdentifier)"
+            },
+            "getInputDeviceVibrator": {
+              "!type": "fn(deviceId: number) -> +android.os.Vibrator",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getInputDeviceVibrator(int)"
+            },
+            "deviceHasKeys": {
+              "!type": "fn(keyCodes: +java.newArray) -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#deviceHasKeys(int[])"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "removeKeyboardLayoutForInputDevice": {
+              "!type": "fn(identifier: +android.hardware.input.InputDeviceIdentifier, keyboardLayoutDescriptor: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#removeKeyboardLayoutForInputDevice(android.hardware.input.InputDeviceIdentifier, java.lang.String)"
+            },
+            "requestPointerCapture": {
+              "!type": "fn(windowToken: +android.os.IBinder, enable: bool) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#requestPointerCapture(android.os.IBinder, boolean)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "disableInputDevice": {
+              "!type": "fn(id: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#disableInputDevice(int)"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "setPointerSpeed": {
+              "!type": "fn(context: +android.content.Context, speed: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#setPointerSpeed(android.content.Context, int)"
+            },
+            "getKeyboardLayout": {
+              "!type": "fn(keyboardLayoutDescriptor: string) -> +android.hardware.input.KeyboardLayout",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getKeyboardLayout(java.lang.String)"
+            },
+            "getEnabledKeyboardLayoutsForInputDevice": {
+              "!type": "fn(identifier: +android.hardware.input.InputDeviceIdentifier) -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getEnabledKeyboardLayoutsForInputDevice(android.hardware.input.InputDeviceIdentifier)"
+            },
+            "unregisterOnTabletModeChangedListener": {
+              "!type": "fn(listener: +android.hardware.input.InputManager.OnTabletModeChangedListener) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#unregisterOnTabletModeChangedListener(android.hardware.input.InputManager.OnTabletModeChangedListener)"
+            },
+            "addKeyboardLayoutForInputDevice": {
+              "!type": "fn(identifier: +android.hardware.input.InputDeviceIdentifier, keyboardLayoutDescriptor: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#addKeyboardLayoutForInputDevice(android.hardware.input.InputDeviceIdentifier, java.lang.String)"
+            },
+            "setPointerIconType": {
+              "!type": "fn(iconId: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#setPointerIconType(int)"
+            },
+            "getKeyboardLayouts": {
+              "!type": "fn() -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getKeyboardLayouts()"
+            },
+            "enableInputDevice": {
+              "!type": "fn(id: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#enableInputDevice(int)"
+            },
+            "getInputDeviceIds": {
+              "!type": "fn() -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getInputDeviceIds()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "getCurrentKeyboardLayoutForInputDevice": {
+              "!type": "fn(identifier: +android.hardware.input.InputDeviceIdentifier) -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getCurrentKeyboardLayoutForInputDevice(android.hardware.input.InputDeviceIdentifier)"
+            },
+            "setCurrentKeyboardLayoutForInputDevice": {
+              "!type": "fn(identifier: +android.hardware.input.InputDeviceIdentifier, keyboardLayoutDescriptor: string) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#setCurrentKeyboardLayoutForInputDevice(android.hardware.input.InputDeviceIdentifier, java.lang.String)"
+            },
+            "setTouchCalibration": {
+              "!type": "fn(inputDeviceDescriptor: string, surfaceRotation: number, calibration: +android.hardware.input.TouchCalibration) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#setTouchCalibration(java.lang.String, int, android.hardware.input.TouchCalibration)"
+            },
+            "getInputDevice": {
+              "!type": "fn(id: number) -> +android.view.InputDevice",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getInputDevice(int)"
+            },
+            "setCustomPointerIcon": {
+              "!type": "fn(icon: +android.view.PointerIcon) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#setCustomPointerIcon(android.view.PointerIcon)"
+            },
+            "isInTabletMode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#isInTabletMode()"
+            },
+            "getTouchCalibration": {
+              "!type": "fn(inputDeviceDescriptor: string, surfaceRotation: number) -> +android.hardware.input.TouchCalibration",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getTouchCalibration(java.lang.String, int)"
+            },
+            "isInputDeviceEnabled": {
+              "!type": "fn(id: number) -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#isInputDeviceEnabled(int)"
+            },
+            "registerInputDeviceListener": {
+              "!type": "fn(listener: +android.hardware.input.InputManager.InputDeviceListener, handler: +android.os.Handler) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#registerInputDeviceListener(android.hardware.input.InputManager.InputDeviceListener, android.os.Handler)"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "tryPointerSpeed": {
+              "!type": "fn(speed: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#tryPointerSpeed(int)"
+            },
+            "getPointerSpeed": {
+              "!type": "fn(context: +android.content.Context) -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#getPointerSpeed(android.content.Context)"
+            },
+            "unregisterInputDeviceListener": {
+              "!type": "fn(listener: +android.hardware.input.InputManager.InputDeviceListener) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#unregisterInputDeviceListener(android.hardware.input.InputManager.InputDeviceListener)"
+            },
+            "injectInputEvent": {
+              "!type": "fn(event: +android.view.InputEvent, mode: number) -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#injectInputEvent(android.view.InputEvent, int)"
+            },
+            "monitorGestureInput": {
+              "!type": "fn(name: string, displayId: number) -> +android.view.InputMonitor",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#monitorGestureInput(java.lang.String, int)"
+            },
+            "registerOnTabletModeChangedListener": {
+              "!type": "fn(listener: +android.hardware.input.InputManager.OnTabletModeChangedListener, handler: +android.os.Handler) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManager.html#registerOnTabletModeChangedListener(android.hardware.input.InputManager.OnTabletModeChangedListener, android.os.Handler)"
+            }
+          }
+        },
+        "InputManagerInternal": {
+          "!url": "http://developer.android.com/reference/android/hardware/input/InputManagerInternal.html",
+          "!type": "fn()",
+          "prototype": {
+            "setPulseGestureEnabled": {
+              "!type": "fn(enabled: bool) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManagerInternal.html#setPulseGestureEnabled(boolean)"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+            },
+            "injectInputEvent": {
+              "!type": "fn(event: +android.view.InputEvent, mode: number) -> bool",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManagerInternal.html#injectInputEvent(android.view.InputEvent, int)"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "toggleCapsLock": {
+              "!type": "fn(deviceId: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManagerInternal.html#toggleCapsLock(int)"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "setInteractive": {
+              "!type": "fn(interactive: bool) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManagerInternal.html#setInteractive(boolean)"
+            },
+            "setDisplayViewports": {
+              "!type": "fn(viewports: +java.util.List) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/InputManagerInternal.html#setDisplayViewports(java.util.List)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            }
+          }
+        },
+        "KeyboardLayout": {
+          "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html",
+          "!type": "fn(descriptor: string, label: string, collection: string, priority: number, locales: +android.os.LocaleList, vid: number, pid: number)",
+          "CREATOR": {
+            "!type": "+android.os.Parcelable.Creator",
+            "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html#CREATOR"
+          },
+          "prototype": {
+            "getCollection": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html#getCollection()"
+            },
+            "getVendorId": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html#getVendorId()"
+            },
+            "notifyAll": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+            },
+            "equals": {
+              "!type": "fn(obj: +java.lang.Object) -> bool",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+            },
+            "toString": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html#toString()"
+            },
+            "compareTo": {
+              "!type": "fn(another: +android.hardware.input.KeyboardLayout) -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html#compareTo(android.hardware.input.KeyboardLayout)"
+            },
+            "describeContents": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html#describeContents()"
+            },
+            "getLabel": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html#getLabel()"
+            },
+            "wait": {
+              "!type": "fn(timeout: +java.lang.Long) -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#wait(long)"
+            },
+            "getDescriptor": {
+              "!type": "fn() -> string",
+              "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html#getDescriptor()"
+            },
+            "writeToParcel": {
+              "!type": "fn(dest: +android.os.Parcel, flags: number) -> void",
+              "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html#writeToParcel(android.os.Parcel, int)"
+            },
+            "hashCode": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+            },
+            "getClass": {
+              "!type": "fn() -> +java.lang.Class",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+            },
+            "getLocales": {
+              "!type": "fn() -> +android.os.LocaleList",
+              "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html#getLocales()"
+            },
+            "notify": {
+              "!type": "fn() -> void",
+              "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+            },
+            "getProductId": {
+              "!type": "fn() -> number",
+              "!url": "http://developer.android.com/reference/android/hardware/input/KeyboardLayout.html#getProductId()"
+            }
+          }
+        }
+      }
+    }
+  }
+}

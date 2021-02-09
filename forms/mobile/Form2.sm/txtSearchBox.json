@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Search",
+    "_skin_": "sbe591c38c1a462db1b5dc48a2e6e1a0",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "enablehapticfeedback": true,
+    "focusskin": "s80f31df30394238bfd98029a796b27b",
+    "id": "txtSearchBox",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "keyboardActionLabel": 3
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardactionlabel": 3,
+    "keyboardtype": "A",
+    "kuid": "f834429ab052499bb40b9d20eefb110c",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxSearchBox",
+    "pf": "Form2",
+    "placeholderskin": "s3efaf3e1a454e208b6a9893cb9ed776",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField"
+}

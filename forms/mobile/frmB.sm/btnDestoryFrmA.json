@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s94075fa13a245fd829c5f32c3a9796f",
+    "_text_": "Destroy Form A",
+    "_top_": {
+        "type": "string",
+        "value": "275dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s89e74f15c0c406c851531dee14915d9",
+    "id": "btnDestoryFrmA",
+    "ide_onClick": "AS_Button_f0c4cfda4b0c433fbcf7b4de205ebf61",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "aaf3cb76fe4044f3bf9c16ab6bd60cf5",
+    "name": "kony.ui.Button",
+    "parent": "frmB",
+    "pf": "frmB",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}
