@@ -1,0 +1,1063 @@
+[2021-02-09 13:05:17.960] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 13:05:18.542] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 13:05:18.545] [ERROR] ci - Build Failed!
+- CustomError: ANT_HOME isn't set.
+    at assertProp (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1561)
+    at c (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1583)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:839)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 14:33:10.677] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:33:11.224] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:33:11.227] [ERROR] ci - Build Failed!
+- CustomError: ANT_HOME isn't set.
+    at assertProp (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1561)
+    at c (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1583)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:839)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 14:33:35.271] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:33:35.793] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:33:35.795] [ERROR] ci - Build Failed!
+- CustomError: ANT_HOME isn't set.
+    at assertProp (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1561)
+    at c (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1583)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:839)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 14:34:53.760] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:34:54.277] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:34:54.280] [ERROR] ci - Build Failed!
+- CustomError: ANT_HOME isn't set.
+    at assertProp (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1561)
+    at c (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1583)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:839)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 14:36:37.453] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:36:37.980] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:36:37.982] [ERROR] ci - Build Failed!
+- CustomError: ANT_HOME isn't set.
+    at assertProp (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1561)
+    at c (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1583)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:839)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 14:38:40.480] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:38:41.640] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:38:41.645] [ERROR] ci - Build Failed!
+- CustomError: ANT_HOME isn't set.
+    at assertProp (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1561)
+    at c (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1583)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:839)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 14:39:15.895] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:39:16.933] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:39:16.935] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 14:39:16.936] [INFO] ci - ✓ javaloc
+[2021-02-09 14:39:16.940] [ERROR] ci - Build Failed!
+- CustomError: androidHome isn't set in HeadlessBuild.properties.
+    at assertProp (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1561)
+    at c (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:1846)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:839)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 64
+}
+[2021-02-09 14:41:31.520] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:41:32.581] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:41:32.582] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 14:41:32.582] [INFO] ci - ✓ javaloc
+[2021-02-09 14:41:32.583] [INFO] ci - ✓ androidHome
+[2021-02-09 14:41:32.584] [INFO] ci - ✓ java version
+[2021-02-09 14:41:32.588] [ERROR] ci - Build Failed!
+- CustomError:  ant 1.10.8 - not found
+    at e (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:3194)
+    at C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2965
+    at Array.forEach (<anonymous>)
+    at d (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2953)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:846)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 14:43:09.215] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:43:10.245] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:43:10.246] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 14:43:10.246] [INFO] ci - ✓ javaloc
+[2021-02-09 14:43:10.247] [INFO] ci - ✓ androidHome
+[2021-02-09 14:43:10.249] [INFO] ci - ✓ java version
+[2021-02-09 14:43:10.253] [ERROR] ci - Build Failed!
+- CustomError:  ant 1.10.8 - not found
+    at e (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:3194)
+    at C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2965
+    at Array.forEach (<anonymous>)
+    at d (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2953)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:846)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 14:46:39.960] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:46:41.041] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:46:41.042] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 14:46:41.043] [INFO] ci - ✓ javaloc
+[2021-02-09 14:46:41.043] [INFO] ci - ✓ androidHome
+[2021-02-09 14:46:41.045] [INFO] ci - ✓ java version
+[2021-02-09 14:46:41.049] [ERROR] ci - Build Failed!
+- CustomError:  ant 1.10.8 - not found
+    at e (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:3194)
+    at C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2965
+    at Array.forEach (<anonymous>)
+    at d (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2953)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:846)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 14:47:32.027] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:47:33.016] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:47:33.017] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 14:47:33.018] [INFO] ci - ✓ javaloc
+[2021-02-09 14:47:33.019] [INFO] ci - ✓ androidHome
+[2021-02-09 14:47:33.022] [INFO] ci - ✓ java version
+[2021-02-09 14:47:33.028] [ERROR] ci - Build Failed!
+- CustomError:  ant 1.10.8 - not found
+    at e (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:3194)
+    at C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2965
+    at Array.forEach (<anonymous>)
+    at d (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2953)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:846)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 14:49:52.158] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:49:53.077] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:49:53.079] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 14:49:53.080] [INFO] ci - ✓ javaloc
+[2021-02-09 14:49:53.080] [INFO] ci - ✓ androidHome
+[2021-02-09 14:49:53.083] [INFO] ci - ✓ java version
+[2021-02-09 14:49:53.089] [ERROR] ci - Build Failed!
+- CustomError:  ant 1.10.8 - not found
+    at e (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:3194)
+    at C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2965
+    at Array.forEach (<anonymous>)
+    at d (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2953)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:846)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 14:54:10.911] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 14:54:13.322] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 14:54:13.323] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 14:54:13.325] [INFO] ci - ✓ javaloc
+[2021-02-09 14:54:13.325] [INFO] ci - ✓ androidHome
+[2021-02-09 14:54:13.330] [INFO] ci - ✓ java version
+[2021-02-09 14:54:13.335] [ERROR] ci - Build Failed!
+- CustomError:  ant 1.10.8 - not found
+    at e (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:3194)
+    at C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2965
+    at Array.forEach (<anonymous>)
+    at d (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2953)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:846)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 15:29:14.781] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 15:29:15.666] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 15:29:15.667] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 15:29:15.668] [INFO] ci - ✓ javaloc
+[2021-02-09 15:29:15.669] [INFO] ci - ✓ androidHome
+[2021-02-09 15:29:15.671] [INFO] ci - ✓ java version
+[2021-02-09 15:29:15.677] [ERROR] ci - Build Failed!
+- CustomError:  ant 1.10.8 - not found
+    at e (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:3194)
+    at C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2965
+    at Array.forEach (<anonymous>)
+    at d (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2953)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:846)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 15:32:58.859] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 15:32:59.740] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 15:32:59.741] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 15:32:59.742] [INFO] ci - ✓ javaloc
+[2021-02-09 15:32:59.742] [INFO] ci - ✓ androidHome
+[2021-02-09 15:32:59.744] [INFO] ci - ✓ java version
+[2021-02-09 15:32:59.749] [ERROR] ci - Build Failed!
+- CustomError:  ant 1.10.8 - not found
+    at e (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:3194)
+    at C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2965
+    at Array.forEach (<anonymous>)
+    at d (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2953)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:846)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 17:18:53.770] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v12.18.3
+
+[2021-02-09 17:18:54.557] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 17:18:54.558] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 17:18:54.559] [INFO] ci - ✓ javaloc
+[2021-02-09 17:18:54.559] [INFO] ci - ✓ androidHome
+[2021-02-09 17:18:54.562] [INFO] ci - ✓ java version
+[2021-02-09 17:18:54.566] [ERROR] ci - Build Failed!
+- CustomError:  ant 1.10.8 - not found
+    at e (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:3194)
+    at C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2965
+    at Array.forEach (<anonymous>)
+    at d (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2953)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:846)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 58
+}
+[2021-02-09 17:27:59.101] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v14.15.4
+
+[2021-02-09 17:27:59.881] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 17:27:59.881] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 17:27:59.882] [INFO] ci - ✓ javaloc
+[2021-02-09 17:27:59.882] [INFO] ci - ✓ androidHome
+[2021-02-09 17:27:59.884] [INFO] ci - ✓ java version
+[2021-02-09 17:27:59.885] [INFO] ci - ✓ ant version
+[2021-02-09 17:27:59.888] [ERROR] ci - Build Failed!
+- CustomError: node version mismatch: required '15.4.0' found '14.15.4'
+    at e (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:3424)
+    at C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2965
+    at Array.forEach (<anonymous>)
+    at d (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:2953)
+    at Object.a.preBuildValidations (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\utils\validationUtils.js:1:846)
+    at runApplicationBuild (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:1386)
+    at Object.<anonymous> (C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\BuildManager.js:1:7185)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 59
+}
+[2021-02-09 17:32:10.263] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v9.2.3
+        -------------------------------
+         node version: v15.4.0
+
+[2021-02-09 17:32:13.561] [DEBUG] ci -  ➠ Pre-build validations
+[2021-02-09 17:32:13.561] [INFO] ci - ✓ ANT_HOME
+[2021-02-09 17:32:13.562] [INFO] ci - ✓ javaloc
+[2021-02-09 17:32:13.563] [INFO] ci - ✓ androidHome
+[2021-02-09 17:32:13.566] [INFO] ci - ✓ java version
+[2021-02-09 17:32:13.567] [INFO] ci - ✓ ant version
+[2021-02-09 17:32:13.567] [INFO] ci - ✓ node version
+[2021-02-09 17:32:13.568] [INFO] ci -  xcode 9.0 - not found
+[2021-02-09 17:32:13.570] [DEBUG] ~~~~ - Close Current Watcher
+[2021-02-09 17:32:13.576] [INFO] ~~~~ - Validating and Repairing the project structure: C:\Users\rajath.v\Visualizer\RD\Sample
+[2021-02-09 17:32:13.578] [INFO] ~~~~ - Validating project structure using validator template: '9.0'
+[2021-02-09 17:32:13.675] [INFO] ~~~~ - Validating project themes: C:\Users\rajath.v\Visualizer\RD\Sample
+[2021-02-09 17:32:13.676] [INFO] ~~~~ - Project dir:  C:\Users\rajath.v\Visualizer\RD\Sample
+[2021-02-09 17:32:13.678] [INFO] ~~~~ - Theme dir, size:  C:\Users\rajath.v\Visualizer\RD\Sample\themes\defaultTheme 53
+[2021-02-09 17:32:13.752] [DEBUG] ~~~~ -  ::::::::: Custom themes: []
+[2021-02-09 17:32:13.754] [INFO] ~~~~ - 
+Project dir:  C:\Users\rajath.v\Visualizer\RD\Sample 
+No of uniq skin ids:  53
+[2021-02-09 17:32:13.755] [INFO] ~~~~ - 
+Skin kuid issues:  0 
+Theme skin issues:  0 
+Widget skin issues:  0 
+Widget psp skin issues:  0 
+Widget disabled skin issues: 0
+[2021-02-09 17:32:13.756] [INFO] ci - 
+[2021-02-09 17:32:13.757] [INFO] ci - andtargetsdkkey selected is 10.0 (29)
+[2021-02-09 17:32:13.757] [INFO] ci - andweartargetsdkkey selected is 7.1 (25)
+[2021-02-09 17:32:13.764] [DEBUG] ci -  Done... 
+
+[2021-02-09 17:32:13.766] [DEBUG] ci - ⚀ Loading ... C:\Users\rajath.v\Visualizer\RD\Sample\projectProperties.json
+[2021-02-09 17:32:13.768] [DEBUG] ci - ⚀ Loading ... C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\config\HeadlessBuild-Default.json
+[2021-02-09 17:32:13.768] [DEBUG] ci - ⚀ Loading ... C:\Users\rajath.v\Visualizer\RD\Sample\HeadlessBuild.properties
+[2021-02-09 17:32:13.779] [INFO] ci - Cleaning binaries location...
+[2021-02-09 17:32:13.780] [INFO] ci - C:\Users\rajath.v\Visualizer\RD\Sample\binaries\android deleted.
+[2021-02-09 17:32:13.780] [INFO] ci - Cleaning webapps location...
+[2021-02-09 17:32:13.781] [INFO] ci - 
+[2021-02-09 17:32:14.113] [INFO] ci - 
+[2021-02-09 17:32:16.909] [DEBUG] ci - Upgrade native apis...
+[2021-02-09 17:32:16.912] [INFO] ci - NFIs in your project are upto date. No upgrade required.
+[2021-02-09 17:32:16.919] [INFO] ci - ‼︎ Service config is not provided. Skip setting service doc.
+[2021-02-09 17:32:16.920] [INFO] ci - C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.mobile.fabric.client.sdk
+[2021-02-09 17:32:16.923] [INFO] ci - 
+[2021-02-09 17:32:17.706] [DEBUG] ~~~~ - Delete native framework from workspace
+[2021-02-09 17:32:17.709] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-Android-4.0 C:\Users\rajath.v\Visualizer\RD\.nativebindings\nativeapi.json
+[2021-02-09 17:32:17.710] [DEBUG] ~~~~ - Delete native framework from project: /Sample/--self--
+[2021-02-09 17:32:17.711] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-Android-4.0 C:\Users\rajath.v\Visualizer\RD\Sample\nativeapi.json
+[2021-02-09 17:32:17.821] [DEBUG] ~~~~ - Delete native framework from workspace
+[2021-02-09 17:32:17.828] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-iOS-11.0 C:\Users\rajath.v\Visualizer\RD\.nativebindings\2.0\nativeapi.json
+[2021-02-09 17:32:17.828] [DEBUG] ~~~~ - Delete native framework from project: /Sample/--self--
+[2021-02-09 17:32:17.830] [WARN] ~~~~ - apikey doesn't exists: Kony_WebSocket-iOS-11.0 C:\Users\rajath.v\Visualizer\RD\Sample\nativeapi.json
+[2021-02-09 17:32:17.864] [DEBUG] ~~~~ - Updating filepath to workspace 'nativeapi.json'
+[2021-02-09 17:32:17.868] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\.nativebindings\nativeapi.json' with Kony_FileStorage-Android-4.0
+[2021-02-09 17:32:17.869] [DEBUG] ~~~~ - Copy framework file: C:\Users\rajath.v\Visualizer\RD\.nativebindings\Android\4.0\Kony_FileStorage-Android-4.0.zip to C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\Kony_FileStorage-Android-4.0.zip
+[2021-02-09 17:32:17.875] [DEBUG] ~~~~ - Updating filepath to workspace 'nativeapi.json'
+[2021-02-09 17:32:17.878] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\.nativebindings\nativeapi.json' with Kony_SDKCommons-Android-4.0
+[2021-02-09 17:32:17.879] [DEBUG] ~~~~ - Copy framework file: C:\Users\rajath.v\Visualizer\RD\.nativebindings\Android\4.0\Kony_SDKCommons-Android-4.0.zip to C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\Kony_SDKCommons-Android-4.0.zip
+[2021-02-09 17:32:17.887] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\Sample\nativeapi.json' with Kony_FileStorage-Android-4.0
+[2021-02-09 17:32:17.888] [DEBUG] ~~~~ - Import native framework successful.
+[2021-02-09 17:32:17.889] [DEBUG] ~~~~ - Updating filepath to workspace 'nativeapi.json'
+[2021-02-09 17:32:17.892] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\.nativebindings\nativeapi.json' with Kony_SyncV2-Android-4.0
+[2021-02-09 17:32:17.893] [DEBUG] ~~~~ - Copy framework file: C:\Users\rajath.v\Visualizer\RD\.nativebindings\Android\4.0\Kony_SyncV2-Android-4.0.zip to C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\Kony_SyncV2-Android-4.0.zip
+[2021-02-09 17:32:17.901] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\Sample\nativeapi.json' with Kony_SDKCommons-Android-4.0
+[2021-02-09 17:32:17.902] [DEBUG] ~~~~ - Import native framework successful.
+[2021-02-09 17:32:17.911] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\Sample\nativeapi.json' with Kony_SyncV2-Android-4.0
+[2021-02-09 17:32:17.912] [DEBUG] ~~~~ - Import native framework successful.
+[2021-02-09 17:32:17.965] [DEBUG] ~~~~ - Updating filepath to workspace 'nativeapi.json'
+[2021-02-09 17:32:17.971] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\.nativebindings\2.0\nativeapi.json' with Kony_FileStorage-iOS-11.0
+[2021-02-09 17:32:17.974] [DEBUG] ~~~~ - Copy framework file: C:\Users\rajath.v\Visualizer\RD\.nativebindings\2.0\iOS\11.0\Kony_FileStorage-iOS-11.0.zip to C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\iOS\11.0\Kony_FileStorage-iOS-11.0.zip
+[2021-02-09 17:32:18.051] [DEBUG] ~~~~ - Updating filepath to workspace 'nativeapi.json'
+[2021-02-09 17:32:18.054] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\.nativebindings\2.0\nativeapi.json' with Kony_SyncV2-iOS-11.0
+[2021-02-09 17:32:18.056] [DEBUG] ~~~~ - Copy framework file: C:\Users\rajath.v\Visualizer\RD\.nativebindings\2.0\iOS\11.0\Kony_SyncV2-iOS-11.0.zip to C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\iOS\11.0\Kony_SyncV2-iOS-11.0.zip
+[2021-02-09 17:32:18.078] [DEBUG] ~~~~ - Updating filepath to workspace 'nativeapi.json'
+[2021-02-09 17:32:18.081] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\.nativebindings\2.0\nativeapi.json' with Kony_SDKCommons-iOS-11.0
+[2021-02-09 17:32:18.082] [DEBUG] ~~~~ - Copy framework file: C:\Users\rajath.v\Visualizer\RD\.nativebindings\2.0\iOS\11.0\Kony_SDKCommons-iOS-11.0.zip to C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\iOS\11.0\Kony_SDKCommons-iOS-11.0.zip
+[2021-02-09 17:32:18.093] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\Sample\nativeapi.json' with Kony_FileStorage-iOS-11.0
+[2021-02-09 17:32:18.094] [DEBUG] ~~~~ - Import native framework successful.
+[2021-02-09 17:32:18.143] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\Sample\nativeapi.json' with Kony_SyncV2-iOS-11.0
+[2021-02-09 17:32:18.143] [DEBUG] ~~~~ - Import native framework successful.
+[2021-02-09 17:32:18.165] [DEBUG] ~~~~ - Updated 'C:\Users\rajath.v\Visualizer\RD\Sample\nativeapi.json' with Kony_SDKCommons-iOS-11.0
+[2021-02-09 17:32:18.166] [DEBUG] ~~~~ - Import native framework successful.
+[2021-02-09 17:32:18.167] [DEBUG] ~~~~ - Imported 8 Sync FFI.
+[2021-02-09 17:32:18.168] [INFO] ci - Added default native function APIs.
+[2021-02-09 17:32:18.171] [INFO] ci - 
+[2021-02-09 17:32:18.173] [INFO] ci - Properties has been saved in sdkplugin.properties file.
+[2021-02-09 17:32:18.174] [INFO] ci - Copying sdk files.
+[2021-02-09 17:32:18.177] [INFO] ci - KonySyncLib.js is not found in SDK plugin.
+[2021-02-09 17:32:18.186] [INFO] ci - SDK file is copied.
+[2021-02-09 17:32:18.187] [INFO] ci - C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.mobile.fabric.client.sdk
+[2021-02-09 17:32:18.189] [INFO] ci - 
+[2021-02-09 17:32:18.275] [INFO] ci - 
+[2021-02-09 17:32:18.277] [INFO] ci - Properties has been saved in sdkplugin.properties file.
+[2021-02-09 17:32:18.383] [INFO] ci - C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.mobile.fabric.client.sdk
+[2021-02-09 17:32:18.384] [INFO] ci - 
+[2021-02-09 17:32:18.423] [INFO] ci - C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.mobile.fabric.client.sdk
+[2021-02-09 17:32:18.425] [INFO] ci - 
+[2021-02-09 17:32:18.527] [INFO] ci - 
+[2021-02-09 17:32:18.529] [INFO] ci - Properties has been saved in sdkplugin.properties file.
+[2021-02-09 17:32:18.593] [INFO] ci - C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.mobile.fabric.client.sdk
+[2021-02-09 17:32:18.595] [INFO] ci - 
+[2021-02-09 17:32:18.672] [INFO] ci - 
+[2021-02-09 17:32:18.674] [INFO] ci - Properties has been saved in sdkplugin.properties file.
+[2021-02-09 17:32:18.675] [INFO] ci - C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.mobile.fabric.client.sdk
+[2021-02-09 17:32:18.677] [INFO] ci - 
+[2021-02-09 17:32:18.711] [INFO] ci - iphone artifacts copied from shared libs C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.mobile.fabric.client.sdk\resources\sdk\sharedLibs to C:\Users\rajath.v\Visualizer\RD\Sample\resources\customlibs\lib\iphone
+[2021-02-09 17:32:18.727] [INFO] ci - ipad artifacts copied from shared libs C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.mobile.fabric.client.sdk\resources\sdk\sharedLibs to C:\Users\rajath.v\Visualizer\RD\Sample\resources\customlibs\lib\ipad
+[2021-02-09 17:32:18.731] [INFO] ci - android artifacts copied from shared libs C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.mobile.fabric.client.sdk\resources\sdk\sharedLibs to C:\Users\rajath.v\Visualizer\RD\Sample\resources\customlibs\lib\android
+[2021-02-09 17:32:18.735] [INFO] ci - tabrcandroid artifacts copied from shared libs C:\Users\rajath.v\Visualizer\RD\bundles\com.kony.mobile.fabric.client.sdk\resources\sdk\sharedLibs to C:\Users\rajath.v\Visualizer\RD\Sample\resources\customlibs\lib\tabrcandroid
+[2021-02-09 17:32:18.736] [INFO] ci - 
+[2021-02-09 17:32:18.738] [INFO] ci - Properties has been saved in sdkplugin.properties file.
+[2021-02-09 17:32:18.739] [INFO] ci - Start of command line application build.
+[2021-02-09 17:32:18.740] [INFO] ci - Start of Visulaizer Codegen.
+[2021-02-09 17:32:18.740] [INFO] ci - C:\Users\rajath.v\Visualizer\RD\Sample
+[2021-02-09 17:32:18.741] [INFO] ci - 
+[2021-02-09 17:32:18.742] [DEBUG] ~~~~ - [ 'defaultTheme' ]
+[2021-02-09 17:32:18.843] [DEBUG] ~~~~ - Saving forms controller actions for channel: mobile
+[2021-02-09 17:32:18.945] [DEBUG] ~~~~ - Found custom action on speechtotext [ide_speechCallback : AS_UWI_fe5d418eb96142a2b57fc3616ff614e6]
+[2021-02-09 17:32:18.945] [WARN] ~~~~ - imageScaleMode isn't a custom event on com.konymp.speechtotext
+[2021-02-09 17:32:18.946] [WARN] ~~~~ - micImage isn't a custom event on com.konymp.speechtotext
+[2021-02-09 17:32:18.947] [DEBUG] ~~~~ - Found custom action on speechtotext [ide_speechCallback : AS_UWI_fe5d418eb96142a2b57fc3616ff614e6]
+[2021-02-09 17:32:18.947] [WARN] ~~~~ - imageScaleMode isn't a custom event on com.konymp.speechtotext
+[2021-02-09 17:32:18.947] [WARN] ~~~~ - micImage isn't a custom event on com.konymp.speechtotext
+[2021-02-09 17:32:18.972] [DEBUG] ~~~~ - Saving templates controller actions for channel: mobile and type:  maps
+[2021-02-09 17:32:18.993] [DEBUG] ~~~~ - Saving templates controller actions for channel: mobile and type:  segments
+[2021-02-09 17:32:19.054] [DEBUG] ~~~~ - Saving user widgets controller actions
+[2021-02-09 17:32:19.121] [INFO] ~~~~ - Validating and Repairing the project structure: C:\Users\rajath.v\Visualizer\RD\Sample
+[2021-02-09 17:32:19.124] [INFO] ~~~~ - Validating project structure using validator template: '9.0'
+[2021-02-09 17:32:19.213] [INFO] ~~~~ - Validating project themes: C:\Users\rajath.v\Visualizer\RD\Sample
+[2021-02-09 17:32:19.215] [INFO] ~~~~ - Project dir:  C:\Users\rajath.v\Visualizer\RD\Sample
+[2021-02-09 17:32:19.217] [INFO] ~~~~ - Theme dir, size:  C:\Users\rajath.v\Visualizer\RD\Sample\themes\defaultTheme 53
+[2021-02-09 17:32:19.240] [DEBUG] ~~~~ -  ::::::::: Custom themes: []
+[2021-02-09 17:32:19.241] [INFO] ~~~~ - 
+Project dir:  C:\Users\rajath.v\Visualizer\RD\Sample 
+No of uniq skin ids:  53
+[2021-02-09 17:32:19.241] [INFO] ~~~~ - 
+Skin kuid issues:  0 
+Theme skin issues:  0 
+Widget skin issues:  0 
+Widget psp skin issues:  0 
+Widget disabled skin issues: 0
+[2021-02-09 17:32:19.245] [INFO] ci - End of Visulaizer Codegen.
+[2021-02-09 17:32:19.249] [DEBUG] ~~~~ - [BUILD] Codegen starts. StartTime: 1612872139249
+[2021-02-09 17:32:19.579] [INFO] ~~~~ - <---Codegeneration Started--->
+[2021-02-09 17:32:19.641] [DEBUG] ~~~~ - [BUILD] Code generation for android
+[2021-02-09 17:32:19.642] [DEBUG] ~~~~ - NO SUCH DIRECTORY TO CLEAN: C:\Users\rajath.v\Visualizer\RD\.webapps\Sample\android
+[2021-02-09 17:32:19.644] [DEBUG] ~~~~ - Scripts output directory C:\Users\rajath.v\Visualizer\RD\.webapps\Sample\android\src
+[2021-02-09 17:32:19.978] [DEBUG] ~~~~ - Generating com/konymp/barcodeqrscanner/barcodeqrscannerController for platform android
+[2021-02-09 17:32:20.065] [DEBUG] ~~~~ - Generating com/konymp/LottieAnimator/LottieAnimatorController for platform android
+[2021-02-09 17:32:20.183] [DEBUG] ~~~~ - Generating com/konymp/speechtotext/speechtotextController for platform android
+[2021-02-09 17:32:20.239] [DEBUG] ~~~~ - Generating com/rvg/imageSearch/ImageSearch/ImageSearchController for platform android
+[2021-02-09 17:32:20.411] [DEBUG] ~~~~ - Generating Form2Controller for platform android
+[2021-02-09 17:32:20.418] [DEBUG] ~~~~ - Generating frmAController for platform android
+[2021-02-09 17:32:20.426] [DEBUG] ~~~~ - Generating frmBController for platform android
+[2021-02-09 17:32:20.432] [DEBUG] ~~~~ - Generating frmGetStartedController for platform android
+[2021-02-09 17:32:20.436] [DEBUG] ~~~~ - Generating flxSampleRowTemplateController for platform android
+[2021-02-09 17:32:20.441] [DEBUG] ~~~~ - Generating flxSectionHeaderTemplateController for platform android
+[2021-02-09 17:32:20.759] [DEBUG] ~~~~ - [BUILD] Codegen ends. endTime: 1612872140759. Time taken (in ms) : 1510
+[2021-02-09 17:32:20.760] [DEBUG] ~~~~ - [BUILD] Archiving starts. Start time: 1612872140760
+[2021-02-09 17:32:20.764] [DEBUG] ~~~~ - Web Directories created @ C:\Users\rajath.v\Visualizer\RD\.webapps\Sample\android
+[2021-02-09 17:32:20.765] [DEBUG] ~~~~ - SPA Directories created @ C:\Users\rajath.v\Visualizer\RD\.webapps\Sample
+[2021-02-09 17:32:20.766] [DEBUG] ~~~~ - Directories created @ C:\Users\rajath.v\Visualizer\RD\.webapps\Sample
+[2021-02-09 17:32:20.767] [DEBUG] ~~~~ - Populating project Sample
+[2021-02-09 17:32:20.768] [DEBUG] ~~~~ - USING IDE EVENTS :: true
+[2021-02-09 17:32:42.999] [DEBUG] ~~~~ - Populate Completed
+[2021-02-09 17:32:43.001] [DEBUG] ~~~~ - Building for android
+[2021-02-09 17:32:43.004] [INFO] ~~~~ - Code generation for project 'Sample' completed.
+[2021-02-09 17:32:43.005] [DEBUG] ~~~~ - Codegen Status :  { android: 'success' }
+[2021-02-09 17:32:48.596] [DEBUG] ~~~~ - [BUILD] Archiving ends. End time: 1612872168596. Time taken (in ms) : 27836
+[2021-02-09 17:32:48.597] [INFO] ci - [ 'android' ]
+[2021-02-09 17:32:48.625] [INFO] ci - 
+[2021-02-09 17:32:48.651] [INFO] ci - Loaded common properties. 
+[2021-02-09 17:32:48.652] [INFO] ci - Platform:android , build status : STARTED
+[2021-02-09 17:32:49.397] [INFO] ci - Minimum SDK API level is 21
+[2021-02-09 17:32:49.399] [INFO] ci - Target SDK API level is 29
+[2021-02-09 17:32:49.400] [INFO] ci - 
+[2021-02-09 17:32:49.404] [INFO] ci - andminsdkkey API level is 24
+[2021-02-09 17:32:49.414] [INFO] ci - 
+[2021-02-09 17:32:49.677] [INFO] ci - 
+[2021-02-09 17:32:49.690] [INFO] ci - 
+[2021-02-09 17:32:49.734] [INFO] ci - 
+[2021-02-09 17:32:49.747] [INFO] ci - 
+[2021-02-09 17:32:49.794] [INFO] ci - 
+[2021-02-09 17:32:49.805] [INFO] ci - 
+[2021-02-09 17:32:53.987] [INFO] ci - 
+[2021-02-09 17:32:54.722] [INFO] ci - 
+[2021-02-09 17:32:57.453] [INFO] ci - 
+[2021-02-09 17:32:57.851] [INFO] ci - 
+[2021-02-09 17:33:00.226] [INFO] ci - 
+[2021-02-09 17:33:01.731] [INFO] ci - 
+[2021-02-09 17:33:02.777] [INFO] ci - 
+[2021-02-09 17:33:02.996] [INFO] ci - 
+[2021-02-09 17:33:04.142] [INFO] ci - 
+[2021-02-09 17:33:04.339] [INFO] ci - 
+[2021-02-09 17:33:05.336] [INFO] ci - 
+[2021-02-09 17:33:05.561] [INFO] ci - 
+[2021-02-09 17:33:06.560] [INFO] ci - 
+[2021-02-09 17:33:06.736] [INFO] ci - 
+[2021-02-09 17:33:07.753] [INFO] ci - 
+[2021-02-09 17:33:07.989] [INFO] ci - 
+[2021-02-09 17:33:07.996] [INFO] ci - 
+[2021-02-09 17:33:07.998] [INFO] ci - 
+[2021-02-09 17:33:08.005] [INFO] ci - 
+[2021-02-09 17:33:08.008] [INFO] ci - 
+[2021-02-09 17:33:08.016] [INFO] ci - 
+[2021-02-09 17:33:08.020] [INFO] ci - 
+[2021-02-09 17:33:08.028] [INFO] ci - 
+[2021-02-09 17:33:08.030] [INFO] ci - 
+[2021-02-09 17:33:08.038] [INFO] ci - 
+[2021-02-09 17:33:08.041] [INFO] ci - 
+[2021-02-09 17:33:08.069] [INFO] ci - 
+[2021-02-09 17:33:08.081] [INFO] ci - 
+[2021-02-09 17:33:08.099] [INFO] ci - 
+[2021-02-09 17:33:08.114] [INFO] ci - andtargetsdkkey API level is 29
+[2021-02-09 17:33:08.125] [INFO] ci - Loaded properties. android
+[2021-02-09 17:33:08.126] [INFO] ci - Start of build for platform : android
+[2021-02-09 17:33:08.127] [INFO] ci - APPFOLDER C:\Users\rajath.v\Visualizer\RD\temp\Sample
+[2021-02-09 17:33:08.127] [INFO] ci -  propFilePath C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\androidbuild.properties
+[2021-02-09 17:33:08.129] [INFO] ci - Platform:android , build status : INPROGRESS
+[2021-02-09 17:33:08.139] [INFO] ci - Execute task Packageandroid...
+[2021-02-09 17:33:08.140] [INFO] ci -  ANT_HOME: D:\ApacheAnt\bin\ant
+[2021-02-09 17:33:08.141] [INFO] ci - -propertyfile C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\androidbuild.properties -f C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\build.xml -lib C:\Users\rajath.v\Visualizer\RD\bundles\com.pat.tool.keditor\lib\ant-contrib-0.6.jar -lib C:\Users\rajath.v\Visualizer\RD\bundles\com.pat.tool.keditor\lib\AntelopeTasks_3.4.0.jar -lib C:\Users\rajath.v\Visualizer\RD\bundles\com.pat.tool.keditor\lib\antlr-3.3-complete.jar all
+[2021-02-09 17:33:08.768] [INFO] ci - Buildfile: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\build.xml
+[2021-02-09 17:33:10.253] [INFO] ci - init:
+[2021-02-09 17:33:10.528] [INFO] ci - [echo] isLibraryBuild :: false
+[2021-02-09 17:33:10.529] [INFO] ci - [echo] UseSQLCipherFIPS :: false
+[2021-02-09 17:33:10.531] [INFO] ci - [echo] UseOpenSSLLibrary :: false
+[2021-02-09 17:33:10.533] [INFO] ci - [echo] build option :: debug
+[2021-02-09 17:33:10.534] [INFO] ci - [echo] andtargetsdkkey :: 29
+[2021-02-09 17:33:10.536] [INFO] ci - [echo] donotAddQueryAllPackages:: ${donotAddQueryAllPackages}
+[2021-02-09 17:33:10.542] [INFO] ci - [echo]  support_arm_32bit  :: true
+[2021-02-09 17:33:10.544] [INFO] ci - [echo]  support_arm_64bit  :: false
+[2021-02-09 17:33:10.546] [INFO] ci - [echo]  support_x86_32bit  :: true
+[2021-02-09 17:33:10.548] [INFO] ci - 
+[2021-02-09 17:33:10.549] [INFO] ci - [echo]  support_x86_64bit  :: false
+[2021-02-09 17:33:10.551] [INFO] ci - 
+[2021-02-09 17:33:10.594] [INFO] ci - [echo] konyapp.dir = C:\Users\rajath.v\Visualizer\RD\Sample
+[2021-02-09 17:33:10.595] [INFO] ci - [echo] isIncrementalBuild = true
+[2021-02-09 17:33:10.602] [INFO] ci - [echo] isUniversalApp = false
+[2021-02-09 17:33:10.610] [INFO] ci - [echo] resources.common.folder ... common
+[2021-02-09 17:33:10.611] [INFO] ci - [echo] resources.platform.folder ... mobile/native/android
+[2021-02-09 17:33:10.615] [INFO] ci - [echo] automation mode false
+[2021-02-09 17:33:10.645] [INFO] ci - [delete] Deleting: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets\additional.properties
+[2021-02-09 17:33:10.653] [INFO] ci - copyjar:
+[2021-02-09 17:33:10.655] [INFO] ci - [echo] isIncrementalBuild = true and appdir.present = true
+[2021-02-09 17:33:10.662] [INFO] ci - [unjar] Expanding: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\codegen.jar into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample
+[2021-02-09 17:33:10.865] [INFO] ci - copyextlibs:
+[2021-02-09 17:33:10.866] [INFO] ci - [echo] Copying extlibs ... dev.language = js
+[2021-02-09 17:33:10.867] [INFO] ci - [echo] networktrustconfig = None
+[2021-02-09 17:33:10.874] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs\armeabi-v7a
+[2021-02-09 17:33:10.887] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs\x86
+[2021-02-09 17:33:10.942] [INFO] ci - bundle-features:
+[2021-02-09 17:33:10.973] [INFO] ci - [copy] Copying 52 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:11.122] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs\armeabi-v7a
+[2021-02-09 17:33:11.147] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs\x86
+[2021-02-09 17:33:11.185] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:11.201] [INFO] ci - [delete] Deleting: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs\kony-video-widget.jar
+[2021-02-09 17:33:11.205] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:11.225] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:11.234] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:11.243] [INFO] ci - convertAppidInLowerCase:
+[2021-02-09 17:33:11.254] [INFO] ci - gen:
+[2021-02-09 17:33:11.255] [INFO] ci - [echo] Building android source code
+[2021-02-09 17:33:11.272] [INFO] ci - [echo] The value of packagename is com.orgname.Sample
+[2021-02-09 17:33:11.274] [INFO] ci - [echo] Creating package path: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid/dist/Sample/src/com//orgname//Sample
+[2021-02-09 17:33:11.284] [INFO] ci - [move] Moving 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\src\com\orgname\Sample
+[2021-02-09 17:33:11.293] [INFO] ci - 
+[2021-02-09 17:33:11.785] [INFO] ci - [echo]  usegoogleplaylocationservices: false
+[2021-02-09 17:33:11.815] [INFO] ci - configure-play-auth-dependent-features:
+[2021-02-09 17:33:11.872] [INFO] ci - addGoogleMapEntries:
+[2021-02-09 17:33:11.880] [INFO] ci - [echo] The value of googlemapv2key is empty
+[2021-02-09 17:33:11.882] [INFO] ci - [echo]  MapV2 Metadata-Key:
+[2021-02-09 17:33:11.883] [INFO] ci - [echo]  MapV2 Permissions:
+[2021-02-09 17:33:11.896] [INFO] ci - [move] Moving 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\src\com\orgname\Sample
+[2021-02-09 17:33:11.988] [INFO] ci - [echo] The value of andmanifesttags is
+[2021-02-09 17:33:11.989] [INFO] ci - [echo] The value of andapplicationtags is
+[2021-02-09 17:33:12.003] [INFO] ci - [echo] The value of activity_child_tags is
+[2021-02-09 17:33:12.004] [INFO] ci - [echo] appShortcutsMetaData :
+[2021-02-09 17:33:12.013] [INFO] ci - [echo] The value of andapplicationattrs is android:usesCleartextTraffic="true"
+[2021-02-09 17:33:12.013] [INFO] ci - [echo] The value of ismipmapicon is ${ismipmapicon}
+[2021-02-09 17:33:12.015] [INFO] ci - [echo] Setting drawable icon:
+[2021-02-09 17:33:12.030] [INFO] ci - [echo] The value of manifest_tag_attrs is
+[2021-02-09 17:33:12.038] [INFO] ci - [echo] The value of activityattrs is
+[2021-02-09 17:33:12.089] [INFO] ci - makeLauncherChanges:
+[2021-02-09 17:33:12.090] [INFO] ci - [echo] useHeadlessLauncherActivity:${useHeadlessLauncherActivity}
+     [echo] useCustomHeadlessLauncherActivity:${useCustomHeadlessLauncherActivity}
+[2021-02-09 17:33:12.092] [INFO] ci - [delete] Deleting: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\src\APPIDHeadlessLauncherActivity.java
+[2021-02-09 17:33:12.107] [INFO] ci - [echo] Min SDK version: minSdkVersion 24
+[2021-02-09 17:33:12.108] [INFO] ci - [echo] Max SDK version:  
+     [echo] Target SDK version: targetSdkVersion 29
+[2021-02-09 17:33:12.127] [INFO] ci - [echo] ACCESS_BACKGROUND_LOCATION is defined in application manifest entry:  false
+[2021-02-09 17:33:12.128] [INFO] ci - [echo] ACCESS_BACKGROUND_LOCATION is added by location listener type: false 
+     [echo] enableBatteryOptimizationAPI is defined in androidbuild.properties file : ${enableBatteryOptimizationAPI}
+[2021-02-09 17:33:12.139] [INFO] ci - [echo] enablepushnotifications false
+[2021-02-09 17:33:12.139] [INFO] ci - [echo] enablefcmpushnotifications false
+     [echo] customgcmbroadcastreceiver ${customgcmbroadcastreceiver}
+[2021-02-09 17:33:12.140] [INFO] ci - [echo] customfcmservice ${customfcmservice}
+     [echo] FCM GCM
+[2021-02-09 17:33:12.142] [INFO] ci - [echo] Push Notification Permissions:
+[2021-02-09 17:33:12.144] [INFO] ci - [echo] Push Notification Intent Filters:
+[2021-02-09 17:33:12.144] [INFO] ci - [echo] Push Notification Intent Receiver:
+[2021-02-09 17:33:12.146] [INFO] ci - [echo] Kony Local Service:
+[2021-02-09 17:33:12.208] [INFO] ci - [echo] push_notification_type.local 0
+[2021-02-09 17:33:12.240] [INFO] ci - [echo] application childtags does not contain  com.konylabs.api.wearable.KonyWearableListenerService
+[2021-02-09 17:33:12.241] [INFO] ci - [echo] watch_background_listener_service =
+[2021-02-09 17:33:12.268] [INFO] ci - [delete] Deleting: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\deeplinkdata.txt
+[2021-02-09 17:33:12.270] [INFO] ci - [echo] Any Density: android:anyDensity ="true"
+[2021-02-09 17:33:12.271] [INFO] ci - [echo] Small Screen: android:smallScreens ="true" 
+     [echo] Normal Screen: android:normalScreens ="true"
+[2021-02-09 17:33:12.272] [INFO] ci - [echo] Large Screen: android:largeScreens ="true" 
+     [echo] xLarge Screen: android:xlargeScreens ="true"
+[2021-02-09 17:33:12.273] [INFO] ci - [echo] Resizable:
+[2021-02-09 17:33:12.293] [INFO] ci - [echo] Install location not defined
+[2021-02-09 17:33:12.304] [INFO] ci - [echo] Permissions set:
+[2021-02-09 17:33:12.305] [INFO] ci - [echo]  <uses-permission android:name="android.permission.INTERNET"/>
+     [echo]  <uses-permission android:name="android.permission.CAMERA"/>
+     [echo]  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+     [echo]  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+     [echo]  <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+[2021-02-09 17:33:12.332] [INFO] ci - [echo]  LOCAL Notification Permissions:
+[2021-02-09 17:33:12.332] [INFO] ci - [echo]  LOCAL Notification Intent Filters:  
+     [echo]  LOCAL Notification Intent Receiver:
+[2021-02-09 17:33:12.449] [INFO] ci - [echo] Google-Pay  :: false
+[2021-02-09 17:33:12.461] [INFO] ci - [echo] useMLImageClassifier  :: true
+[2021-02-09 17:33:12.535] [INFO] ci - [echo] build_gradle_attrs_prefix =
+[2021-02-09 17:33:12.549] [INFO] ci - [echo] build_gradle_attrs_suffix = dependencies
+[2021-02-09 17:33:12.550] [INFO] ci - [echo] {
+     [echo] implementation 'com.airbnb.android:lottie:3.4.0'
+     [echo] }
+[2021-02-09 17:33:12.558] [INFO] ci - [echo] gradle_properties_attrs =
+[2021-02-09 17:33:12.561] [INFO] ci - [echo] gradle_properties_attrs =
+[2021-02-09 17:33:12.593] [INFO] ci - cleanupgradle:
+[2021-02-09 17:33:12.611] [INFO] ci - checkAndIncludeReactNative:
+[2021-02-09 17:33:12.612] [INFO] ci - [echo] enableReactNative :: ${enableReactNative}
+[2021-02-09 17:33:12.638] [INFO] ci - copyassets:
+[2021-02-09 17:33:12.639] [INFO] ci - [echo] Copying the resources to android assets
+[2021-02-09 17:33:12.640] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets
+[2021-02-09 17:33:12.668] [INFO] ci - [echo] DefaultLocale = ${DefaultLocale}
+[2021-02-09 17:33:12.699] [INFO] ci - writeMainActivityFullNameToAppPropertiesFile:
+[2021-02-09 17:33:12.700] [INFO] ci - [echo] isRelativeClass inside writeAppID.. :${isRelativeClassName}
+[2021-02-09 17:33:12.702] [INFO] ci - [echo] mainActivityFullyQualifiedName:com.orgname.Sample.Sample
+[2021-02-09 17:33:12.717] [INFO] ci - [propertyfile] Creating new property file: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets\additional.properties
+[2021-02-09 17:33:12.730] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets
+[2021-02-09 17:33:12.768] [INFO] ci - copy-PaaS-resources:
+[2021-02-09 17:33:12.770] [INFO] ci - [delete] Deleting directory C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\src\com\konylabs\js\appsrc
+[2021-02-09 17:33:12.802] [INFO] ci - [mkdir] Created dir: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\src\com\konylabs\js\appsrc
+[2021-02-09 17:33:12.802] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\src\com\konylabs\js\appsrc
+[2021-02-09 17:33:12.840] [INFO] ci - Trying to override old definition of task escapejssource
+[2021-02-09 17:33:12.840] [INFO] ci - 
+[2021-02-09 17:33:12.899] [INFO] ci - copy-appsrc:
+[2021-02-09 17:33:12.952] [INFO] ci - compress:
+[2021-02-09 17:33:12.953] [INFO] ci - [echo] Compressing the android Sample application
+[2021-02-09 17:33:12.954] [INFO] ci - [delete] Deleting directory C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\minification
+[2021-02-09 17:33:13.019] [INFO] ci - [mkdir] Created dir: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\minification
+[2021-02-09 17:33:13.020] [INFO] ci - [mkdir] Created dir: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\minification\startup
+[2021-02-09 17:33:13.023] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\minification\startup
+[2021-02-09 17:33:13.028] [INFO] ci - [mkdir] Created dir: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\minification\require
+[2021-02-09 17:33:13.038] [INFO] ci - [copy] Copying 45 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\minification\require
+[2021-02-09 17:33:13.170] [INFO] ci - [mkdir] Created dir: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\minification\default
+[2021-02-09 17:33:13.174] [INFO] ci - [copy] Copying 7 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\minification\default
+[2021-02-09 17:33:13.198] [INFO] ci - [echo] enableawssdk = false
+[2021-02-09 17:33:13.199] [INFO] ci - [echo]  awssdkfileloc = ${awssdkfileloc}
+[2021-02-09 17:33:13.200] [INFO] ci - [mkdir] Created dir: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\minification\extres
+[2021-02-09 17:33:13.207] [INFO] ci - [copy] Copying 5 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\minification\extres
+[2021-02-09 17:33:13.228] [INFO] ci - [delete] Deleting directory C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets\js
+[2021-02-09 17:33:13.294] [INFO] ci - [mkdir] Created dir: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets\js
+[2021-02-09 17:33:13.384] [INFO] ci - copy-webassets:
+[2021-02-09 17:33:13.386] [INFO] ci - [echo] Copying the web assets from C:/Users/rajath.v/Visualizer/RD/Sample
+[2021-02-09 17:33:13.491] [INFO] ci - gen-ffi-loading:
+[2021-02-09 17:33:13.609] [INFO] ci - zip-common-jslibs:
+[2021-02-09 17:33:13.633] [INFO] ci - [zip] Building zip: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets\js\common-jslibs.kfm
+[2021-02-09 17:33:13.687] [INFO] ci - [zip] Updating zip: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets\js\common-jslibs.kfm
+[2021-02-09 17:33:13.768] [INFO] ci - zip-workerthreads:
+[2021-02-09 17:33:13.810] [INFO] ci - gen-zip-files:
+[2021-02-09 17:33:13.856] [INFO] ci - gen-js-zip-files:
+[2021-02-09 17:33:13.858] [INFO] ci - [zip] Building zip: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets\js\startup.js
+[2021-02-09 17:33:13.879] [INFO] ci - [zip] Updating zip: C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets\js\startup.js
+[2021-02-09 17:33:13.955] [INFO] ci - [copy] Copying 45 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets\js\require
+[2021-02-09 17:33:14.163] [INFO] ci - [copy] Copying 2 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets\fonts
+[2021-02-09 17:33:14.182] [INFO] ci - [echo] Copying theme files
+[2021-02-09 17:33:14.185] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\assets
+[2021-02-09 17:33:14.195] [INFO] ci - [echo] hybridmode..........native
+[2021-02-09 17:33:14.229] [INFO] ci - copynativeresources:
+[2021-02-09 17:33:14.230] [INFO] ci - [echo] Copying the native resources to android assets
+[2021-02-09 17:33:14.263] [INFO] ci - [copy] Copying 38 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\res\drawable
+[2021-02-09 17:33:14.415] [INFO] ci - [copy] Warning: C:\Users\rajath.v\Visualizer\RD\Sample\resources\common\videos does not exist.
+[2021-02-09 17:33:14.449] [INFO] ci - [copy] Copying 30 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\res
+[2021-02-09 17:33:14.540] [INFO] ci - [copy] Copying 3 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\res\drawable
+[2021-02-09 17:33:15.076] [INFO] ci - [java] XMLMerging Started sourceFolderPath = C:/Users/rajath.v/Visualizer/RD/Sample/resources/mobile/native/android destFolderPath = C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid/dist/Sample/resNo of Files to merge = 4
+[2021-02-09 17:33:15.077] [INFO] ci - [java] XMLMerging Completed
+[2021-02-09 17:33:15.100] [INFO] ci - [copy] Copying 3 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\res
+[2021-02-09 17:33:15.213] [INFO] ci - copyninepatchimages:
+[2021-02-09 17:33:15.214] [INFO] ci - [echo] Copying the nine patch images and delete the actual png image in android drawable folder
+[2021-02-09 17:33:15.249] [INFO] ci - check-for-actual-png-file:
+[2021-02-09 17:33:15.275] [INFO] ci - check-for-actual-png-file:
+[2021-02-09 17:33:15.297] [INFO] ci - renamelaunchericon:
+[2021-02-09 17:33:15.309] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\res\drawable
+[2021-02-09 17:33:15.319] [INFO] ci - [echo] Copying third party libraries
+[2021-02-09 17:33:15.322] [INFO] ci - [copy] Copying 7 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.353] [INFO] ci - [echo] Copying ffi templates to src folder
+[2021-02-09 17:33:15.357] [INFO] ci - [copy] Copying 2 files to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\src
+[2021-02-09 17:33:15.373] [INFO] ci - [echo] No custom widget libraries found
+[2021-02-09 17:33:15.374] [INFO] ci - 
+[2021-02-09 17:33:15.386] [INFO] ci - [echo] thirdparty dir::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/Kony_FileStorage-Android-4.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/Kony_SDKCommons-Android-4.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/Kony_SyncV2-Android-4.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.speech-Android-4.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.speech.tts-Android-4.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.support.v4.content-Android-4.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.preference-Android-4.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.webkit-Android-4.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.support.v4.app-Android-4.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/java.util-Android-4.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.content-Android-4.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/API level 29/android.os.image-Android-10.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/API level 29/android.service.textclassifier-Android-10.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/API level 29/android.speech-Android-10.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/API level 29/android.hardware-Android-10.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/API level 29/android.speech.tts-Android-10.0.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/5.0/request.zip,C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/1.0/LottieAnimator-Android-1.0.zip
+[2021-02-09 17:33:15.397] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/Kony_FileStorage-Android-4.0.zip
+[2021-02-09 17:33:15.413] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\Kony_FileStorage-Android-4.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.439] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/Kony_SDKCommons-Android-4.0.zip
+[2021-02-09 17:33:15.440] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\Kony_SDKCommons-Android-4.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.480] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/Kony_SyncV2-Android-4.0.zip
+[2021-02-09 17:33:15.481] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\Kony_SyncV2-Android-4.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.518] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.speech-Android-4.0.zip
+[2021-02-09 17:33:15.519] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\android.speech-Android-4.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.614] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.speech.tts-Android-4.0.zip
+[2021-02-09 17:33:15.615] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\android.speech.tts-Android-4.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.676] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.support.v4.content-Android-4.0.zip
+[2021-02-09 17:33:15.677] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\android.support.v4.content-Android-4.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.700] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.preference-Android-4.0.zip
+[2021-02-09 17:33:15.701] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\android.preference-Android-4.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.729] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.webkit-Android-4.0.zip
+[2021-02-09 17:33:15.730] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\android.webkit-Android-4.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.761] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.support.v4.app-Android-4.0.zip
+[2021-02-09 17:33:15.762] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\android.support.v4.app-Android-4.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.763] [INFO] ci - 
+[2021-02-09 17:33:15.794] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/java.util-Android-4.0.zip
+[2021-02-09 17:33:15.795] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\java.util-Android-4.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.825] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/4.0/android.content-Android-4.0.zip
+[2021-02-09 17:33:15.826] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\4.0\android.content-Android-4.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.857] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/API level 29/android.os.image-Android-10.0.zip
+[2021-02-09 17:33:15.858] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\API level 29\android.os.image-Android-10.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.862] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/API level 29/android.service.textclassifier-Android-10.0.zip
+[2021-02-09 17:33:15.863] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\API level 29\android.service.textclassifier-Android-10.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.866] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/API level 29/android.speech-Android-10.0.zip
+[2021-02-09 17:33:15.867] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\API level 29\android.speech-Android-10.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.870] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/API level 29/android.hardware-Android-10.0.zip
+[2021-02-09 17:33:15.872] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\API level 29\android.hardware-Android-10.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.875] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/API level 29/android.speech.tts-Android-10.0.zip
+[2021-02-09 17:33:15.879] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\API level 29\android.speech.tts-Android-10.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.882] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/5.0/request.zip
+[2021-02-09 17:33:15.883] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\5.0\request.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.893] [INFO] ci - [echo] unziping zip file::::C:/Users/rajath.v/Visualizer/RD/Sample/nativebindings/Android/1.0/LottieAnimator-Android-1.0.zip
+[2021-02-09 17:33:15.894] [INFO] ci - [unzip] Expanding: C:\Users\rajath.v\Visualizer\RD\Sample\nativebindings\Android\1.0\LottieAnimator-Android-1.0.zip into C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist\Sample\libs
+[2021-02-09 17:33:15.903] [INFO] ci - precompile:
+[2021-02-09 17:33:15.903] [INFO] ci - [echo] No precompile task present
+
+CheckForLicenses:
+[2021-02-09 17:33:15.904] [INFO] ci - 
+[2021-02-09 17:33:15.910] [INFO] ci - init:
+[2021-02-09 17:33:15.939] [INFO] ci - CreateLicenseIfNotExist:
+[2021-02-09 17:33:15.945] [INFO] ci - checkForInputs:
+[2021-02-09 17:33:15.948] [INFO] ci - [echo]  current directory C:\Users\rajath.v\Visualizer\RD\bundles\com.pat.android\luaandroid\extres
+[2021-02-09 17:33:15.949] [INFO] ci - [echo] CreateLicenseIfNotExist called
+[2021-02-09 17:33:15.950] [INFO] ci - [echo] license exists true
+[2021-02-09 17:33:15.955] [INFO] ci - update_license_if_already_exist:
+[2021-02-09 17:33:15.994] [INFO] ci - gradleTask:
+[2021-02-09 17:33:15.995] [INFO] ci - configureReleaseSignInfo:
+[2021-02-09 17:33:15.996] [INFO] ci - 
+[2021-02-09 17:33:15.998] [INFO] ci - compile:
+[2021-02-09 17:33:16.011] [INFO] ci - calculateChecksum:
+[2021-02-09 17:33:16.021] [INFO] ci - Trying to override old definition of task escapejssource
+[2021-02-09 17:33:16.045] [INFO] ci - encrypt-assets-hash-file:
+[2021-02-09 17:33:16.055] [INFO] ci - buildapk:
+[2021-02-09 17:33:16.056] [INFO] ci - [echo] Java Path used by Gradle: C:/Program Files/Java/jdk1.8.0_271
+[2021-02-09 17:33:16.058] [INFO] ci - [echo] Gradle Path : 
+     [echo] Packaging the android Sample application
+     [echo] Substituting drive
+[2021-02-09 17:33:16.272] [INFO] ci - [java] Substituting DriveSubstituting DriveRunning command =SUBST A: "C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid/dist/Sample/.."
+[2021-02-09 17:33:16.302] [INFO] ci - [java]
+[2021-02-09 17:33:16.303] [INFO] ci - [java] Process Exit status = 0
+     [java] Success. Drive Substituted and UniqCodeFile [A:\Sample\Sample-Mobile-20210209173300016.txt] found.
+[2021-02-09 17:33:16.307] [INFO] ci - [echo] subst-drive length 1 A
+[2021-02-09 17:33:16.308] [INFO] ci - [echo] app-build.dir is  A:\Sample
+     [echo] isInternetConnectionAvailable ${isInternetConnectionAvailable}
+     [echo] plugin loc C:/Users/rajath.v/Visualizer/RD/bundles/com.pat.tool.keditor
+[2021-02-09 17:33:16.309] [INFO] ci - [echo] A:\Sample/gradlew -version
+[2021-02-09 17:33:16.312] [INFO] ci - [exec-shell] cmdl.getCommandline(): [Ljava.lang.String;@2667f029
+[2021-02-09 17:33:16.312] [INFO] ci - [exec-shell] 
+[exec-shell] ***********cmd.exe
+[exec-shell] 
+[exec-shell] ***********/c
+[exec-shell] 
+[exec-shell] ***********""A:\Sample/gradlew" -version"
+[exec-shell] 
+[exec-shell] ***********cmd.exe
+[2021-02-09 17:33:18.306] [INFO] ci - [exec-shell]
+[2021-02-09 17:33:18.306] [INFO] ci - [exec-shell] ------------------------------------------------------------
+[exec-shell] Gradle 6.5
+[exec-shell] ------------------------------------------------------------
+[exec-shell] 
+[exec-shell] Build time:   2020-06-02 20:46:21 UTC
+[exec-shell] Revision:     a27f41e4ae5e8a41ab9b19f8dd6d86d7b384dad4
+[exec-shell]
+[2021-02-09 17:33:18.307] [INFO] ci - [exec-shell] Kotlin:       1.3.72
+[exec-shell] Groovy:       2.5.11
+[exec-shell] Ant:          Apache Ant(TM) version 1.10.7 compiled on September 1 2019
+[exec-shell] JVM:          1.8.0_271 (Oracle Corporation 25.271-b09)
+[exec-shell] OS:           Windows 10 10.0 amd64
+[exec-shell]
+[2021-02-09 17:33:18.362] [INFO] ci - [exec-shell] cmdl.getCommandline(): [Ljava.lang.String;@6580cfdd
+[exec-shell]
+[2021-02-09 17:33:18.363] [INFO] ci - [exec-shell] ***********cmd.exe
+[exec-shell] 
+[exec-shell] ***********/c
+[exec-shell] 
+[exec-shell] ***********""A:\Sample/gradlew" assembleDebug  -b "A:\Sample/build.gradle""
+[exec-shell] 
+[exec-shell] ***********cmd.exe
+[2021-02-09 17:33:21.716] [INFO] ci - [exec-shell] Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+[2021-02-09 17:33:33.355] [INFO] ci - [exec-shell] 
+[exec-shell] > Configure project :
+[2021-02-09 17:33:33.356] [INFO] ci - [exec-shell] WARNING: The option setting 'android.enableR8=false' is deprecated.
+[exec-shell] It will be removed in version 5.0 of the Android Gradle plugin.
+[exec-shell] You will no longer be able to disable R8
+[2021-02-09 17:33:36.806] [INFO] ci - [exec-shell] debug=A:\Sample\build\outputs\apk\debug\Sample-debug.apk
+[2021-02-09 17:33:36.807] [INFO] ci - [exec-shell] release=A:\Sample\build\outputs\apk\release\Sample-release-unsigned.apk
+[2021-02-09 17:33:40.449] [INFO] ci - [exec-shell]
+[2021-02-09 17:33:40.450] [INFO] ci - [exec-shell] > Task :preBuild UP-TO-DATE
+[exec-shell] > Task :preDebugBuild UP-TO-DATE
+[2021-02-09 17:33:40.709] [INFO] ci - [exec-shell] > Task :generateDebugBuildConfig UP-TO-DATE
+[2021-02-09 17:33:40.710] [INFO] ci - 
+[2021-02-09 17:33:40.711] [INFO] ci - [exec-shell] > Task :javaPreCompileDebug UP-TO-DATE
+[2021-02-09 17:33:40.712] [INFO] ci - 
+[2021-02-09 17:33:41.291] [INFO] ci - [exec-shell] > Task :generateDebugResValues UP-TO-DATE
+[2021-02-09 17:33:41.397] [INFO] ci - [exec-shell] > Task :createDebugCompatibleScreenManifests UP-TO-DATE
+[2021-02-09 17:33:41.413] [INFO] ci - 
+[2021-02-09 17:33:41.414] [INFO] ci - [exec-shell] > Task :extractDeepLinksDebug UP-TO-DATE
+[2021-02-09 17:33:41.524] [INFO] ci - [exec-shell] > Task :mergeDebugShaders UP-TO-DATE
+[exec-shell] > Task :compileDebugShaders NO-SOURCE
+[2021-02-09 17:33:41.524] [INFO] ci - [exec-shell] > Task :generateDebugAssets UP-TO-DATE
+[2021-02-09 17:33:41.736] [INFO] ci - [exec-shell] > Task :processDebugJavaRes UP-TO-DATE
+[2021-02-09 17:33:41.737] [INFO] ci - 
+[2021-02-09 17:33:42.911] [INFO] ci - [exec-shell] > Task :compileDebugAidl NO-SOURCE
+[2021-02-09 17:33:42.912] [INFO] ci - 
+[2021-02-09 17:33:43.018] [INFO] ci - [exec-shell] > Task :compileDebugRenderscript UP-TO-DATE
+[2021-02-09 17:33:43.018] [INFO] ci - 
+[2021-02-09 17:33:43.909] [INFO] ci - [exec-shell] > Task :generateDebugResources UP-TO-DATE
+[2021-02-09 17:33:43.910] [INFO] ci - 
+[2021-02-09 17:33:44.586] [INFO] ci - [exec-shell] > Task :mergeDebugResources UP-TO-DATE
+[2021-02-09 17:33:44.588] [INFO] ci - [exec-shell] > Task :processDebugManifest UP-TO-DATE
+[2021-02-09 17:33:44.589] [INFO] ci - 
+[2021-02-09 17:33:45.251] [INFO] ci - [exec-shell] > Task :mergeDebugAssets
+[2021-02-09 17:33:47.002] [INFO] ci - [exec-shell] > Task :processDebugResources UP-TO-DATE
+[2021-02-09 17:33:47.003] [INFO] ci - 
+[2021-02-09 17:33:50.610] [INFO] ci - [exec-shell] Note: Some input files use unchecked or unsafe operations.
+[2021-02-09 17:33:50.610] [INFO] ci - [exec-shell] Note: Recompile with -Xlint:unchecked for details.
+[2021-02-09 17:33:50.634] [INFO] ci - [exec-shell]
+[2021-02-09 17:33:50.635] [INFO] ci - [exec-shell] > Task :compileDebugJavaWithJavac
+[exec-shell] 
+[exec-shell] > Task :compileDebugSources
+[exec-shell] > Task :mergeDebugJavaResource
+[2021-02-09 17:33:53.264] [INFO] ci - [exec-shell] > Task :checkDebugDuplicateClasses
+[2021-02-09 17:33:53.265] [INFO] ci - 
+[2021-02-09 17:33:54.936] [INFO] ci - [exec-shell] > Task :mergeLibDexDebug UP-TO-DATE
+[2021-02-09 17:33:54.936] [INFO] ci - [exec-shell] > Task :dexBuilderDebug UP-TO-DATE
+[2021-02-09 17:33:55.049] [INFO] ci - [exec-shell] > Task :mergeProjectDexDebug UP-TO-DATE
+[2021-02-09 17:33:55.050] [INFO] ci - 
+[2021-02-09 17:33:57.172] [INFO] ci - [exec-shell] > Task :mergeDebugJniLibFolders
+[2021-02-09 17:33:57.173] [INFO] ci - 
+[2021-02-09 17:33:58.779] [INFO] ci - [exec-shell] > Task :validateSigningDebug UP-TO-DATE
+[2021-02-09 17:34:04.597] [INFO] ci - [exec-shell] > Task :mergeDebugNativeLibs
+[2021-02-09 17:34:06.488] [INFO] ci - [exec-shell]
+[2021-02-09 17:34:06.489] [INFO] ci - 
+[2021-02-09 17:34:06.490] [INFO] ci - [exec-shell] > Task :stripDebugDebugSymbols UP-TO-DATE
+[2021-02-09 17:34:06.491] [INFO] ci - [exec-shell] WARNING: Compatible side by side NDK version was not found. Default is 21.0.6113669.
+[exec-shell] Compatible side by side NDK version was not found. Default is 21.0.6113669.
+[2021-02-09 17:34:15.413] [INFO] ci - [exec-shell] 
+[exec-shell] > Task :desugarDebugFileDependencies
+[2021-02-09 17:34:15.414] [INFO] ci - 
+[2021-02-09 17:34:20.161] [INFO] ci - [exec-shell] > Task :mergeExtDexDebug
+[2021-02-09 17:34:22.253] [INFO] ci - [exec-shell] > Task :packageDebug
+[2021-02-09 17:34:22.254] [INFO] ci - [exec-shell] > Task :assembleDebug
+[exec-shell] 
+[exec-shell] Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+[exec-shell] Use '--warning-mode all' to show the individual deprecation warnings.
+[exec-shell] See https://docs.gradle.org/6.5/userguide/command_line_interface.html#sec:command_line_warnings
+[exec-shell]
+[2021-02-09 17:34:22.254] [INFO] ci - [exec-shell] BUILD SUCCESSFUL in 1m 3s
+[exec-shell] 25 actionable tasks: 9 executed, 16 up-to-date
+[2021-02-09 17:34:22.418] [INFO] ci - publish:
+[2021-02-09 17:34:22.420] [INFO] ci - [echo] Preparing the package for publish
+[2021-02-09 17:34:22.424] [INFO] ci - [copy] Copying 1 file to C:\Users\rajath.v\Visualizer\RD\temp\Sample\build\luaandroid\dist
+[2021-02-09 17:34:22.718] [INFO] ci - [java] unSubstituting DriveUnsubstituting Drive ARunning command =SUBST A: /d
+[2021-02-09 17:34:22.773] [INFO] ci - [java]
+[2021-02-09 17:34:22.773] [INFO] ci - [java] Process Exit status = 0
+[2021-02-09 17:34:22.777] [INFO] ci - [java] Unsubstitution successful for Drive A
+[2021-02-09 17:34:22.778] [INFO] ci - postcompile:
+[2021-02-09 17:34:22.779] [INFO] ci - [echo] No postcompile task present
+[2021-02-09 17:34:22.780] [INFO] ci - all:
+[2021-02-09 17:34:22.784] [INFO] ci - BUILD SUCCESSFUL
+Total time: 1 minute 13 seconds
+[2021-02-09 17:34:22.842] [INFO] ci - Platform:android , build status : COMPLETED
+[2021-02-09 17:34:23.122] [INFO] ci - Binary successfully copied to C:\Users\rajath.v\Visualizer\RD\Sample\binaries\android\Sample-debug.apk
+[2021-02-09 17:34:23.125] [INFO] ci - Done!
+[2021-02-09 17:34:23.126] [INFO] ci - 
+
+----------------------------------------------------------------
+BUILD SUMMARY
+----------------------------------------------------------------
+android ..................... COMPLETED [94.19 s]
+Fabric App .................. Not Published
+Total time .................. 00:02:12.893
+Finished at ................. "2021-02-09T12:04:23.125Z"
+Dist ........................ C:\Users\rajath.v\Visualizer\RD\Sample\binaries
+Build summary file .......... C:\Users\rajath.v\Visualizer\RD\Sample\.cilogs\BuildResult.json
+----------------------------------------------------------------
